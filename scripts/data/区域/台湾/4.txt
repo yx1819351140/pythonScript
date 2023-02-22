@@ -1,0 +1,56 @@
+{
+    "event_id" : "9b8a3d2c-ee9d-424a-bbcd-c276a5dbd7ea",
+    "related_events_ids" : [
+      "88f8c388232efbd5731a48b9a2764b93:9",
+      "9cf8789aede8930a419db99440e0b812:1"
+    ],
+    "related_entities" : [
+        {
+        "nid": "Q57251",
+        "entity_type": "Country_Instance",
+        "role": "Place"
+    }
+   ],
+    "related_entities_list" : [ ],
+    "related_organ" : [ ],
+    "related_country" : [
+      "CH"
+    ],
+    "related_person" : [ ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "place" : "Hong Kong",
+        "lat" : "22.278333333333",
+        "lon" : "114.15861111111",
+        "country" : "CH"
+      }
+    ],
+    "atom_labels" : [ ],
+    "event_type" : "Transaction.ExchangeBuySell.Unspecified",
+    "event_type_level_3" : "Unspecified",
+    "event_type_level_1" : "Transaction",
+    "event_type_level_2" : "ExchangeBuySell",
+    "event_desc" : "A more recent 2020-2021 study by Shark Guardian in Taiwan found half of shark fin traders were selling protected species.",
+    "related_news_ids" : [
+      "88f8c388232efbd5731a48b9a2764b93",
+      "9cf8789aede8930a419db99440e0b812"
+    ],
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-18 21:08:14",
+    "update_timestamp" : 1668776894289,
+    "event_level" : 6,
+    "event_time_source" : "news",
+    "event_time" : "2022-11-18 12:02:00",
+    "custom_labels" : [
+      424,
+      402,
+      439
+    ],
+    "event_desc_zh" : "《鲨鱼卫报》（Shark Guardian）最近在台湾进行的一项2020-2021年的研究发现，一半的鱼翅贸易商在出售受保护的鱼种。",
+    "id" : "9b8a3d2c-ee9d-424a-bbcd-c276a5dbd7ea"
+  }

@@ -1,0 +1,47 @@
+{
+    "event_id" : "c21a0087-b8d8-4b80-9763-f8ef085e2c41",
+    "related_events_ids" : [
+      "c81d570e1ba19b44ee29e703ef58e9ff:8"
+    ],
+    "related_entities" : [ ],
+    "related_entities_list" : [ ],
+    "related_organ" : [ ],
+    "related_country" : [
+      "UP"
+    ],
+    "related_person" : [ ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "place" : "Kyiv",
+        "lat" : "50.45",
+        "lon" : "30.523611111111",
+        "country" : "UP"
+      }
+    ],
+    "atom_labels" : [ ],
+    "related_news_ids" : [
+      "c81d570e1ba19b44ee29e703ef58e9ff"
+    ],
+    "event_time_source" : "news",
+    "event_time" : "2022-11-22 17:46:00",
+    "event_type" : "ArtifactExistence.DamageDestroyDisableDismantle.Damage",
+    "event_type_level_3" : "Damage",
+    "event_type_level_1" : "ArtifactExistence",
+    "event_type_level_2" : "DamageDestroyDisableDismantle",
+    "event_desc" : "Ukrainian President Volodymyr Zelenskyy says Russian missile strikes have damaged more than 50% of the country's energy facilities, and the World Health Organization is warning that millions face a 'life-threatening' winter in Ukraine.",
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-22 23:00:16",
+    "update_timestamp" : 1669128965251,
+    "event_level" : 8,
+    "custom_labels" : [
+      430,
+      367,
+      382
+    ],
+    "event_desc_zh" : "乌克兰总统泽连斯基（Volodymyr Zelensky）表示，俄罗斯的导弹袭击已经破坏了该国50%以上的能源设施，世界卫生组织警告称，乌克兰数百万人将面临“危及生命”的冬季。"
+  }

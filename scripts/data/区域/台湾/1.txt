@@ -1,0 +1,117 @@
+{
+    "event_id" : "62bd1a06-6187-431f-adaa-db3895dabf78",
+    "related_events_ids" : [
+      "b2411adf34fc25d71beefa1a3cb58af9:14"
+    ],
+    "related_entities" : [
+      {
+        "nid": "Q57251",
+        "entity_type": "Country_Instance",
+        "role": "Place"
+    }
+    ],
+    "related_entities_list" : [
+      "Q148"
+    ],
+    "related_organ" : [ ],
+    "related_country" : [
+      ""
+    ],
+    "related_person" : [ ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "place" : "People's Republic of China",
+        "lat" : "35.844722222222224",
+        "lon" : "103.45194444444445",
+        "country" : ""
+      }
+    ],
+    "atom_labels" : [
+      {
+        "qid" : "Q148",
+        "label_id" : "l_106001",
+        "label_name_en" : "Place",
+        "label_name_zh" : "地点",
+        "label_value" : "",
+        "attr1" : "People's_Republic_of_China",
+        "attr2" : "中华人民共和国_中华人民共和国",
+        "attr3" : "",
+        "attr4" : "China,CN,PR China,PRC,cn,CHN,🇨🇳,China Popular,Republica Popular China,Кітайская Народная Рэспубліка,КНР,Tiong-hôa Jîn-bîn Kiōng-hô-kok,Tiong-kok Tāi-lio̍k,Chine communiste,Chine populaire,RPC,Chine continentale,Chine,la République populaire de Chine,الصين الشعبية,VR China,Rotchina,V.R. China,Chinesische Volksrepublik,中国,en:People's Republic of China （PRC）,中國,Zhongguo,Republik Rakyat Tionghoa,Republik Rakyat China,Republik Rakyat Cina,RRC,RRT,Cina,Folkerepublikken Kina,中華人民共和國,共产中国,新中国,中,红色中国,北京当局,La Xina,Xina popular,Kiinan kansantasavalta,Sina,Uchina,RP China,Chiny,Народна Република Кина,Поднебесная,Китай,Folkrepubliken Kina,Mittens rike,НР Кина,Narodna Republika Kina,NR Kina,República Popular da China,Kínai Népköztársaság,中國大陸,大陸,內地,Čínská lidová republika,ČLR,Zipang,Cipang,Říše středu,Cina popolare,Repubblica Popolare Cinese,lo gugdecunu,la djunguos,Sjina,Volksrepubliek van Sjina,Volksrepubliek Sjina,Китайска народна република,Sinae,Serica,Pangmaldang Republika ning Tsina,Pangmadlang Republika ng Tsina,ჩინეთი,중국,중화,Çin,People's Republic of China,പീപ്പിൾസ്‌ റിപ്പബ്ലിക്ക് ഓഫ്‌ ചൈന.,Чин,Ҷумҳурии Мардумии Чин,Ҷумҳурии Мардумии Хитой,Ҷумҳурии Халқии Хитой,ҶХЧ,ҶМЧ,ҶМХ,ҶХМ,Ҷумҳурии Халқии Чин,Κίνα,Sluagh-Phoblachd na Sìne,Ķīnas Tautas Republika,চীন,මහජන චීන සමූහාණ්ඩුව,Chinska,Ludowa republika Chinska,Chinska ludowa republika,Кытай Халык Җөмһүрияте,КХҖ,Кытай Халык Республикасы,КХР,Kina,Xina,Volleksrepublik China,Chineesesch Volleksrepublik,Kitain Rahvahaline Tazovaldkund,Cộng hòa Nhân dân Trung Hoa,Cộng hoà Nhân dân Trung Hoa,Trung Hoa,Tàu,CHND Trung Hoa,Pangmasang Republika sa Tsina,Popola Respubliko Ĉinio,PR Ĉinio,PRĈ,Ĉinio,Չինաստանի Ժողովրդական Հանրապետություն,တရုတ်,တရုတ်နိုင်ငံ,တရုတ် ကွန်မြူနစ်,共產中國,北京當局,紅色中國,新中國,華,陸,چین,کۆماری چین,سین,چاینا,Kiinná álbmotdásseváldi,Hiina Rahvavabariik,Hiina RV,Kiina aalmugtäsiväldi,Kiina,Ǩiina meertääʹssväʹldd,Kiina meertääʹssväʹldd,ቻይና",
+        "attr5" : "China,CN,PR China,PRC,cn,CHN,🇨🇳",
+        "attr6" : "中国,中國,中華人民共和國,共产中国,新中国,🇨🇳,中,红色中国,北京当局",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "地点",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q148",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country",
+        "label_name_zh" : "国家",
+        "label_value" : "Q148",
+        "attr1" : "People's_Republic_of_China",
+        "attr2" : "中华人民共和国_中华人民共和国",
+        "attr3" : "People's Republic of China",
+        "attr4" : "China,CN,PR China,PRC,cn,CHN,🇨🇳,China Popular,Republica Popular China,Кітайская Народная Рэспубліка,КНР,Tiong-hôa Jîn-bîn Kiōng-hô-kok,Tiong-kok Tāi-lio̍k,Chine communiste,Chine populaire,RPC,Chine continentale,Chine,la République populaire de Chine,الصين الشعبية,VR China,Rotchina,V.R. China,Chinesische Volksrepublik,中国,en:People's Republic of China （PRC）,中國,Zhongguo,Republik Rakyat Tionghoa,Republik Rakyat China,Republik Rakyat Cina,RRC,RRT,Cina,Folkerepublikken Kina,中華人民共和國,共产中国,新中国,中,红色中国,北京当局,La Xina,Xina popular,Kiinan kansantasavalta,Sina,Uchina,RP China,Chiny,Народна Република Кина,Поднебесная,Китай,Folkrepubliken Kina,Mittens rike,НР Кина,Narodna Republika Kina,NR Kina,República Popular da China,Kínai Népköztársaság,中國大陸,大陸,內地,Čínská lidová republika,ČLR,Zipang,Cipang,Říše středu,Cina popolare,Repubblica Popolare Cinese,lo gugdecunu,la djunguos,Sjina,Volksrepubliek van Sjina,Volksrepubliek Sjina,Китайска народна република,Sinae,Serica,Pangmaldang Republika ning Tsina,Pangmadlang Republika ng Tsina,ჩინეთი,중국,중화,Çin,People's Republic of China,പീപ്പിൾസ്‌ റിപ്പബ്ലിക്ക് ഓഫ്‌ ചൈന.,Чин,Ҷумҳурии Мардумии Чин,Ҷумҳурии Мардумии Хитой,Ҷумҳурии Халқии Хитой,ҶХЧ,ҶМЧ,ҶМХ,ҶХМ,Ҷумҳурии Халқии Чин,Κίνα,Sluagh-Phoblachd na Sìne,Ķīnas Tautas Republika,চীন,මහජන චීන සමූහාණ්ඩුව,Chinska,Ludowa republika Chinska,Chinska ludowa republika,Кытай Халык Җөмһүрияте,КХҖ,Кытай Халык Республикасы,КХР,Kina,Xina,Volleksrepublik China,Chineesesch Volleksrepublik,Kitain Rahvahaline Tazovaldkund,Cộng hòa Nhân dân Trung Hoa,Cộng hoà Nhân dân Trung Hoa,Trung Hoa,Tàu,CHND Trung Hoa,Pangmasang Republika sa Tsina,Popola Respubliko Ĉinio,PR Ĉinio,PRĈ,Ĉinio,Չինաստանի Ժողովրդական Հանրապետություն,တရုတ်,တရုတ်နိုင်ငံ,တရုတ် ကွန်မြူနစ်,共產中國,北京當局,紅色中國,新中國,華,陸,چین,کۆماری چین,سین,چاینا,Kiinná álbmotdásseváldi,Hiina Rahvavabariik,Hiina RV,Kiina aalmugtäsiväldi,Kiina,Ǩiina meertääʹssväʹldd,Kiina meertääʹssväʹldd,ቻይና",
+        "attr5" : "China,CN,PR China,PRC,cn,CHN,🇨🇳",
+        "attr6" : "中国,中國,中華人民共和國,共产中国,新中国,🇨🇳,中,红色中国,北京当局",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Country",
+        "up_type" : "",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q148",
+        "label_id" : "l_106003",
+        "label_name_en" : "Country_Instance",
+        "label_name_zh" : "国家实体",
+        "label_value" : "",
+        "attr1" : "People's_Republic_of_China",
+        "attr2" : "中华人民共和国_中华人民共和国",
+        "attr3" : "",
+        "attr4" : "China,CN,PR China,PRC,cn,CHN,🇨🇳,China Popular,Republica Popular China,Кітайская Народная Рэспубліка,КНР,Tiong-hôa Jîn-bîn Kiōng-hô-kok,Tiong-kok Tāi-lio̍k,Chine communiste,Chine populaire,RPC,Chine continentale,Chine,la République populaire de Chine,الصين الشعبية,VR China,Rotchina,V.R. China,Chinesische Volksrepublik,中国,en:People's Republic of China （PRC）,中國,Zhongguo,Republik Rakyat Tionghoa,Republik Rakyat China,Republik Rakyat Cina,RRC,RRT,Cina,Folkerepublikken Kina,中華人民共和國,共产中国,新中国,中,红色中国,北京当局,La Xina,Xina popular,Kiinan kansantasavalta,Sina,Uchina,RP China,Chiny,Народна Република Кина,Поднебесная,Китай,Folkrepubliken Kina,Mittens rike,НР Кина,Narodna Republika Kina,NR Kina,República Popular da China,Kínai Népköztársaság,中國大陸,大陸,內地,Čínská lidová republika,ČLR,Zipang,Cipang,Říše středu,Cina popolare,Repubblica Popolare Cinese,lo gugdecunu,la djunguos,Sjina,Volksrepubliek van Sjina,Volksrepubliek Sjina,Китайска народна република,Sinae,Serica,Pangmaldang Republika ning Tsina,Pangmadlang Republika ng Tsina,ჩინეთი,중국,중화,Çin,People's Republic of China,പീപ്പിൾസ്‌ റിപ്പബ്ലിക്ക് ഓഫ്‌ ചൈന.,Чин,Ҷумҳурии Мардумии Чин,Ҷумҳурии Мардумии Хитой,Ҷумҳурии Халқии Хитой,ҶХЧ,ҶМЧ,ҶМХ,ҶХМ,Ҷумҳурии Халқии Чин,Κίνα,Sluagh-Phoblachd na Sìne,Ķīnas Tautas Republika,চীন,මහජන චීන සමූහාණ්ඩුව,Chinska,Ludowa republika Chinska,Chinska ludowa republika,Кытай Халык Җөмһүрияте,КХҖ,Кытай Халык Республикасы,КХР,Kina,Xina,Volleksrepublik China,Chineesesch Volleksrepublik,Kitain Rahvahaline Tazovaldkund,Cộng hòa Nhân dân Trung Hoa,Cộng hoà Nhân dân Trung Hoa,Trung Hoa,Tàu,CHND Trung Hoa,Pangmasang Republika sa Tsina,Popola Respubliko Ĉinio,PR Ĉinio,PRĈ,Ĉinio,Չինաստանի Ժողովրդական Հանրապետություն,တရုတ်,တရုတ်နိုင်ငံ,တရုတ် ကွန်မြူနစ်,共產中國,北京當局,紅色中國,新中國,華,陸,چین,کۆماری چین,سین,چاینا,Kiinná álbmotdásseváldi,Hiina Rahvavabariik,Hiina RV,Kiina aalmugtäsiväldi,Kiina,Ǩiina meertääʹssväʹldd,Kiina meertääʹssväʹldd,ቻይና",
+        "attr5" : "China,CN,PR China,PRC,cn,CHN,🇨🇳",
+        "attr6" : "中国,中國,中華人民共和國,共产中国,新中国,🇨🇳,中,红色中国,北京当局",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "国家",
+        "version" : "1.0"
+      }
+    ],
+    "related_news_ids" : [
+      "b2411adf34fc25d71beefa1a3cb58af9"
+    ],
+    "event_time_source" : "news",
+    "event_time" : "2022-11-20 16:32:00",
+    "event_type" : "Conflict.Attack.Unspecified",
+    "event_type_level_3" : "Unspecified",
+    "event_type_level_1" : "Conflict",
+    "event_type_level_2" : "Attack",
+    "event_desc" : "The two countries are also at odds over Russia, which China has refused to condemn or sanction over its invasion of Ukraine, and the status of Taiwan, which China claims as its own territory and threatens to attack.",
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-20 19:30:17",
+    "update_timestamp" : 1668942963338,
+    "event_level" : 8,
+    "custom_labels" : [
+      382,
+      430,
+      439
+    ],
+    "event_desc_zh" : "两国在俄罗斯和台湾问题上也存在分歧，中国拒绝谴责或制裁俄罗斯入侵乌克兰，中国声称台湾是自己的领土，并威胁要对其进行攻击。",
+    "id" : "62bd1a06-6187-431f-adaa-db3895dabf78"
+  }

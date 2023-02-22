@@ -1,0 +1,47 @@
+{
+    "event_id" : "dedc4437-1d85-4efe-9392-9da6c155bad2",
+    "related_events_ids" : [
+      "e605d1c3e0e226852d89f758196c6fae:1",
+      "2265cc2af9022cae7475c94831341e8d:40"
+    ],
+    "related_entities" : [ ],
+    "related_entities_list" : [ ],
+    "related_organ" : [ ],
+    "related_country" : [
+      "UP"
+    ],
+    "related_person" : [ ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "place" : "Kharkiv",
+        "lat" : "50",
+        "lon" : "36.229166666667",
+        "country" : "UP"
+      }
+    ],
+    "atom_labels" : [ ],
+    "related_news_ids" : [
+      "e605d1c3e0e226852d89f758196c6fae",
+      "2265cc2af9022cae7475c94831341e8d"
+    ],
+    "event_time_source" : "news",
+    "event_time" : "2022-11-22 08:32:00",
+    "event_type" : "Conflict.Attack.Unspecified",
+    "event_type_level_3" : "Unspecified",
+    "event_type_level_1" : "Conflict",
+    "event_type_level_2" : "Attack",
+    "event_desc" : "In one drone video shared with CNN, Moscow's soldiers are seen running into a trench while artillery shells rain down on them.",
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-22 11:30:14",
+    "update_timestamp" : 1669086964601,
+    "event_level" : 9,
+    "custom_labels" : [
+      367
+    ],
+    "event_desc_zh" : "在与美国有线电视新闻网（CNN）分享的一段无人机视频中，看到莫斯科士兵冲进战壕，炮弹落在他们身上。"
+  }

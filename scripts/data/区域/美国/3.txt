@@ -1,0 +1,119 @@
+{
+    "event_id" : "cebe384d-5b22-48d9-8bcc-be30f929cbeb",
+    "related_events_ids" : [
+      "166641037db30b32e6780da79b3c7511:1",
+      "aec9ecaf68309a687ab1f9f8e08777aa:2"
+    ],
+    "related_entities" : [
+      {
+        "nid" : "Q4954097",
+        "entity_type" : "People",
+        "role" : "Communicator"
+      }
+    ],
+    "related_entities_list" : [
+      "Q4954097"
+    ],
+    "related_organ" : [ ],
+    "related_country" : [
+      "US"
+    ],
+    "related_person" : [
+      "Brad Little"
+    ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "place" : "California",
+        "lat" : "37",
+        "lon" : "-120",
+        "country" : "US"
+      }
+    ],
+    "atom_labels" : [
+      {
+        "qid" : "Q4954097",
+        "label_id" : "l_101001",
+        "label_name_en" : "People",
+        "label_name_zh" : "人物",
+        "label_value" : "",
+        "attr1" : "Brad_Little",
+        "attr2" : "布萊德·雷托_",
+        "attr3" : "",
+        "attr4" : "布拉特·利托爾,布拉德·利特,Брэд Литтл",
+        "attr5" : "",
+        "attr6" : "布拉特·利托爾,布拉德·利特",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "People",
+        "up_type" : "人物",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q4954097",
+        "label_id" : "l_101002",
+        "label_name_en" : "PolPeople",
+        "label_name_zh" : "政治人物",
+        "label_value" : "",
+        "attr1" : "Brad_Little",
+        "attr2" : "布萊德·雷托_",
+        "attr3" : "",
+        "attr4" : "布拉特·利托爾,布拉德·利特,Брэд Литтл",
+        "attr5" : "",
+        "attr6" : "布拉特·利托爾,布拉德·利特",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "People",
+        "up_type" : "人物",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q4954097",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country",
+        "label_name_zh" : "国家",
+        "label_value" : "Q30",
+        "attr1" : "Brad_Little",
+        "attr2" : "布萊德·雷托_",
+        "attr3" : "United States of America",
+        "attr4" : "布拉特·利托爾,布拉德·利特,Брэд Литтл",
+        "attr5" : "",
+        "attr6" : "布拉特·利托爾,布拉德·利特",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Country",
+        "up_type" : "",
+        "version" : "1.0"
+      }
+    ],
+    "related_news_ids" : [
+      "166641037db30b32e6780da79b3c7511",
+      "aec9ecaf68309a687ab1f9f8e08777aa"
+    ],
+    "event_time_source" : "news",
+    "event_time" : "2022-11-19 15:46:00",
+    "event_type" : "Contact.RequestCommand.Unspecified",
+    "event_type_level_3" : "Unspecified",
+    "event_type_level_1" : "Contact",
+    "event_type_level_2" : "RequestCommand",
+    "event_desc" : "Brad Little is urging state residents to get vaccinated against Covid to fuel the state's economy and keep schools open this fall.",
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-19 20:15:14",
+    "update_timestamp" : 1668859263063,
+    "event_level" : 9,
+    "custom_labels" : [
+      377
+    ],
+    "id" : "cebe384d-5b22-48d9-8bcc-be30f929cbeb",
+    "event_desc_zh" : "布拉德·利特尔（Brad Little）敦促该州居民接种新冠肺炎（Covid）疫苗，以刺激该州经济，并在今年秋季保持学校开放。"
+  }

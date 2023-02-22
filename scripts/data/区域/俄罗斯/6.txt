@@ -1,0 +1,173 @@
+{
+    "event_id" : "d7ed004a-fcc4-4bc1-8811-7779faa63ca3",
+    "related_events_ids" : [
+      "b034e2d76a1d5a7d3c3dc05c5e19035a:33",
+      "c1a5c507acc9d858ddbb789715335cb6:31"
+    ],
+    "related_entities" : [
+      {
+        "nid" : "Q133274",
+        "entity_type" : "City",
+        "role" : "Attacker"
+      },
+      {
+        "nid" : "Q212",
+        "entity_type" : "Country_Instance",
+        "role" : "Place"
+      }
+    ],
+    "related_entities_list" : [
+      "Q133274",
+      "Q212"
+    ],
+    "related_organ" : [ ],
+    "related_country" : [
+      "RS",
+      "UP"
+    ],
+    "related_person" : [ ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "place" : "Kyselivka",
+        "lat" : "51.538055555556",
+        "lon" : "31.454166666667",
+        "country" : "UP"
+      },
+      {
+        "place" : "Moscow Kremlin",
+        "lat" : "55.751666666667",
+        "lon" : "37.617777777778",
+        "country" : "RS"
+      }
+    ],
+    "atom_labels" : [
+      {
+        "qid" : "Q133274",
+        "label_id" : "l_106001",
+        "label_name_en" : "Place",
+        "label_name_zh" : "地点",
+        "label_value" : "",
+        "attr1" : "Kremlin",
+        "attr2" : "克里姆林宫_克里姆林宫",
+        "attr3" : "",
+        "attr4" : "克里姆林宮,克林姆林宫,莫斯科克里姆林宫,Kreml,Kremlin de Moscu,கிரெம்ளின்,Kremlin,Moskva Kreml,كرملن,الكرملين,Kremlin de Moscou,Кремль,Moskovski kremlj,Московский Кремль,Мӧскуаса Кремль,كرملين,크렘린 궁전,크렘린 궁,크레믈린,크레믈,크레믈린 궁전,크레믈리,크렘린,הקרמלין של מוסקבה,Museo del Cremlino,Cremlino,クレムリン宮殿,モスクワのクレムリンと赤の広場,Ðiện Cẩm Linh,Điện Cẩm Linh,Điện Kremlin,Kremlin Moskva,Մոսկվայի Կրեմլ,Kremlinul Moscovei,Moscow Kremlin,Kremlin han Moscow,Kremlin Moscow,کرملین,Московския кремъл,კრემლი,Kreml i Moskva,Kreml-palasset i Moskva,क्रेमलिन,मस्को क्रेमलीन,Moskowski krjeml",
+        "attr5" : "Moscow Kremlin",
+        "attr6" : "克里姆林宮,克林姆林宫,莫斯科克里姆林宫",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "地点",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q133274",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country",
+        "label_name_zh" : "国家",
+        "label_value" : "Q159",
+        "attr1" : "Kremlin",
+        "attr2" : "克里姆林宫_克里姆林宫",
+        "attr3" : "Russia",
+        "attr4" : "克里姆林宮,克林姆林宫,莫斯科克里姆林宫,Kreml,Kremlin de Moscu,கிரெம்ளின்,Kremlin,Moskva Kreml,كرملن,الكرملين,Kremlin de Moscou,Кремль,Moskovski kremlj,Московский Кремль,Мӧскуаса Кремль,كرملين,크렘린 궁전,크렘린 궁,크레믈린,크레믈,크레믈린 궁전,크레믈리,크렘린,הקרמלין של מוסקבה,Museo del Cremlino,Cremlino,クレムリン宮殿,モスクワのクレムリンと赤の広場,Ðiện Cẩm Linh,Điện Cẩm Linh,Điện Kremlin,Kremlin Moskva,Մոսկվայի Կրեմլ,Kremlinul Moscovei,Moscow Kremlin,Kremlin han Moscow,Kremlin Moscow,کرملین,Московския кремъл,კრემლი,Kreml i Moskva,Kreml-palasset i Moskva,क्रेमलिन,मस्को क्रेमलीन,Moskowski krjeml",
+        "attr5" : "Moscow Kremlin",
+        "attr6" : "克里姆林宮,克林姆林宫,莫斯科克里姆林宫",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Country",
+        "up_type" : "",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q212",
+        "label_id" : "l_106001",
+        "label_name_en" : "Place",
+        "label_name_zh" : "地点",
+        "label_value" : "",
+        "attr1" : "Ukraine",
+        "attr2" : "乌克兰_乌克兰",
+        "attr3" : "",
+        "attr4" : "Wcráin,উক্রাইনা,UA,UKR,ua,Ukrainia,🇺🇦,Украина,Укроина,Вкраїна,Ukraina,Oekraine,Oekraiene,Malá Rus,Malorusko,The Ukraine,Україна,Ukraine,Ukranya,Ukrayina,Ú-khek-lân,Ucrania,Ukr.",
+        "attr5" : "UA,UKR,ua,Ukrainia,🇺🇦",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "地点",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q212",
+        "label_id" : "l_106003",
+        "label_name_en" : "Country_Instance",
+        "label_name_zh" : "国家实体",
+        "label_value" : "",
+        "attr1" : "Ukraine",
+        "attr2" : "乌克兰_乌克兰",
+        "attr3" : "",
+        "attr4" : "Wcráin,উক্রাইনা,UA,UKR,ua,Ukrainia,🇺🇦,Украина,Укроина,Вкраїна,Ukraina,Oekraine,Oekraiene,Malá Rus,Malorusko,The Ukraine,Україна,Ukraine,Ukranya,Ukrayina,Ú-khek-lân,Ucrania,Ukr.",
+        "attr5" : "UA,UKR,ua,Ukrainia,🇺🇦",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "国家",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q212",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country",
+        "label_name_zh" : "国家",
+        "label_value" : "Q212",
+        "attr1" : "Ukraine",
+        "attr2" : "乌克兰_乌克兰",
+        "attr3" : "Ukraine",
+        "attr4" : "Wcráin,উক্রাইনা,UA,UKR,ua,Ukrainia,🇺🇦,Украина,Укроина,Вкраїна,Ukraina,Oekraine,Oekraiene,Malá Rus,Malorusko,The Ukraine,Україна,Ukraine,Ukranya,Ukrayina,Ú-khek-lân,Ucrania,Ukr.",
+        "attr5" : "UA,UKR,ua,Ukrainia,🇺🇦",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Country",
+        "up_type" : "",
+        "version" : "1.0"
+      }
+    ],
+    "event_type" : "Conflict.Attack.Unspecified",
+    "event_type_level_3" : "Unspecified",
+    "event_type_level_1" : "Conflict",
+    "event_type_level_2" : "Attack",
+    "event_desc" : "As violence escalates in Ukraine, abuses perpetrated by Russia have become widespread, according to the United Nations and human rights groups.",
+    "related_news_ids" : [
+      "b034e2d76a1d5a7d3c3dc05c5e19035a",
+      "c1a5c507acc9d858ddbb789715335cb6"
+    ],
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-18 21:08:14",
+    "update_timestamp" : 1668776894310,
+    "event_level" : 6,
+    "event_time_source" : "news",
+    "event_time" : "2022-11-18 13:02:00",
+    "custom_labels" : [
+      381,
+      367,
+      382,
+      430
+    ],
+    "event_desc_zh" : "根据联合国和人权组织的说法，随着乌克兰暴力升级，俄罗斯的虐待行为已变得普遍。",
+    "id" : "d7ed004a-fcc4-4bc1-8811-7779faa63ca3"
+  }

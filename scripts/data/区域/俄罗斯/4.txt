@@ -1,0 +1,116 @@
+{
+    "event_id" : "9fade0a6-f45d-4880-b226-86261371e53d",
+    "related_events_ids" : [
+      "3cc1d86950ea879213c2869d02152a64:0"
+    ],
+    "related_entities" : [
+      {
+        "nid" : "Q159",
+        "entity_type" : "Country_Instance",
+        "role" : "Place"
+      }
+    ],
+    "related_entities_list" : [
+      "Q159"
+    ],
+    "related_organ" : [ ],
+    "related_country" : [
+      "",
+      "RS"
+    ],
+    "related_person" : [ ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "place" : "Netherlands",
+        "lat" : "52.316666666667",
+        "lon" : "5.55",
+        "country" : ""
+      }
+    ],
+    "atom_labels" : [
+      {
+        "qid" : "Q159",
+        "label_id" : "l_106001",
+        "label_name_en" : "Place",
+        "label_name_zh" : "地点",
+        "label_value" : "",
+        "attr1" : "Russia",
+        "attr2" : "俄罗斯_俄罗斯",
+        "attr3" : "",
+        "attr4" : "Rossiya,Rossija,RU,ru,Rossijskaja Federatsija,Russian Federation,Rossiyskaya Federatsiya,Rus,RUS,RF,Российская Федерация,РФ,Русь,Russische Föderation,Russländische Föderation,Rußland,Rußische Föderation,Rußländische Föderation,Federacja Rosyjska,Den russiske føderasjon,Federazione Russa,Federació Russa,Federació de Rússia,Venäjän federaatio,הפדרציה הרוסית,Russische Federatie,ロシア連邦,ロシア連邦において法人,Ruassjen federasjovne,Russlaante,Federação da Rússia,Federação Russa,daulu banamo Uni Soviet,Ruska federacija,俄,露西亞,Oroszországi Föderáció,俄羅斯,俄国,俄國,Ρωσική Ομοσπονδία,Ρωσσία,Rusujo,Ruslando,ՌԴ,Ռուսաստանի Դաշնություն,Rus.,Fédération de Russie,Liên bang Nga,Nga La Tư,Russia,Venäman Federacii,VF,Venä,Ryska federationen,Russesch Federatioun,Russesch Federatiounsrepublik,Руска федерация,Rusia,Російська Федерація,Ruská federace,Rusiye Federatsiyası,റഷ്യൻ ഫെഡറേഷൻ,Ruska Federacija,Federación Rusa,Русия Федерациясе,Рәсәй,Россия Федерациясе,Рәсәй Федерациясе,Rusiä Federatsiäse,Räsäy,Рәсәй Федерацияһы,Ruslönj,রুশ ফেডারেশন,Rossia,Ruthenia,Foederatio Russica,Foederatio Rossica,Foederatio Ruthenica,Fœderatio Russica,Fœderatio Rossica,Fœderatio Ruthenica,Rusijos Federacija,Россия,რუსეთის ფედერაცია,रशिया,रसा,रशा,Руска Федерација,Росија,Росијскаја Федерација,Росискаја,Рус,Русја,Руше,Русланд,Руска,Ruošša federašuvdna,Ruošša lihttodásseváldi,Federasi Rusia,ФР,Федератсияи Россия,Федератсияи Русия,Федератсияи Рус,Ҷумҳурии Федеролии Русия,Ҷумҳурии Федеролии Россия,Ҷумҳурии Федералии Россия,Ҷумҳурии Федералии Русия,Russiýa Federasiýasy,Orsýet,ራሻ,ፈደረሽን ሩስያ,로씨야련방",
+        "attr5" : "Rossiya,Rossija,RU,ru,Rossijskaja Federatsija,Russian Federation,Rossiyskaya Federatsiya,Rus,RUS,RF",
+        "attr6" : "俄羅斯,俄国,俄國",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "地点",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q159",
+        "label_id" : "l_106003",
+        "label_name_en" : "Country_Instance",
+        "label_name_zh" : "国家实体",
+        "label_value" : "",
+        "attr1" : "Russia",
+        "attr2" : "俄罗斯_俄罗斯",
+        "attr3" : "",
+        "attr4" : "Rossiya,Rossija,RU,ru,Rossijskaja Federatsija,Russian Federation,Rossiyskaya Federatsiya,Rus,RUS,RF,Российская Федерация,РФ,Русь,Russische Föderation,Russländische Föderation,Rußland,Rußische Föderation,Rußländische Föderation,Federacja Rosyjska,Den russiske føderasjon,Federazione Russa,Federació Russa,Federació de Rússia,Venäjän federaatio,הפדרציה הרוסית,Russische Federatie,ロシア連邦,ロシア連邦において法人,Ruassjen federasjovne,Russlaante,Federação da Rússia,Federação Russa,daulu banamo Uni Soviet,Ruska federacija,俄,露西亞,Oroszországi Föderáció,俄羅斯,俄国,俄國,Ρωσική Ομοσπονδία,Ρωσσία,Rusujo,Ruslando,ՌԴ,Ռուսաստանի Դաշնություն,Rus.,Fédération de Russie,Liên bang Nga,Nga La Tư,Russia,Venäman Federacii,VF,Venä,Ryska federationen,Russesch Federatioun,Russesch Federatiounsrepublik,Руска федерация,Rusia,Російська Федерація,Ruská federace,Rusiye Federatsiyası,റഷ്യൻ ഫെഡറേഷൻ,Ruska Federacija,Federación Rusa,Русия Федерациясе,Рәсәй,Россия Федерациясе,Рәсәй Федерациясе,Rusiä Federatsiäse,Räsäy,Рәсәй Федерацияһы,Ruslönj,রুশ ফেডারেশন,Rossia,Ruthenia,Foederatio Russica,Foederatio Rossica,Foederatio Ruthenica,Fœderatio Russica,Fœderatio Rossica,Fœderatio Ruthenica,Rusijos Federacija,Россия,რუსეთის ფედერაცია,रशिया,रसा,रशा,Руска Федерација,Росија,Росијскаја Федерација,Росискаја,Рус,Русја,Руше,Русланд,Руска,Ruošša federašuvdna,Ruošša lihttodásseváldi,Federasi Rusia,ФР,Федератсияи Россия,Федератсияи Русия,Федератсияи Рус,Ҷумҳурии Федеролии Русия,Ҷумҳурии Федеролии Россия,Ҷумҳурии Федералии Россия,Ҷумҳурии Федералии Русия,Russiýa Federasiýasy,Orsýet,ራሻ,ፈደረሽን ሩስያ,로씨야련방",
+        "attr5" : "Rossiya,Rossija,RU,ru,Rossijskaja Federatsija,Russian Federation,Rossiyskaya Federatsiya,Rus,RUS,RF",
+        "attr6" : "俄羅斯,俄国,俄國",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "国家",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q159",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country",
+        "label_name_zh" : "国家",
+        "label_value" : "Q159",
+        "attr1" : "Russia",
+        "attr2" : "俄罗斯_俄罗斯",
+        "attr3" : "Russia",
+        "attr4" : "Rossiya,Rossija,RU,ru,Rossijskaja Federatsija,Russian Federation,Rossiyskaya Federatsiya,Rus,RUS,RF,Российская Федерация,РФ,Русь,Russische Föderation,Russländische Föderation,Rußland,Rußische Föderation,Rußländische Föderation,Federacja Rosyjska,Den russiske føderasjon,Federazione Russa,Federació Russa,Federació de Rússia,Venäjän federaatio,הפדרציה הרוסית,Russische Federatie,ロシア連邦,ロシア連邦において法人,Ruassjen federasjovne,Russlaante,Federação da Rússia,Federação Russa,daulu banamo Uni Soviet,Ruska federacija,俄,露西亞,Oroszországi Föderáció,俄羅斯,俄国,俄國,Ρωσική Ομοσπονδία,Ρωσσία,Rusujo,Ruslando,ՌԴ,Ռուսաստանի Դաշնություն,Rus.,Fédération de Russie,Liên bang Nga,Nga La Tư,Russia,Venäman Federacii,VF,Venä,Ryska federationen,Russesch Federatioun,Russesch Federatiounsrepublik,Руска федерация,Rusia,Російська Федерація,Ruská federace,Rusiye Federatsiyası,റഷ്യൻ ഫെഡറേഷൻ,Ruska Federacija,Federación Rusa,Русия Федерациясе,Рәсәй,Россия Федерациясе,Рәсәй Федерациясе,Rusiä Federatsiäse,Räsäy,Рәсәй Федерацияһы,Ruslönj,রুশ ফেডারেশন,Rossia,Ruthenia,Foederatio Russica,Foederatio Rossica,Foederatio Ruthenica,Fœderatio Russica,Fœderatio Rossica,Fœderatio Ruthenica,Rusijos Federacija,Россия,რუსეთის ფედერაცია,रशिया,रसा,रशा,Руска Федерација,Росија,Росијскаја Федерација,Росискаја,Рус,Русја,Руше,Русланд,Руска,Ruošša federašuvdna,Ruošša lihttodásseváldi,Federasi Rusia,ФР,Федератсияи Россия,Федератсияи Русия,Федератсияи Рус,Ҷумҳурии Федеролии Русия,Ҷумҳурии Федеролии Россия,Ҷумҳурии Федералии Россия,Ҷумҳурии Федералии Русия,Russiýa Federasiýasy,Orsýet,ራሻ,ፈደረሽን ሩስያ,로씨야련방",
+        "attr5" : "Rossiya,Rossija,RU,ru,Rossijskaja Federatsija,Russian Federation,Rossiyskaya Federatsiya,Rus,RUS,RF",
+        "attr6" : "俄羅斯,俄国,俄國",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Country",
+        "up_type" : "",
+        "version" : "1.0"
+      }
+    ],
+    "event_type" : "Justice.Convict.Unspecified",
+    "event_type_level_3" : "Unspecified",
+    "event_type_level_1" : "Justice",
+    "event_type_level_2" : "Convict",
+    "event_desc" : "Foreign Minister Penny Wong has called for Russia to take responsibility and surrender those convicted 'so they may face the court sentence for their heinous crime'.",
+    "related_news_ids" : [
+      "3cc1d86950ea879213c2869d02152a64"
+    ],
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-18 21:08:16",
+    "update_timestamp" : 1668776896144,
+    "event_level" : 7,
+    "event_time_source" : "news",
+    "event_time" : "2022-11-18 16:47:00",
+    "custom_labels" : [
+      381
+    ],
+    "event_desc_zh" : "外交部长黄佩妮（Penny Wong）呼吁俄罗斯承担责任，交出那些被定罪的人，“这样他们就可能因犯下滔天罪行而面临法庭判决”。",
+    "id" : "9fade0a6-f45d-4880-b226-86261371e53d"
+  }

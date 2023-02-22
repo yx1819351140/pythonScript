@@ -1,0 +1,147 @@
+{
+    "event_id" : "fd7fa69d-9ee8-4371-9336-613b802d0dd4",
+    "related_events_ids" : [
+      "a228787f286598c7120e3007605b19b6:7",
+      "32d27fcc0e02de1698fdffb5ba69d36a:8",
+      "804030c49cd474d2b6fabeb8390f55ae:8"
+    ],
+    "related_entities" : [
+      {
+        "nid" : "Q29019724",
+        "entity_type" : "People",
+        "role" : "Detainee"
+      },
+      {
+        "nid" : "Q8685",
+        "entity_type" : "Other",
+        "role" : "Place"
+      }
+    ],
+    "related_entities_list" : [
+      "Q29019724",
+      "Q8685"
+    ],
+    "related_organ" : [ ],
+    "related_country" : [
+      "US"
+    ],
+    "related_person" : [
+      "Leah Sottile"
+    ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "place" : "John F. Kennedy International Airport",
+        "lat" : "40.639722",
+        "lon" : "-73.778889",
+        "country" : "US"
+      }
+    ],
+    "atom_labels" : [
+      {
+        "qid" : "Q8685",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country",
+        "label_name_zh" : "国家",
+        "label_value" : "Q30",
+        "attr1" : "John_F._Kennedy_International_Airport",
+        "attr2" : "約翰·菲茨傑拉德·甘迺迪國際機場_",
+        "attr3" : "United States of America",
+        "attr4" : "Kennedy International Airport,JFK International Airport,JFK airport,JFK,KJFK,Kennedy International,New York International Airport,Kennedy Intl,约翰·肯尼迪国际机场,约翰·菲茨杰拉德·肯尼迪国际机场,肯尼迪国际机场,New Yorkin kansainvälinen lentoasema,Idlewildin lentoasema,John F. Kennedy International Airport,Kennedyn kansainvälinen lentoasema,مطار جون ف. كينيدي,مطار جون إف كينيدي,مطار اللواء ألكسندر إي أندرسون,مطار أيدل وايلد,مطار جون اف كينيدي الدولي,Aeroporto di New York-JFK,Aeroporto JFK,Aeroporto Internazionale di New York,Mezinárodní letiště Johna F. Kennedyho,Aeroporto de Nova Iorque",
+        "attr5" : "Kennedy International Airport,JFK International Airport,JFK airport,JFK,KJFK,Kennedy International,New York International Airport",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Country",
+        "up_type" : "",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q8685",
+        "label_id" : "l_108001",
+        "label_name_en" : "Infrastructure",
+        "label_name_zh" : "设施",
+        "label_value" : "",
+        "attr1" : "John_F._Kennedy_International_Airport",
+        "attr2" : "約翰·菲茨傑拉德·甘迺迪國際機場_",
+        "attr3" : "",
+        "attr4" : "Kennedy International Airport,JFK International Airport,JFK airport,JFK,KJFK,Kennedy International,New York International Airport,Kennedy Intl,约翰·肯尼迪国际机场,约翰·菲茨杰拉德·肯尼迪国际机场,肯尼迪国际机场,New Yorkin kansainvälinen lentoasema,Idlewildin lentoasema,John F. Kennedy International Airport,Kennedyn kansainvälinen lentoasema,مطار جون ف. كينيدي,مطار جون إف كينيدي,مطار اللواء ألكسندر إي أندرسون,مطار أيدل وايلد,مطار جون اف كينيدي الدولي,Aeroporto di New York-JFK,Aeroporto JFK,Aeroporto Internazionale di New York,Mezinárodní letiště Johna F. Kennedyho,Aeroporto de Nova Iorque",
+        "attr5" : "Kennedy International Airport,JFK International Airport,JFK airport,JFK,KJFK,Kennedy International,New York International Airport",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "EntityAtom",
+        "up_type" : "",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q29019724",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country",
+        "label_name_zh" : "国家",
+        "label_value" : "Q30",
+        "attr1" : "Leah_Sottile",
+        "attr2" : "_",
+        "attr3" : "United States of America",
+        "attr4" : "",
+        "attr5" : "",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Country",
+        "up_type" : "",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q29019724",
+        "label_id" : "l_101001",
+        "label_name_en" : "People",
+        "label_name_zh" : "人物",
+        "label_value" : "",
+        "attr1" : "Leah_Sottile",
+        "attr2" : "_",
+        "attr3" : "",
+        "attr4" : "",
+        "attr5" : "",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "People",
+        "up_type" : "人物",
+        "version" : "1.0"
+      }
+    ],
+    "related_news_ids" : [
+      "804030c49cd474d2b6fabeb8390f55ae",
+      "32d27fcc0e02de1698fdffb5ba69d36a",
+      "a228787f286598c7120e3007605b19b6"
+    ],
+    "event_time_source" : "news",
+    "event_time" : "2022-11-19 19:47:00",
+    "event_type" : "Justice.ArrestJailDetain.Unspecified",
+    "event_type_level_3" : "Unspecified",
+    "event_type_level_1" : "Justice",
+    "event_type_level_2" : "ArrestJailDetain",
+    "event_desc" : "By Zoe Sottile, CNN A traveler at New York City's John F. Kennedy International Airport was arrested after $450,000 worth of cocaine was discovered hidden in the wheels of her wheelchair.",
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-19 22:00:13",
+    "update_timestamp" : 1668866406052,
+    "event_level" : 8,
+    "custom_labels" : [
+      377
+    ],
+    "id" : "fd7fa69d-9ee8-4371-9336-613b802d0dd4",
+    "event_desc_zh" : "据美国有线电视新闻网（CNN）佐伊·索蒂尔报道，纽约市约翰·F·肯尼迪国际机场的一名旅客在轮椅轮子里发现了价值45万美元的可卡因后被捕。"
+  }

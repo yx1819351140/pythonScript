@@ -1,0 +1,116 @@
+{
+    "event_id" : "33d37ee6-02b1-4992-910a-76238956f06f",
+    "related_events_ids" : [
+      "2afeaf91a8050a2d3daf975f67d6d7fe:0"
+    ],
+    "related_entities" : [
+      {
+        "nid" : "Q794",
+        "entity_type" : "Country_Instance",
+        "role" : "Participant"
+      }
+    ],
+    "related_entities_list" : [
+      "Q794"
+    ],
+    "related_organ" : [ ],
+    "related_country" : [
+      "IR",
+      "US"
+    ],
+    "related_person" : [ ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "place" : "United States of America",
+        "lat" : "39.828175",
+        "lon" : "-98.5795",
+        "country" : "US"
+      }
+    ],
+    "atom_labels" : [
+      {
+        "qid" : "Q794",
+        "label_id" : "l_106003",
+        "label_name_en" : "Country_Instance",
+        "label_name_zh" : "国家实体",
+        "label_value" : "",
+        "attr1" : "Iran",
+        "attr2" : "伊朗_伊朗",
+        "attr3" : "",
+        "attr4" : "Ҷумҳурии Исломии Эрон,Irán,Gweriniaeth Islamaidd Iran,Persia,ايران,الجمهورية الإسلامية الإيرانية,ایران,الجمهورية الإسلامية في إيران,الجمهور الإسلامية الإيرانية,جمهوریة إیران الإسلامیة,جمهورية إيران الإسلامية,جمهورية إيران,الجمهورية الاسلامية الايرانية,جمهوريّة إيران الإسلامية,الجمهورية الإسلامية الايرانية,ايران الأکبر,Ирон,伊朗伊斯蘭共和國,República Islâmica do Irã,Irão,Perse,République islamique d'Iran,IR,la République islamique d’Iran,Islamic Republic of Iran,ir,Islamic Rep. Iran,🇮🇷,Republic of Iran,Islamic,Repubblica Islamica dell'Iran,اسلامي جمھوريہ ايران,فارس,Персія,Джомгурі-йе Еслɒмі-йє Ірɒн,Ісламська Республіка Іран,Komara Îslamî ya Îranê,República Islâmica do Irão,Republica Islamica do Irao,Íránská islámská republika,Persie,Исламская Республика Иран,Персия,ИРИ,Iran,Иран (Исламская Республика),Название Ирана,جمهوری اسلامی ایران,ایران‌زمین,پارس,جمهوری ایران,República Islámica de Irán,Republica Islamica de Iran,Iran Islam-kàu Kiong-hô-kok,I-lang,Iran Islam Kiōng-hô-kok,Islama Respubliko Irano,IR Irano,İran İslam Cumhuriyeti,Iráni Iszlám Köztársaság,Perzsia,Islamitische Republiek Iran,IRN,Islamische Republik Iran,Irānas Islāma Republika,Ισλαμική Δημοκρατία του Ιράν,Ĭ-lāng,Yî-làn,イラン・イスラム共和国,República Islámica d'Irán,Islamska Republika Iran,Perzija,Persija,Irana islamlaš dásseváldi,Iran islamlaš dásseváldi,Irana islamalaš dásseváld,Iran islamalaš dásseváld,Iranin islamilainen tasavalta,Den islamske republikk Iran,Iran islamlâš täsiväldi,Iraan islaamlaž tääʹssväʹldd,Islamiska republiken Iran,ߌߙߊ߲߫ ߖߘߍ߬ߞߟߏ߬ߟߊ ߞߊ߲ߓߍ߲",
+        "attr5" : "Islamic Republic of Iran,Persia,ir,Islamic Rep. Iran,🇮🇷,Republic of Iran,Islamic",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "国家",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q794",
+        "label_id" : "l_106001",
+        "label_name_en" : "Place",
+        "label_name_zh" : "地点",
+        "label_value" : "",
+        "attr1" : "Iran",
+        "attr2" : "伊朗_伊朗",
+        "attr3" : "",
+        "attr4" : "Ҷумҳурии Исломии Эрон,Irán,Gweriniaeth Islamaidd Iran,Persia,ايران,الجمهورية الإسلامية الإيرانية,ایران,الجمهورية الإسلامية في إيران,الجمهور الإسلامية الإيرانية,جمهوریة إیران الإسلامیة,جمهورية إيران الإسلامية,جمهورية إيران,الجمهورية الاسلامية الايرانية,جمهوريّة إيران الإسلامية,الجمهورية الإسلامية الايرانية,ايران الأکبر,Ирон,伊朗伊斯蘭共和國,República Islâmica do Irã,Irão,Perse,République islamique d'Iran,IR,la République islamique d’Iran,Islamic Republic of Iran,ir,Islamic Rep. Iran,🇮🇷,Republic of Iran,Islamic,Repubblica Islamica dell'Iran,اسلامي جمھوريہ ايران,فارس,Персія,Джомгурі-йе Еслɒмі-йє Ірɒн,Ісламська Республіка Іран,Komara Îslamî ya Îranê,República Islâmica do Irão,Republica Islamica do Irao,Íránská islámská republika,Persie,Исламская Республика Иран,Персия,ИРИ,Iran,Иран (Исламская Республика),Название Ирана,جمهوری اسلامی ایران,ایران‌زمین,پارس,جمهوری ایران,República Islámica de Irán,Republica Islamica de Iran,Iran Islam-kàu Kiong-hô-kok,I-lang,Iran Islam Kiōng-hô-kok,Islama Respubliko Irano,IR Irano,İran İslam Cumhuriyeti,Iráni Iszlám Köztársaság,Perzsia,Islamitische Republiek Iran,IRN,Islamische Republik Iran,Irānas Islāma Republika,Ισλαμική Δημοκρατία του Ιράν,Ĭ-lāng,Yî-làn,イラン・イスラム共和国,República Islámica d'Irán,Islamska Republika Iran,Perzija,Persija,Irana islamlaš dásseváldi,Iran islamlaš dásseváldi,Irana islamalaš dásseváld,Iran islamalaš dásseváld,Iranin islamilainen tasavalta,Den islamske republikk Iran,Iran islamlâš täsiväldi,Iraan islaamlaž tääʹssväʹldd,Islamiska republiken Iran,ߌߙߊ߲߫ ߖߘߍ߬ߞߟߏ߬ߟߊ ߞߊ߲ߓߍ߲",
+        "attr5" : "Islamic Republic of Iran,Persia,ir,Islamic Rep. Iran,🇮🇷,Republic of Iran,Islamic",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "地点",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q794",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country",
+        "label_name_zh" : "国家",
+        "label_value" : "Q794",
+        "attr1" : "Iran",
+        "attr2" : "伊朗_伊朗",
+        "attr3" : "Iran",
+        "attr4" : "Ҷумҳурии Исломии Эрон,Irán,Gweriniaeth Islamaidd Iran,Persia,ايران,الجمهورية الإسلامية الإيرانية,ایران,الجمهورية الإسلامية في إيران,الجمهور الإسلامية الإيرانية,جمهوریة إیران الإسلامیة,جمهورية إيران الإسلامية,جمهورية إيران,الجمهورية الاسلامية الايرانية,جمهوريّة إيران الإسلامية,الجمهورية الإسلامية الايرانية,ايران الأکبر,Ирон,伊朗伊斯蘭共和國,República Islâmica do Irã,Irão,Perse,République islamique d'Iran,IR,la République islamique d’Iran,Islamic Republic of Iran,ir,Islamic Rep. Iran,🇮🇷,Republic of Iran,Islamic,Repubblica Islamica dell'Iran,اسلامي جمھوريہ ايران,فارس,Персія,Джомгурі-йе Еслɒмі-йє Ірɒн,Ісламська Республіка Іран,Komara Îslamî ya Îranê,República Islâmica do Irão,Republica Islamica do Irao,Íránská islámská republika,Persie,Исламская Республика Иран,Персия,ИРИ,Iran,Иран (Исламская Республика),Название Ирана,جمهوری اسلامی ایران,ایران‌زمین,پارس,جمهوری ایران,República Islámica de Irán,Republica Islamica de Iran,Iran Islam-kàu Kiong-hô-kok,I-lang,Iran Islam Kiōng-hô-kok,Islama Respubliko Irano,IR Irano,İran İslam Cumhuriyeti,Iráni Iszlám Köztársaság,Perzsia,Islamitische Republiek Iran,IRN,Islamische Republik Iran,Irānas Islāma Republika,Ισλαμική Δημοκρατία του Ιράν,Ĭ-lāng,Yî-làn,イラン・イスラム共和国,República Islámica d'Irán,Islamska Republika Iran,Perzija,Persija,Irana islamlaš dásseváldi,Iran islamlaš dásseváldi,Irana islamalaš dásseváld,Iran islamalaš dásseváld,Iranin islamilainen tasavalta,Den islamske republikk Iran,Iran islamlâš täsiväldi,Iraan islaamlaž tääʹssväʹldd,Islamiska republiken Iran,ߌߙߊ߲߫ ߖߘߍ߬ߞߟߏ߬ߟߊ ߞߊ߲ߓߍ߲",
+        "attr5" : "Islamic Republic of Iran,Persia,ir,Islamic Rep. Iran,🇮🇷,Republic of Iran,Islamic",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Country",
+        "up_type" : "",
+        "version" : "1.0"
+      }
+    ],
+    "related_news_ids" : [
+      "2afeaf91a8050a2d3daf975f67d6d7fe"
+    ],
+    "event_time_source" : "news",
+    "event_time" : "2022-11-18 19:31:00",
+    "event_type" : "Contact.Contact.Meet",
+    "event_type_level_3" : "Meet",
+    "event_type_level_1" : "Contact",
+    "event_type_level_2" : "Contact",
+    "event_desc" : "Iran has already voiced readiness to hold technical talks with IAEA experts to discuss the accusations related to so-called 'undeclared' nuclear sites, which were made based on false reports provided by the Israeli regime.",
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-19 17:45:13",
+    "update_timestamp" : 1668850991058,
+    "event_level" : 7,
+    "custom_labels" : [
+      377
+    ],
+    "id" : "33d37ee6-02b1-4992-910a-76238956f06f",
+    "event_desc_zh" : "伊朗已经表示愿意与国际原子能机构专家举行技术会谈，讨论有关所谓“未申报”核设施的指控，这些指控是根据以色列政权提供的虚假报告提出的。"
+  }

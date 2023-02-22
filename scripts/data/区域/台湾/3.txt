@@ -1,0 +1,125 @@
+{
+    "event_id" : "5a0a5ef5-e9d7-4f46-8d83-77fa6fe814fe",
+    "related_events_ids" : [
+      "ca9bdac35bc30f53bd56aaa41031702d:5"
+    ],
+    "related_entities" : [
+    {
+        "nid": "Q57251",
+        "entity_type": "Country_Instance",
+        "role": "Place"
+    },
+      {
+        "nid" : "Q170581",
+        "entity_type" : "People",
+        "role" : "Transporter"
+      }
+    ],
+    "related_entities_list" : [
+      "Q170581"
+    ],
+    "related_organ" : [ ],
+    "related_country" : [
+      "US"
+    ],
+    "related_person" : [
+      "Nancy Pelosi"
+    ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "place" : "San Francisco",
+        "lat" : "37.7775",
+        "lon" : "-122.41638888888889",
+        "country" : "US"
+      }
+    ],
+    "atom_labels" : [
+      {
+        "qid" : "Q170581",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country",
+        "label_name_zh" : "国家",
+        "label_value" : "Q30",
+        "attr1" : "Nancy_Pelosi",
+        "attr2" : "蘭希·佩洛西_南希·佩洛西",
+        "attr3" : "United States of America",
+        "attr4" : "南希·裴洛西,南西·普洛西,南希·佩洛西,蘭茜·佩洛西,Nancy Patricia D'Alesandro Pelosi,Pelosi,Nancy Pelosi,Nancy Patricia Pelosi,Nancy D'Alesandro Pelosi,ナンシー・ペローシー,ナンシー・ペローシ,Nancy D'Alesandro,بيلوسي,نانسي بيلوتزي,נענסי פאלאוסי,Пелози Н.,Пелоси,Нэнси Пелози,Пелози,Пелози Нэнси,Пелози, Нэнси,Пелоси, Нэнси,Нэнси д’Алесандро,д’Алесандро, Нэнси,Ненсі Пелозі,Nancy D'Alessandro,Annula Pelosi,Nancy Pelosiová,Nancy D’Alesandro,Nancy Patricia D'Alesandro",
+        "attr5" : "Nancy Patricia D'Alesandro Pelosi,Nancy Patricia D'Alesandro,Nancy D'Alesandro Pelosi",
+        "attr6" : "南希·裴洛西,南西·普洛西,南希·佩洛西,蘭茜·佩洛西",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Country",
+        "up_type" : "",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q170581",
+        "label_id" : "l_101002",
+        "label_name_en" : "PolPeople",
+        "label_name_zh" : "政治人物",
+        "label_value" : "",
+        "attr1" : "Nancy_Pelosi",
+        "attr2" : "蘭希·佩洛西_南希·佩洛西",
+        "attr3" : "",
+        "attr4" : "南希·裴洛西,南西·普洛西,南希·佩洛西,蘭茜·佩洛西,Nancy Patricia D'Alesandro Pelosi,Pelosi,Nancy Pelosi,Nancy Patricia Pelosi,Nancy D'Alesandro Pelosi,ナンシー・ペローシー,ナンシー・ペローシ,Nancy D'Alesandro,بيلوسي,نانسي بيلوتزي,נענסי פאלאוסי,Пелози Н.,Пелоси,Нэнси Пелози,Пелози,Пелози Нэнси,Пелози, Нэнси,Пелоси, Нэнси,Нэнси д’Алесандро,д’Алесандро, Нэнси,Ненсі Пелозі,Nancy D'Alessandro,Annula Pelosi,Nancy Pelosiová,Nancy D’Alesandro,Nancy Patricia D'Alesandro",
+        "attr5" : "Nancy Patricia D'Alesandro Pelosi,Nancy Patricia D'Alesandro,Nancy D'Alesandro Pelosi",
+        "attr6" : "南希·裴洛西,南西·普洛西,南希·佩洛西,蘭茜·佩洛西",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "People",
+        "up_type" : "人物",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q170581",
+        "label_id" : "l_101001",
+        "label_name_en" : "People",
+        "label_name_zh" : "人物",
+        "label_value" : "",
+        "attr1" : "Nancy_Pelosi",
+        "attr2" : "蘭希·佩洛西_南希·佩洛西",
+        "attr3" : "",
+        "attr4" : "南希·裴洛西,南西·普洛西,南希·佩洛西,蘭茜·佩洛西,Nancy Patricia D'Alesandro Pelosi,Pelosi,Nancy Pelosi,Nancy Patricia Pelosi,Nancy D'Alesandro Pelosi,ナンシー・ペローシー,ナンシー・ペローシ,Nancy D'Alesandro,بيلوسي,نانسي بيلوتزي,נענסי פאלאוסי,Пелози Н.,Пелоси,Нэнси Пелози,Пелози,Пелози Нэнси,Пелози, Нэнси,Пелоси, Нэнси,Нэнси д’Алесандро,д’Алесандро, Нэнси,Ненсі Пелозі,Nancy D'Alessandro,Annula Pelosi,Nancy Pelosiová,Nancy D’Alesandro,Nancy Patricia D'Alesandro",
+        "attr5" : "Nancy Patricia D'Alesandro Pelosi,Nancy Patricia D'Alesandro,Nancy D'Alesandro Pelosi",
+        "attr6" : "南希·裴洛西,南西·普洛西,南希·佩洛西,蘭茜·佩洛西",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "People",
+        "up_type" : "人物",
+        "version" : "1.0"
+      }
+    ],
+    "event_type" : "Movement.Transportation.Unspecified",
+    "event_type_level_3" : "Unspecified",
+    "event_type_level_1" : "Movement",
+    "event_type_level_2" : "Transportation",
+    "event_desc" : "#Tiananmen30pic.twitter.com/7UqiJVRS3t- Nancy Pelosi ( SpeakerPelosi) June 4, 2019 She also caused a consternation in 2022 by visiting Taiwan, a visit that was fiercely opposed by the Chinese government.",
+    "related_news_ids" : [
+      "ca9bdac35bc30f53bd56aaa41031702d"
+    ],
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-18 21:08:16",
+    "update_timestamp" : 1668776896121,
+    "event_level" : 7,
+    "event_time_source" : "news",
+    "event_time" : "2022-11-18 10:32:00",
+    "custom_labels" : [
+      425,
+      404,
+      377,
+      439
+    ],
+    "event_desc_zh" : "#天安门30号图片。com/7UqiJVRS3t-南希·佩洛西（发言人佩洛西）2019年6月4日她在2022年访问台湾也引起了恐慌，这一访问遭到了中国政府的强烈反对。",
+    "id" : "5a0a5ef5-e9d7-4f46-8d83-77fa6fe814fe"
+  }

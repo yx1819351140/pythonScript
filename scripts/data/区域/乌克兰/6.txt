@@ -1,0 +1,45 @@
+{
+    "event_id" : "e48458fb-2d3f-4d92-8130-3d4e572d8acf",
+    "related_events_ids" : [
+      "c81d570e1ba19b44ee29e703ef58e9ff:2"
+    ],
+    "related_entities" : [ ],
+    "related_entities_list" : [ ],
+    "related_organ" : [ ],
+    "related_country" : [
+      "UP"
+    ],
+    "related_person" : [ ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "place" : "Kyiv",
+        "lat" : "50.45",
+        "lon" : "30.523611111111",
+        "country" : "UP"
+      }
+    ],
+    "atom_labels" : [ ],
+    "related_news_ids" : [
+      "c81d570e1ba19b44ee29e703ef58e9ff"
+    ],
+    "event_time_source" : "news",
+    "event_time" : "2022-11-22 17:46:00",
+    "event_type" : "Movement.Transportation.Evacuation",
+    "event_type_level_3" : "Evacuation",
+    "event_type_level_1" : "Movement",
+    "event_type_level_2" : "Transportation",
+    "event_desc" : "Ukrainian authorities have started evacuating civilians from recently liberated sections of the southern Kherson and Mykolaiv regions out of fear that the winter will be hard to survive.",
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-22 23:00:16",
+    "update_timestamp" : 1669128965251,
+    "event_level" : 8,
+    "custom_labels" : [
+      367
+    ],
+    "event_desc_zh" : "乌克兰当局已经开始从最近解放的赫尔松南部和米科拉耶夫地区疏散平民，因为担心冬天很难生存。"
+  }

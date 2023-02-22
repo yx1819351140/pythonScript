@@ -1,0 +1,186 @@
+{
+    "event_id" : "a19cdff8-cef6-4ef2-96e1-41e1aad8ae16",
+    "related_events_ids" : [
+      "b2411adf34fc25d71beefa1a3cb58af9:11"
+    ],
+    "related_entities" : [
+    {
+        "nid": "Q57251",
+        "entity_type": "Country_Instance",
+        "role": "Place"
+    },
+      {
+        "nid" : "Q334",
+        "entity_type" : "Country_Instance",
+        "role" : "Place"
+      }
+    ],
+    "related_entities_list" : [
+      "Q334",
+      "Q941013"
+    ],
+    "related_organ" : [ ],
+    "related_country" : [
+      "",
+      "SN"
+    ],
+    "related_person" : [
+      "Lloyd Austin"
+    ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "place" : "People's Republic of China",
+        "lat" : "35.844722222222224",
+        "lon" : "103.45194444444445",
+        "country" : ""
+      }
+    ],
+    "atom_labels" : [
+      {
+        "qid" : "Q334",
+        "label_id" : "l_106003",
+        "label_name_en" : "Country_Instance",
+        "label_name_zh" : "国家实体",
+        "label_value" : "",
+        "attr1" : "Singapore",
+        "attr2" : "新加坡_新加坡",
+        "attr3" : "",
+        "attr4" : "Сынґапур,Singapore,星加坡,新加坡共和國,Repubblica di Singapore,新加坡共和国,新国,星国,狮城,星洲,Republikken Singapore,República de Singapur,Ciudad de Singapur,Republica de Singapur,República de Singapura,SG,sg,🇸🇬,Cingapura,República de Cingapura,新加坡,石叻,新架坡,星架坡,新嘉坡,星嘉坡,叻埠,Szingapúri Köztársaság,李家坡,Республика Сингапур,சிங்கை,ஸிங்கபூர்,シンガポール共和国,Сингапур,Республіка Сінгапур,Республіка Сингапур,Republiken Singapore,Сингапур Республикасы,సింగపూర్,Република Сингапур,Cộng hòa Singapore,Sing,Thành phố Tân Gia Ba,Respubliko Singapuro,Leonurbo,Ĝardenurbo,SGP,Republic of Singapore,Singapore City,Lion City,Garden City,Republik Singapura,République de Singapour,Singapore dásseváldi,Singapuri Vabariik,Singaporen tasavalta,Singapore täsiväldi,Singapore tääʹssväʹldd,Singapur",
+        "attr5" : "Republic of Singapore,SG,sg,🇸🇬,Singapore City,SGP,Lion City,Garden City",
+        "attr6" : "新加坡共和国,新国,星国,狮城,星洲,星加坡",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "国家",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q334",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country",
+        "label_name_zh" : "国家",
+        "label_value" : "Q334",
+        "attr1" : "Singapore",
+        "attr2" : "新加坡_新加坡",
+        "attr3" : "Singapore",
+        "attr4" : "Сынґапур,Singapore,星加坡,新加坡共和國,Repubblica di Singapore,新加坡共和国,新国,星国,狮城,星洲,Republikken Singapore,República de Singapur,Ciudad de Singapur,Republica de Singapur,República de Singapura,SG,sg,🇸🇬,Cingapura,República de Cingapura,新加坡,石叻,新架坡,星架坡,新嘉坡,星嘉坡,叻埠,Szingapúri Köztársaság,李家坡,Республика Сингапур,சிங்கை,ஸிங்கபூர்,シンガポール共和国,Сингапур,Республіка Сінгапур,Республіка Сингапур,Republiken Singapore,Сингапур Республикасы,సింగపూర్,Република Сингапур,Cộng hòa Singapore,Sing,Thành phố Tân Gia Ba,Respubliko Singapuro,Leonurbo,Ĝardenurbo,SGP,Republic of Singapore,Singapore City,Lion City,Garden City,Republik Singapura,République de Singapour,Singapore dásseváldi,Singapuri Vabariik,Singaporen tasavalta,Singapore täsiväldi,Singapore tääʹssväʹldd,Singapur",
+        "attr5" : "Republic of Singapore,SG,sg,🇸🇬,Singapore City,SGP,Lion City,Garden City",
+        "attr6" : "新加坡共和国,新国,星国,狮城,星洲,星加坡",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Country",
+        "up_type" : "",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q334",
+        "label_id" : "l_106001",
+        "label_name_en" : "Place",
+        "label_name_zh" : "地点",
+        "label_value" : "",
+        "attr1" : "Singapore",
+        "attr2" : "新加坡_新加坡",
+        "attr3" : "",
+        "attr4" : "Сынґапур,Singapore,星加坡,新加坡共和國,Repubblica di Singapore,新加坡共和国,新国,星国,狮城,星洲,Republikken Singapore,República de Singapur,Ciudad de Singapur,Republica de Singapur,República de Singapura,SG,sg,🇸🇬,Cingapura,República de Cingapura,新加坡,石叻,新架坡,星架坡,新嘉坡,星嘉坡,叻埠,Szingapúri Köztársaság,李家坡,Республика Сингапур,சிங்கை,ஸிங்கபூர்,シンガポール共和国,Сингапур,Республіка Сінгапур,Республіка Сингапур,Republiken Singapore,Сингапур Республикасы,సింగపూర్,Република Сингапур,Cộng hòa Singapore,Sing,Thành phố Tân Gia Ba,Respubliko Singapuro,Leonurbo,Ĝardenurbo,SGP,Republic of Singapore,Singapore City,Lion City,Garden City,Republik Singapura,République de Singapour,Singapore dásseváldi,Singapuri Vabariik,Singaporen tasavalta,Singapore täsiväldi,Singapore tääʹssväʹldd,Singapur",
+        "attr5" : "Republic of Singapore,SG,sg,🇸🇬,Singapore City,SGP,Lion City,Garden City",
+        "attr6" : "新加坡共和国,新国,星国,狮城,星洲,星加坡",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "地点",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q941013",
+        "label_id" : "l_101001",
+        "label_name_en" : "People",
+        "label_name_zh" : "人物",
+        "label_value" : "",
+        "attr1" : "Lloyd_Austin",
+        "attr2" : "劳埃德·奥斯汀三世_",
+        "attr3" : "",
+        "attr4" : "Lloyd J. Austin III.,Остин, Ллойд,Lloyd James Austin III,Lloyd J. Austin,Lloyd James Austin,לויד ג'יימס אוסטין,Լլոյդ Ջեյմս Օսթին III",
+        "attr5" : "Lloyd James Austin III,Lloyd J. Austin,Lloyd James Austin",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "People",
+        "up_type" : "人物",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q941013",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country",
+        "label_name_zh" : "国家",
+        "label_value" : "Q30",
+        "attr1" : "Lloyd_Austin",
+        "attr2" : "劳埃德·奥斯汀三世_",
+        "attr3" : "United States of America",
+        "attr4" : "Lloyd J. Austin III.,Остин, Ллойд,Lloyd James Austin III,Lloyd J. Austin,Lloyd James Austin,לויד ג'יימס אוסטין,Լլոյդ Ջեյմս Օսթին III",
+        "attr5" : "Lloyd James Austin III,Lloyd J. Austin,Lloyd James Austin",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Country",
+        "up_type" : "",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q941013",
+        "label_id" : "l_101002",
+        "label_name_en" : "PolPeople",
+        "label_name_zh" : "政治人物",
+        "label_value" : "",
+        "attr1" : "Lloyd_Austin",
+        "attr2" : "劳埃德·奥斯汀三世_",
+        "attr3" : "",
+        "attr4" : "Lloyd J. Austin III.,Остин, Ллойд,Lloyd James Austin III,Lloyd J. Austin,Lloyd James Austin,לויד ג'יימס אוסטין,Լլոյդ Ջեյմս Օսթին III",
+        "attr5" : "Lloyd James Austin III,Lloyd J. Austin,Lloyd James Austin",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "People",
+        "up_type" : "人物",
+        "version" : "1.0"
+      }
+    ],
+    "related_news_ids" : [
+      "b2411adf34fc25d71beefa1a3cb58af9"
+    ],
+    "event_time_source" : "news",
+    "event_time" : "2022-11-20 16:32:00",
+    "event_type" : "Contact.Contact.Broadcast",
+    "event_type_level_3" : "Broadcast",
+    "event_type_level_1" : "Contact",
+    "event_type_level_2" : "Contact",
+    "event_desc" : "At a previous defence forum attended by both U.S. and Chinese ministers in June in Singapore, Austin delivered a speech saying China's 'steady increase in provocative and destabilizing military activity near Taiwan' threatens to undermine the region's security and prosperity.",
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-20 19:30:17",
+    "update_timestamp" : 1668942963339,
+    "event_level" : 8,
+    "custom_labels" : [
+      402,
+      439
+    ],
+    "event_desc_zh" : "今年6月，在新加坡举行的由中美两国部长参加的前一次防务论坛上，奥斯汀发表了讲话，称中国“在台湾附近不断增加挑衅性和破坏稳定的军事活动”可能会破坏该地区的安全与繁荣。",
+    "id" : "a19cdff8-cef6-4ef2-96e1-41e1aad8ae16"
+  }
+

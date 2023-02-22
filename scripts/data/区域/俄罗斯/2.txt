@@ -1,0 +1,90 @@
+{
+    "event_id" : "fedb4e65-abc9-46e2-83a1-d1a89cd6e3b7",
+    "related_events_ids" : [
+      "997c5ce7ef434db41c66130620925579:4",
+      "db6dbe1ae86fd72be6c20c135b216e64:28",
+      "997c5ce7ef434db41c66130620925579:11",
+      "997c5ce7ef434db41c66130620925579:22",
+      "db6dbe1ae86fd72be6c20c135b216e64:24",
+      "db6dbe1ae86fd72be6c20c135b216e64:11"
+    ],
+    "related_entities" : [
+      {
+        "entity_type" : "Other",
+        "role" : "Attacker",
+        "nid" : "Q7737"
+      }
+    ],
+    "related_entities_list" : [
+      "Q7737"
+    ],
+    "related_organ" : [ ],
+    "related_country" : [
+      "RS",
+      "IT"
+    ],
+    "related_person" : [ ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "country" : "IT",
+        "lon" : "12.5",
+        "place" : "Italy",
+        "lat" : "42.5"
+      },
+      {
+        "country" : "RS",
+        "lon" : "38",
+        "place" : "Russian",
+        "lat" : "56"
+      }
+    ],
+    "atom_labels" : [
+      {
+        "attrDouble" : "0.0",
+        "label_value" : "Q159",
+        "attr6" : "俄文,俄罗斯语,俄罗斯文,俄国语",
+        "attr5" : "Russian language,ru",
+        "attr2" : "俄语_俄语",
+        "qid" : "Q7737",
+        "attr1" : "Russian",
+        "version" : "1.0",
+        "attr4" : "Rwsieg,لغة روسية,اللغة الروسية,روسية,língua russa,bahaso Rusia,ru,Russian language,lingua russa,ruska rěč,rusce,urıs tele,rusça,urısça,Расейская мова,venäjän kieli,Rus dili,Bahasa Rusia,русча,урысча,рус.,рус теле,урыс теле,idioma rusu,linguagem russa,idioma russo,lingua russe,ruský jazyk,великорусский язык,русский,روسکیی ییزیک,پرگوینده‌ترین زبان اروپا,உருசிய மொழி,rusă,rusa,ruso,russesch Sprooch,russ.,bhs Rusia,basa Rusia,rosyjski,venäkel',la rusa,俄文,russische Sprache,руски,урыҫ теле,Pamialitang Rusu,Pamyalitang Rusu,Rusu,Pamiyalitang Rusu,Τμήμα:Ρώσικα,روسی زبان,رشین,rusca,俄語,俄羅斯語,俄羅斯文,俄羅斯話,俄國話,俄罗斯语,俄罗斯文,俄国语,露西亜語,露語,노서아어,露西亞語,زمانی ڕووسی,روسي",
+        "attr3" : "Russia",
+        "his" : "1.0",
+        "attrFloat" : "0.0",
+        "up_type" : "",
+        "attrInt" : "0",
+        "label_name_zh" : "国家",
+        "up" : "Country",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country"
+      }
+    ],
+    "event_type" : "Conflict.Attack.Unspecified",
+    "event_type_level_3" : "Unspecified",
+    "event_type_level_1" : "Conflict",
+    "event_type_level_2" : "Attack",
+    "event_desc" : "Russian fire also hit Balakliya in northeastern Kharkiv region, which Ukraine recaptured in September 2022, and Nikopol, a city on the opposite bank of the Kakhovka reservoir from the Zaporizhzhia nuclear power station, the statement said.",
+    "related_news_ids" : [
+      "db6dbe1ae86fd72be6c20c135b216e64",
+      "997c5ce7ef434db41c66130620925579"
+    ],
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-18 21:08:14",
+    "update_timestamp" : 1668776894318,
+    "event_level" : 8,
+    "event_time_source" : "news",
+    "event_time" : "2022-11-18 17:16:00",
+    "custom_labels" : [
+      381,
+      382,
+      430
+    ],
+    "event_desc_zh" : "声明称，俄罗斯的大火还袭击了乌克兰于2022年9月夺回的哈尔科夫地区东北部的巴拉克利亚，以及卡霍夫卡水库与扎波里日亚核电站对岸的尼科波尔市。",
+    "id" : "fedb4e65-abc9-46e2-83a1-d1a89cd6e3b7"
+  }

@@ -1,0 +1,48 @@
+{
+    "event_id" : "f08fdf81-d9d7-4690-9b61-f1cad8713f6f",
+    "related_events_ids" : [
+      "810c5b67efd1637720d1ba610a6f791c:2",
+      "99d5e3977221d1017dcdd68d0ff658ce:1"
+    ],
+    "related_entities" : [ ],
+    "related_entities_list" : [ ],
+    "related_organ" : [ ],
+    "related_country" : [
+      "UP"
+    ],
+    "related_person" : [ ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "place" : "Ukraine",
+        "lat" : "49",
+        "lon" : "32",
+        "country" : "UP"
+      }
+    ],
+    "atom_labels" : [ ],
+    "related_news_ids" : [
+      "810c5b67efd1637720d1ba610a6f791c",
+      "99d5e3977221d1017dcdd68d0ff658ce"
+    ],
+    "event_time_source" : "event_date",
+    "event_time" : "2022-11-23",
+    "event_type" : "Movement.Transportation.Unspecified",
+    "event_type_level_3" : "Unspecified",
+    "event_type_level_1" : "Movement",
+    "event_type_level_2" : "Transportation",
+    "event_desc" : "State Minister for Foreign Affairs Md Shahriar Alam will lead the Bangladesh delegation at the dialogue while Deputy Secretary General of the European External Action Service  Mora who is scheduled to arrive here on November 23, will lead the EU side.",
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-21 02:15:14",
+    "update_timestamp" : 1668967625710,
+    "event_level" : 9,
+    "custom_labels" : [
+      367
+    ],
+    "id" : "f08fdf81-d9d7-4690-9b61-f1cad8713f6f",
+    "event_desc_zh" : "外交部国务部长沙赫里亚尔·阿拉姆将率领孟加拉国代表团参加对话，而定于11月23日抵达这里的欧洲对外行动局副秘书长莫拉将领导欧盟方面。"
+  }

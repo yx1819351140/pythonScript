@@ -1,0 +1,185 @@
+{
+    "event_id" : "2da27721-6424-4314-aa32-287082800e77",
+    "related_events_ids" : [
+      "b8371b51057a528024cb03aa059f48fe:7",
+      "e7c0be390d66d3feb01a80df7575c74e:4"
+    ],
+    "related_entities" : [
+      {
+        "nid" : "Q355522",
+        "entity_type" : "People",
+        "role" : "Employee"
+      },
+      {
+        "nid" : "Q812",
+        "entity_type" : "City",
+        "role" : "Place"
+      }
+    ],
+    "related_entities_list" : [
+      "Q355522",
+      "Q812"
+    ],
+    "related_organ" : [ ],
+    "related_country" : [
+      "US"
+    ],
+    "related_person" : [
+      "Mitch McConnell"
+    ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "place" : "Florida",
+        "lat" : "28.133333333333",
+        "lon" : "-81.631666666667",
+        "country" : "US"
+      }
+    ],
+    "atom_labels" : [
+      {
+        "qid" : "Q812",
+        "label_id" : "l_106001",
+        "label_name_en" : "Place",
+        "label_name_zh" : "地点",
+        "label_value" : "",
+        "attr1" : "Florida",
+        "attr2" : "佛罗里达州_佛罗里达州",
+        "attr3" : "",
+        "attr4" : "FL,State of Florida,Fla.,Sonnenschein-Staat,Sunshine State,ଫ୍ଲୋରିଡା,bang Florida,Florida, Hoa Kỳ,Florida, Mỹ,弗羅里達,弗罗里达,플로리다 주,Fflorida,Φλόριδα",
+        "attr5" : "FL,State of Florida,Fla.",
+        "attr6" : "弗羅里達,弗罗里达",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "地点",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q812",
+        "label_id" : "l_106005",
+        "label_name_en" : "AdministrativeRegion",
+        "label_name_zh" : "主行政区（省份，州，区）",
+        "label_value" : "",
+        "attr1" : "Florida",
+        "attr2" : "佛罗里达州_佛罗里达州",
+        "attr3" : "",
+        "attr4" : "FL,State of Florida,Fla.,Sonnenschein-Staat,Sunshine State,ଫ୍ଲୋରିଡା,bang Florida,Florida, Hoa Kỳ,Florida, Mỹ,弗羅里達,弗罗里达,플로리다 주,Fflorida,Φλόριδα",
+        "attr5" : "FL,State of Florida,Fla.",
+        "attr6" : "弗羅里達,弗罗里达",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "地点",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q812",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country",
+        "label_name_zh" : "国家",
+        "label_value" : "Q30",
+        "attr1" : "Florida",
+        "attr2" : "佛罗里达州_佛罗里达州",
+        "attr3" : "United States of America",
+        "attr4" : "FL,State of Florida,Fla.,Sonnenschein-Staat,Sunshine State,ଫ୍ଲୋରିଡା,bang Florida,Florida, Hoa Kỳ,Florida, Mỹ,弗羅里達,弗罗里达,플로리다 주,Fflorida,Φλόριδα",
+        "attr5" : "FL,State of Florida,Fla.",
+        "attr6" : "弗羅里達,弗罗里达",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Country",
+        "up_type" : "",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q355522",
+        "label_id" : "l_101002",
+        "label_name_en" : "PolPeople",
+        "label_name_zh" : "政治人物",
+        "label_value" : "",
+        "attr1" : "Mitch_McConnell",
+        "attr2" : "米奇·麥康諾_米奇·麦康诺",
+        "attr3" : "",
+        "attr4" : "密契·麥康諾,米奇·麦康奈尔,麦康奈尔,МакКоннелл Митч,Митч МакКоннелл,Макконнелл, Митч,Addison Mitchell McConnell Jr.,McConnell,Addison Mitchell McConnell, Jr.,แอดดิสัน มิตเชลล์ 'มิตช์' แมคคอนเนลล์ จูเนียร์,Cocaine Mitch,Moscow Mitch,Μιτς Μακόννελ",
+        "attr5" : "Addison Mitchell McConnell, Jr.,Addison Mitchell McConnell Jr.",
+        "attr6" : "密契·麥康諾,米奇·麦康奈尔,麦康奈尔",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "People",
+        "up_type" : "人物",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q355522",
+        "label_id" : "l_101001",
+        "label_name_en" : "People",
+        "label_name_zh" : "人物",
+        "label_value" : "",
+        "attr1" : "Mitch_McConnell",
+        "attr2" : "米奇·麥康諾_米奇·麦康诺",
+        "attr3" : "",
+        "attr4" : "密契·麥康諾,米奇·麦康奈尔,麦康奈尔,МакКоннелл Митч,Митч МакКоннелл,Макконнелл, Митч,Addison Mitchell McConnell Jr.,McConnell,Addison Mitchell McConnell, Jr.,แอดดิสัน มิตเชลล์ 'มิตช์' แมคคอนเนลล์ จูเนียร์,Cocaine Mitch,Moscow Mitch,Μιτς Μακόννελ",
+        "attr5" : "Addison Mitchell McConnell, Jr.,Addison Mitchell McConnell Jr.",
+        "attr6" : "密契·麥康諾,米奇·麦康奈尔,麦康奈尔",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "People",
+        "up_type" : "人物",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q355522",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country",
+        "label_name_zh" : "国家",
+        "label_value" : "Q30",
+        "attr1" : "Mitch_McConnell",
+        "attr2" : "米奇·麥康諾_米奇·麦康诺",
+        "attr3" : "United States of America",
+        "attr4" : "密契·麥康諾,米奇·麦康奈尔,麦康奈尔,МакКоннелл Митч,Митч МакКоннелл,Макконнелл, Митч,Addison Mitchell McConnell Jr.,McConnell,Addison Mitchell McConnell, Jr.,แอดดิสัน มิตเชลล์ 'มิตช์' แมคคอนเนลล์ จูเนียร์,Cocaine Mitch,Moscow Mitch,Μιτς Μακόννελ",
+        "attr5" : "Addison Mitchell McConnell, Jr.,Addison Mitchell McConnell Jr.",
+        "attr6" : "密契·麥康諾,米奇·麦康奈尔,麦康奈尔",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Country",
+        "up_type" : "",
+        "version" : "1.0"
+      }
+    ],
+    "event_type" : "Personnel.EndPosition.Unspecified",
+    "event_type_level_3" : "Unspecified",
+    "event_type_level_1" : "Personnel",
+    "event_type_level_2" : "EndPosition",
+    "event_desc" : "Senate Republicans were meeting behind closed doors Wednesday as Republican leader Mitch McConnell faced a striking challenge to his leadership, a renegade bid by the GOP party's campaign chief Sen. Rick Scott of Florida to oust him after the midterm elections.",
+    "related_news_ids" : [
+      "e7c0be390d66d3feb01a80df7575c74e",
+      "b8371b51057a528024cb03aa059f48fe"
+    ],
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-18 21:08:15",
+    "update_timestamp" : 1668776895709,
+    "event_level" : 7,
+    "event_time_source" : "news",
+    "event_time" : "2022-11-17 01:02:00",
+    "custom_labels" : [
+      377
+    ],
+    "id" : "2da27721-6424-4314-aa32-287082800e77",
+    "event_desc_zh" : "周三，参议院共和党人闭门会议，共和党领袖米奇·麦康奈尔（Mitch McConnell）面临着对其领导地位的严峻挑战，共和党竞选负责人、佛罗里达州参议员里克·斯科特（Rick Scott）在中期选举后提出了推翻他的要求。"
+  }

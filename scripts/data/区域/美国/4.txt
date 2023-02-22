@@ -1,0 +1,120 @@
+{
+    "event_id" : "bca8eaa9-87ec-42a7-af9f-9dc6a192f922",
+    "related_events_ids" : [
+      "909e35a015516094312996bba3ccc95b:7",
+      "ae1e7aba6086e44cef1fc94dc80bf192:14"
+    ],
+    "related_entities" : [
+      {
+        "nid" : "Q22686",
+        "entity_type" : "People",
+        "role" : "Defendant"
+      }
+    ],
+    "related_entities_list" : [
+      "Q22686"
+    ],
+    "related_organ" : [ ],
+    "related_country" : [
+      "US"
+    ],
+    "related_person" : [
+      "Donald Trump"
+    ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "place" : "Brooklyn",
+        "lat" : "40.692777777778",
+        "lon" : "-73.990277777778",
+        "country" : "US"
+      }
+    ],
+    "atom_labels" : [
+      {
+        "qid" : "Q22686",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country",
+        "label_name_zh" : "国家",
+        "label_value" : "Q30",
+        "attr1" : "Donald_Trump",
+        "attr2" : "唐納德·川普_唐纳德·特朗普",
+        "attr3" : "United States of America",
+        "attr4" : "唐纳德·特朗普,杜林普,當奴·杜林普,唐納德川普,唐納川普,川普,特朗普,當勞·特朗普,Domhnall Trump,Dòmhnall Trump,Donald John Trump,Donald J. Trump,Trump,The Donald,Трамп, Дональд,Трамп,דונלד טראמפ,دونالد ترامپ,唐納德·川普,דאנאלד טראמפ,Donald Trump,Donalds Tramps,โดนัลด์ ทรัมป์,도널드 트럼프,डॉनल्ड ट्रंप,डोनाल्ड ट्रम्प,دونالد ترامب,டோனால்ட் டிரம்ப்,დონალდ ტრამპი,Дональд Трамп,Доналд Тръмп,ドナルド・トランプ,Трамп Дональд,דונאלד טראמפ,דונלד טרמפ,도날드 트럼프,Tramps,Donald J Trump,Präsident Donald Trump,Präsident Trump,Präsident Donald J. Trump,Präsident Donald John Trump,US-Präsident Donald Trump,US-Präsident Trump,US-Präsident Donald J. Trump,US-Präsident Donald John Trump,DJT,D.J.Trump,D. J. Trump,ドナルドトランプ,ザ・ドナルド,ドナルド トランプ,ドナルドジョントランプ,トランプ,トランプ大統領,Donald Tramp,POTUS 45,President Donald Trump,President Trump,President Donald J. Trump,President Donald John Trump,Mr Trump,President Donald J Trump,ดอนัล เจ ทรัม,डॉनल्ड जॉन ट्रंप,डोनाल्ड ट्रंप,डॉनल्ड ट्रम्प,डोनाल्ड जॉन ट्रंप,Donaldas Trampas,ट्रम्प,डॉनल्ड ज॰ ट्रम्प,唐纳德·川普,Donald Trump Sr.,Donald John Trump, Sr.,دون ترامب,ترامب,رئيس أمريكا,ترمب,ترومب,الرئيس ترامب,الرئيس دونالد ترامب,دونالد,الرئيس الأمريكي,أبو إيفانكا,Donald J.(Donald John) Trump,@realDonaldTrump,დონალდ ჯონ ტრამპი,Pangulong Trump,Դոնալդ Ջոն Թրամփ,Դոնալդ Ջոն Թրամփ ավագ,Տանըլտ Թրամփ,ଡୋନାଲ୍‌ଡ ଟ୍ରମ୍ପ,當勞侵,當奴侵,ট্রামপ,Доналд Џон Трамп,Доналд Џ. Трамп,Доналд,ПОТУС 45,председник Доналд Трамп,председник Трамп,председник Доналд Џ. Трамп,председник Доналд Џон Трамп,ДЏТ,ዶናልድ ጆን ትራምፕ,侵,ഡൊണാൾഡ് ട്രമ്പ്,ട്രമ്പ്,ഡോണൾഡ് ട്രമ്പ്,Πρόεδρος Τραμπ,Πρώην Πρόεδρος Τραμπ,Τραμπ",
+        "attr5" : "Donald John Trump,Donald J. Trump,Trump,The Donald,POTUS 45,Donald J Trump,President Donald Trump,President Trump,President Donald J. Trump,President Donald John Trump,DJT,Mr Trump,President Donald J Trump",
+        "attr6" : "唐纳德·特朗普,杜林普,當奴·杜林普,唐納德川普,唐納川普,川普,特朗普,當勞·特朗普",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Country",
+        "up_type" : "",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q22686",
+        "label_id" : "l_101001",
+        "label_name_en" : "People",
+        "label_name_zh" : "人物",
+        "label_value" : "",
+        "attr1" : "Donald_Trump",
+        "attr2" : "唐納德·川普_唐纳德·特朗普",
+        "attr3" : "",
+        "attr4" : "唐纳德·特朗普,杜林普,當奴·杜林普,唐納德川普,唐納川普,川普,特朗普,當勞·特朗普,Domhnall Trump,Dòmhnall Trump,Donald John Trump,Donald J. Trump,Trump,The Donald,Трамп, Дональд,Трамп,דונלד טראמפ,دونالد ترامپ,唐納德·川普,דאנאלד טראמפ,Donald Trump,Donalds Tramps,โดนัลด์ ทรัมป์,도널드 트럼프,डॉनल्ड ट्रंप,डोनाल्ड ट्रम्प,دونالد ترامب,டோனால்ட் டிரம்ப்,დონალდ ტრამპი,Дональд Трамп,Доналд Тръмп,ドナルド・トランプ,Трамп Дональд,דונאלד טראמפ,דונלד טרמפ,도날드 트럼프,Tramps,Donald J Trump,Präsident Donald Trump,Präsident Trump,Präsident Donald J. Trump,Präsident Donald John Trump,US-Präsident Donald Trump,US-Präsident Trump,US-Präsident Donald J. Trump,US-Präsident Donald John Trump,DJT,D.J.Trump,D. J. Trump,ドナルドトランプ,ザ・ドナルド,ドナルド トランプ,ドナルドジョントランプ,トランプ,トランプ大統領,Donald Tramp,POTUS 45,President Donald Trump,President Trump,President Donald J. Trump,President Donald John Trump,Mr Trump,President Donald J Trump,ดอนัล เจ ทรัม,डॉनल्ड जॉन ट्रंप,डोनाल्ड ट्रंप,डॉनल्ड ट्रम्प,डोनाल्ड जॉन ट्रंप,Donaldas Trampas,ट्रम्प,डॉनल्ड ज॰ ट्रम्प,唐纳德·川普,Donald Trump Sr.,Donald John Trump, Sr.,دون ترامب,ترامب,رئيس أمريكا,ترمب,ترومب,الرئيس ترامب,الرئيس دونالد ترامب,دونالد,الرئيس الأمريكي,أبو إيفانكا,Donald J.(Donald John) Trump,@realDonaldTrump,დონალდ ჯონ ტრამპი,Pangulong Trump,Դոնալդ Ջոն Թրամփ,Դոնալդ Ջոն Թրամփ ավագ,Տանըլտ Թրամփ,ଡୋନାଲ୍‌ଡ ଟ୍ରମ୍ପ,當勞侵,當奴侵,ট্রামপ,Доналд Џон Трамп,Доналд Џ. Трамп,Доналд,ПОТУС 45,председник Доналд Трамп,председник Трамп,председник Доналд Џ. Трамп,председник Доналд Џон Трамп,ДЏТ,ዶናልድ ጆን ትራምፕ,侵,ഡൊണാൾഡ് ട്രമ്പ്,ട്രമ്പ്,ഡോണൾഡ് ട്രമ്പ്,Πρόεδρος Τραμπ,Πρώην Πρόεδρος Τραμπ,Τραμπ",
+        "attr5" : "Donald John Trump,Donald J. Trump,Trump,The Donald,POTUS 45,Donald J Trump,President Donald Trump,President Trump,President Donald J. Trump,President Donald John Trump,DJT,Mr Trump,President Donald J Trump",
+        "attr6" : "唐纳德·特朗普,杜林普,當奴·杜林普,唐納德川普,唐納川普,川普,特朗普,當勞·特朗普",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "People",
+        "up_type" : "人物",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q22686",
+        "label_id" : "l_101002",
+        "label_name_en" : "PolPeople",
+        "label_name_zh" : "政治人物",
+        "label_value" : "",
+        "attr1" : "Donald_Trump",
+        "attr2" : "唐納德·川普_唐纳德·特朗普",
+        "attr3" : "",
+        "attr4" : "唐纳德·特朗普,杜林普,當奴·杜林普,唐納德川普,唐納川普,川普,特朗普,當勞·特朗普,Domhnall Trump,Dòmhnall Trump,Donald John Trump,Donald J. Trump,Trump,The Donald,Трамп, Дональд,Трамп,דונלד טראמפ,دونالد ترامپ,唐納德·川普,דאנאלד טראמפ,Donald Trump,Donalds Tramps,โดนัลด์ ทรัมป์,도널드 트럼프,डॉनल्ड ट्रंप,डोनाल्ड ट्रम्प,دونالد ترامب,டோனால்ட் டிரம்ப்,დონალდ ტრამპი,Дональд Трамп,Доналд Тръмп,ドナルド・トランプ,Трамп Дональд,דונאלד טראמפ,דונלד טרמפ,도날드 트럼프,Tramps,Donald J Trump,Präsident Donald Trump,Präsident Trump,Präsident Donald J. Trump,Präsident Donald John Trump,US-Präsident Donald Trump,US-Präsident Trump,US-Präsident Donald J. Trump,US-Präsident Donald John Trump,DJT,D.J.Trump,D. J. Trump,ドナルドトランプ,ザ・ドナルド,ドナルド トランプ,ドナルドジョントランプ,トランプ,トランプ大統領,Donald Tramp,POTUS 45,President Donald Trump,President Trump,President Donald J. Trump,President Donald John Trump,Mr Trump,President Donald J Trump,ดอนัล เจ ทรัม,डॉनल्ड जॉन ट्रंप,डोनाल्ड ट्रंप,डॉनल्ड ट्रम्प,डोनाल्ड जॉन ट्रंप,Donaldas Trampas,ट्रम्प,डॉनल्ड ज॰ ट्रम्प,唐纳德·川普,Donald Trump Sr.,Donald John Trump, Sr.,دون ترامب,ترامب,رئيس أمريكا,ترمب,ترومب,الرئيس ترامب,الرئيس دونالد ترامب,دونالد,الرئيس الأمريكي,أبو إيفانكا,Donald J.(Donald John) Trump,@realDonaldTrump,დონალდ ჯონ ტრამპი,Pangulong Trump,Դոնալդ Ջոն Թրամփ,Դոնալդ Ջոն Թրամփ ավագ,Տանըլտ Թրամփ,ଡୋନାଲ୍‌ଡ ଟ୍ରମ୍ପ,當勞侵,當奴侵,ট্রামপ,Доналд Џон Трамп,Доналд Џ. Трамп,Доналд,ПОТУС 45,председник Доналд Трамп,председник Трамп,председник Доналд Џ. Трамп,председник Доналд Џон Трамп,ДЏТ,ዶናልድ ጆን ትራምፕ,侵,ഡൊണാൾഡ് ട്രമ്പ്,ട്രമ്പ്,ഡോണൾഡ് ട്രമ്പ്,Πρόεδρος Τραμπ,Πρώην Πρόεδρος Τραμπ,Τραμπ",
+        "attr5" : "Donald John Trump,Donald J. Trump,Trump,The Donald,POTUS 45,Donald J Trump,President Donald Trump,President Trump,President Donald J. Trump,President Donald John Trump,DJT,Mr Trump,President Donald J Trump",
+        "attr6" : "唐纳德·特朗普,杜林普,當奴·杜林普,唐納德川普,唐納川普,川普,特朗普,當勞·特朗普",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "People",
+        "up_type" : "人物",
+        "version" : "1.0"
+      }
+    ],
+    "related_news_ids" : [
+      "ae1e7aba6086e44cef1fc94dc80bf192",
+      "909e35a015516094312996bba3ccc95b"
+    ],
+    "event_time_source" : "news",
+    "event_time" : "2022-11-19 15:32:00",
+    "event_type" : "Justice.ChargeIndict.Unspecified",
+    "event_type_level_3" : "Unspecified",
+    "event_type_level_1" : "Justice",
+    "event_type_level_2" : "ChargeIndict",
+    "event_desc" : "Does this mean Trump will be indicted?",
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-19 18:15:13",
+    "update_timestamp" : 1668852489036,
+    "event_level" : 7,
+    "custom_labels" : [
+      377,
+      411
+    ],
+    "event_desc_zh" : "这是否意味着特朗普将被起诉？",
+    "id" : "bca8eaa9-87ec-42a7-af9f-9dc6a192f922"
+  }

@@ -1,0 +1,103 @@
+{
+    "event_id" : "e145b387-6ed5-4cd0-b1a6-4d8a43103ae9",
+    "related_events_ids" : [
+      "7b40b5551c3971217590f260efe81925:21",
+      "437d77093bd4366d6befdcd4a30435cd:13"
+    ],
+    "related_entities" : [
+      {
+        "entity_type" : "City",
+        "role" : "Destination",
+        "nid" : "Q133274"
+      }
+    ],
+    "related_entities_list" : [
+      "Q133274"
+    ],
+    "related_organ" : [ ],
+    "related_country" : [
+      "RS"
+    ],
+    "related_person" : [ ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "country" : "RS",
+        "lon" : "94.25",
+        "place" : "Russia",
+        "lat" : "66.41666666666667"
+      },
+      {
+        "country" : "RS",
+        "lon" : "37.617777777778",
+        "place" : "Moscow Kremlin",
+        "lat" : "55.751666666667"
+      }
+    ],
+    "atom_labels" : [
+      {
+        "attrDouble" : "0.0",
+        "label_value" : "",
+        "attr6" : "克里姆林宮,克林姆林宫,莫斯科克里姆林宫",
+        "attr5" : "Moscow Kremlin",
+        "attr2" : "克里姆林宫_克里姆林宫",
+        "qid" : "Q133274",
+        "attr1" : "Kremlin",
+        "version" : "1.0",
+        "attr4" : "克里姆林宮,克林姆林宫,莫斯科克里姆林宫,Kreml,Kremlin de Moscu,கிரெம்ளின்,Kremlin,Moskva Kreml,كرملن,الكرملين,Kremlin de Moscou,Кремль,Moskovski kremlj,Московский Кремль,Мӧскуаса Кремль,كرملين,크렘린 궁전,크렘린 궁,크레믈린,크레믈,크레믈린 궁전,크레믈리,크렘린,הקרמלין של מוסקבה,Museo del Cremlino,Cremlino,クレムリン宮殿,モスクワのクレムリンと赤の広場,Ðiện Cẩm Linh,Điện Cẩm Linh,Điện Kremlin,Kremlin Moskva,Մոսկվայի Կրեմլ,Kremlinul Moscovei,Moscow Kremlin,Kremlin han Moscow,Kremlin Moscow,کرملین,Московския кремъл,კრემლი,Kreml i Moskva,Kreml-palasset i Moskva,क्रेमलिन,मस्को क्रेमलीन,Moskowski krjeml",
+        "attr3" : "",
+        "his" : "1.0",
+        "attrFloat" : "0.0",
+        "up_type" : "地点",
+        "attrInt" : "0",
+        "label_name_zh" : "地点",
+        "up" : "Place",
+        "label_id" : "l_106001",
+        "label_name_en" : "Place"
+      },
+      {
+        "attrDouble" : "0.0",
+        "label_value" : "Q159",
+        "attr6" : "克里姆林宮,克林姆林宫,莫斯科克里姆林宫",
+        "attr5" : "Moscow Kremlin",
+        "attr2" : "克里姆林宫_克里姆林宫",
+        "qid" : "Q133274",
+        "attr1" : "Kremlin",
+        "version" : "1.0",
+        "attr4" : "克里姆林宮,克林姆林宫,莫斯科克里姆林宫,Kreml,Kremlin de Moscu,கிரெம்ளின்,Kremlin,Moskva Kreml,كرملن,الكرملين,Kremlin de Moscou,Кремль,Moskovski kremlj,Московский Кремль,Мӧскуаса Кремль,كرملين,크렘린 궁전,크렘린 궁,크레믈린,크레믈,크레믈린 궁전,크레믈리,크렘린,הקרמלין של מוסקבה,Museo del Cremlino,Cremlino,クレムリン宮殿,モスクワのクレムリンと赤の広場,Ðiện Cẩm Linh,Điện Cẩm Linh,Điện Kremlin,Kremlin Moskva,Մոսկվայի Կրեմլ,Kremlinul Moscovei,Moscow Kremlin,Kremlin han Moscow,Kremlin Moscow,کرملین,Московския кремъл,კრემლი,Kreml i Moskva,Kreml-palasset i Moskva,क्रेमलिन,मस्को क्रेमलीन,Moskowski krjeml",
+        "attr3" : "Russia",
+        "his" : "1.0",
+        "attrFloat" : "0.0",
+        "up_type" : "",
+        "attrInt" : "0",
+        "label_name_zh" : "国家",
+        "up" : "Country",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country"
+      }
+    ],
+    "event_type" : "Movement.Transportation.Unspecified",
+    "event_type_level_3" : "Unspecified",
+    "event_type_level_1" : "Movement",
+    "event_type_level_2" : "Transportation",
+    "event_desc" : "Russia could benefit from the influx of newly mobilized troops and could transfer some of the forces it withdrew from Kherson to the Donbas region.",
+    "related_news_ids" : [
+      "7b40b5551c3971217590f260efe81925",
+      "437d77093bd4366d6befdcd4a30435cd"
+    ],
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-18 21:08:12",
+    "update_timestamp" : 1668776892481,
+    "event_level" : 9,
+    "event_time_source" : "news",
+    "event_time" : "2022-11-18 14:17:00",
+    "custom_labels" : [
+      381
+    ],
+    "event_desc_zh" : "俄罗斯可以从新动员的军队的涌入中受益，并可以将其从赫尔松撤出的部分部队转移到顿巴斯地区。",
+    "id" : "e145b387-6ed5-4cd0-b1a6-4d8a43103ae9"
+  }

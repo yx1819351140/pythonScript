@@ -1,0 +1,97 @@
+{
+    "event_id" : "f8f5bc50-c27e-4e7a-a687-f468cd53d94d",
+    "related_events_ids" : [
+      "794d063f10497e842aafe2933227ebe5:13"
+    ],
+    "related_entities" : [
+      {
+        "nid" : "Q23541285",
+        "entity_type" : "People",
+        "role" : "Target"
+      }
+    ],
+    "related_entities_list" : [
+      "Q23541285"
+    ],
+    "related_organ" : [ ],
+    "related_country" : [
+      "US"
+    ],
+    "related_person" : [
+      "Young Dolph"
+    ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "place" : "Atlanta",
+        "lat" : "33.756944444444",
+        "lon" : "-84.390277777778",
+        "country" : "US"
+      }
+    ],
+    "atom_labels" : [
+      {
+        "qid" : "Q23541285",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country",
+        "label_name_zh" : "国家",
+        "label_value" : "Q30",
+        "attr1" : "Young_Dolph",
+        "attr2" : "年轻的海豚_",
+        "attr3" : "United States of America",
+        "attr4" : "Adolf Thornton, Jr.,Adolf Thornton",
+        "attr5" : "Adolf Thornton, Jr.,Adolf Thornton",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Country",
+        "up_type" : "",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q23541285",
+        "label_id" : "l_101001",
+        "label_name_en" : "People",
+        "label_name_zh" : "人物",
+        "label_value" : "",
+        "attr1" : "Young_Dolph",
+        "attr2" : "年轻的海豚_",
+        "attr3" : "",
+        "attr4" : "Adolf Thornton, Jr.,Adolf Thornton",
+        "attr5" : "Adolf Thornton, Jr.,Adolf Thornton",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "People",
+        "up_type" : "人物",
+        "version" : "1.0"
+      }
+    ],
+    "related_news_ids" : [
+      "794d063f10497e842aafe2933227ebe5"
+    ],
+    "event_time_source" : "news",
+    "event_time" : "2022-11-19 15:03:00",
+    "event_type" : "Conflict.Attack.Unspecified",
+    "event_type_level_3" : "Unspecified",
+    "event_type_level_1" : "Conflict",
+    "event_type_level_2" : "Attack",
+    "event_desc" : "(Photo by  File) A fourth person wanted in the slaying of rapper Young Dolph turned himself in on Friday, Memphis police said.",
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-19 22:00:13",
+    "update_timestamp" : 1668866406028,
+    "event_level" : 7,
+    "custom_labels" : [
+      377
+    ],
+    "event_desc_zh" : "孟菲斯警方表示，周五，说唱歌手Young Dolph遇害案中第四名被通缉者自首。",
+    "id" : "f8f5bc50-c27e-4e7a-a687-f468cd53d94d"
+  }

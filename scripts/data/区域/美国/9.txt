@@ -1,0 +1,165 @@
+{
+    "event_id" : "f8b93afb-5a91-4620-a8f2-4964ccb92f40",
+    "related_events_ids" : [
+      "f5f25d07173a32645740f55a9139f08a:0",
+      "c15533a03562f9ca6dd19e7fd31206f0:8"
+    ],
+    "related_entities" : [
+      {
+        "nid" : "Q35525",
+        "entity_type" : "City",
+        "role" : "Participant"
+      },
+      {
+        "nid" : "Q252",
+        "entity_type" : "Country_Instance",
+        "role" : "Place"
+      }
+    ],
+    "related_entities_list" : [
+      "Q35525",
+      "Q252"
+    ],
+    "related_organ" : [ ],
+    "related_country" : [
+      "ID",
+      "US"
+    ],
+    "related_person" : [ ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "place" : "White House",
+        "lat" : "38.897669444444",
+        "lon" : "-77.03655",
+        "country" : "US"
+      }
+    ],
+    "atom_labels" : [
+      {
+        "qid" : "Q252",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country",
+        "label_name_zh" : "国家",
+        "label_value" : "Q252",
+        "attr1" : "Indonesia",
+        "attr2" : "印度尼西亚_印度尼西亚",
+        "attr3" : "Indonesia",
+        "attr4" : "Република Индонезия,Indonesia,Ìn-nî Kiōng-hô-kok,Indonesia Kiōng-hô-kok,Ìn-tō͘-nî-se-a,Индонезия,印尼,República da Indonésia,Republik Indonesia,ಎನ್‍ಕೆಆರ್‌ಐ,ರಿಪಬ್ಲಿಕ್ ಇಂಡೋನೇಶಿಯಾ,Republic of Indonesia,id,🇮🇩,ID,INA,IDN,印度尼西亚共和国,República d'Indonesia,Negara Kesatuan Republik Indonesia,NKRI,RI,Indonesian tasavalta,인니,Республіка Індонезія,Республика Индонезия,РИ,இந்துனீசியா,República de Indonesia,Republica de Indonesia,Indonesian republic,Indonéz Köztársaság,印度尼西亚共和國,റിറിപ്പബ്ലിക്‌ ഓഫ്‌ ഇന്തോനേഷ്യ,Indonesie,iRephabhliki yase-Indonesia,Република Индонезија,Republiken Indonesien,Respubliko Indonezio,Éng-dô-nà̤-să̤-ā,Yin-thu-nì-sî-â,インドネシア共和国,la République d’Indonésie,Indonesia dásseváldi,República d'Indonèsia,Indoneesia Vabariik,Den indonesiske republikk,Republikken Indonesia,Indonesia täsiväldi,Indonesia tääʹssväʹldd,Républik Indonésia,Republika Indonezji",
+        "attr5" : "Republic of Indonesia,id,🇮🇩,ID,INA,IDN",
+        "attr6" : "印尼,印度尼西亚共和国",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Country",
+        "up_type" : "",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q252",
+        "label_id" : "l_106003",
+        "label_name_en" : "Country_Instance",
+        "label_name_zh" : "国家实体",
+        "label_value" : "",
+        "attr1" : "Indonesia",
+        "attr2" : "印度尼西亚_印度尼西亚",
+        "attr3" : "",
+        "attr4" : "Република Индонезия,Indonesia,Ìn-nî Kiōng-hô-kok,Indonesia Kiōng-hô-kok,Ìn-tō͘-nî-se-a,Индонезия,印尼,República da Indonésia,Republik Indonesia,ಎನ್‍ಕೆಆರ್‌ಐ,ರಿಪಬ್ಲಿಕ್ ಇಂಡೋನೇಶಿಯಾ,Republic of Indonesia,id,🇮🇩,ID,INA,IDN,印度尼西亚共和国,República d'Indonesia,Negara Kesatuan Republik Indonesia,NKRI,RI,Indonesian tasavalta,인니,Республіка Індонезія,Республика Индонезия,РИ,இந்துனீசியா,República de Indonesia,Republica de Indonesia,Indonesian republic,Indonéz Köztársaság,印度尼西亚共和國,റിറിപ്പബ്ലിക്‌ ഓഫ്‌ ഇന്തോനേഷ്യ,Indonesie,iRephabhliki yase-Indonesia,Република Индонезија,Republiken Indonesien,Respubliko Indonezio,Éng-dô-nà̤-să̤-ā,Yin-thu-nì-sî-â,インドネシア共和国,la République d’Indonésie,Indonesia dásseváldi,República d'Indonèsia,Indoneesia Vabariik,Den indonesiske republikk,Republikken Indonesia,Indonesia täsiväldi,Indonesia tääʹssväʹldd,Républik Indonésia,Republika Indonezji",
+        "attr5" : "Republic of Indonesia,id,🇮🇩,ID,INA,IDN",
+        "attr6" : "印尼,印度尼西亚共和国",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "国家",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q252",
+        "label_id" : "l_106001",
+        "label_name_en" : "Place",
+        "label_name_zh" : "地点",
+        "label_value" : "",
+        "attr1" : "Indonesia",
+        "attr2" : "印度尼西亚_印度尼西亚",
+        "attr3" : "",
+        "attr4" : "Република Индонезия,Indonesia,Ìn-nî Kiōng-hô-kok,Indonesia Kiōng-hô-kok,Ìn-tō͘-nî-se-a,Индонезия,印尼,República da Indonésia,Republik Indonesia,ಎನ್‍ಕೆಆರ್‌ಐ,ರಿಪಬ್ಲಿಕ್ ಇಂಡೋನೇಶಿಯಾ,Republic of Indonesia,id,🇮🇩,ID,INA,IDN,印度尼西亚共和国,República d'Indonesia,Negara Kesatuan Republik Indonesia,NKRI,RI,Indonesian tasavalta,인니,Республіка Індонезія,Республика Индонезия,РИ,இந்துனீசியா,República de Indonesia,Republica de Indonesia,Indonesian republic,Indonéz Köztársaság,印度尼西亚共和國,റിറിപ്പബ്ലിക്‌ ഓഫ്‌ ഇന്തോനേഷ്യ,Indonesie,iRephabhliki yase-Indonesia,Република Индонезија,Republiken Indonesien,Respubliko Indonezio,Éng-dô-nà̤-să̤-ā,Yin-thu-nì-sî-â,インドネシア共和国,la République d’Indonésie,Indonesia dásseváldi,República d'Indonèsia,Indoneesia Vabariik,Den indonesiske republikk,Republikken Indonesia,Indonesia täsiväldi,Indonesia tääʹssväʹldd,Républik Indonésia,Republika Indonezji",
+        "attr5" : "Republic of Indonesia,id,🇮🇩,ID,INA,IDN",
+        "attr6" : "印尼,印度尼西亚共和国",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "地点",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q35525",
+        "label_id" : "l_107001",
+        "label_name_en" : "Building",
+        "label_name_zh" : "楼房建筑",
+        "label_value" : "",
+        "attr1" : "White_House",
+        "attr2" : "白宮_白宫",
+        "attr3" : "",
+        "attr4" : "白屋,美國白宮,The White House,White House,La Casa Blanca,Wit Huis,Ostau Blanc,Perezidansi y'Amerika,ኋይት ሃውስ,البيت الابيض,بيت ابيض,بيت أبيض,The Witte House,Witte Huis (Washington),ווייסען הויז,די ווייסע הויז,ווייט האוז,ווייסן הויז,Maisoun bllaunche,Blianche Maison,Бијела кућа,Det kvite huset i Washington D.C.,Det kvite hus,Det kvite hus i Washington,Hvide hus,Maison Blanche,State Floor,בית הלבן,화이트하우스,البيت الأبيض,1600 Pennsylvania Avenue,Weisses Haus,アメリカ合衆国大統領府,アメリカ大統領府,ホワイトハウス・コンプレックス,വൈറ്റ്‌ഹൌസ്,വൈറ്റ്‌ഹൌസ്‌,Tòa Bạch ốc,Toà Bạch Ốc,Bạch Ốc,Tòa Bạch Ốc,Bela kuća,Casa Bianca,ವೈಟ್ ಹೌಸ್,ไวต์เฮาส์,ไวท์เฮาส์,Vaugedpert',Aedes Albae,Y Ty Gwyn,Ty Gwyn,Tŷ Gwyn,व्हाईट हाउस,Белия дом,వైట్ హౌజ్,వైట్ హౌస్,Executive Mansion,President's Palace,Presidential Mansion,President's House,the White House,美国白宫,白宮,White house,Kvite hus,Det kvite huset,Hvite Hus,قصر سفید,Oq uy",
+        "attr5" : "Executive Mansion,President's Palace,Presidential Mansion,President's House,the White House",
+        "attr6" : "白屋,美國白宮",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Building",
+        "up_type" : "地点",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q35525",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country",
+        "label_name_zh" : "国家",
+        "label_value" : "Q30",
+        "attr1" : "White_House",
+        "attr2" : "白宮_白宫",
+        "attr3" : "United States of America",
+        "attr4" : "白屋,美國白宮,The White House,White House,La Casa Blanca,Wit Huis,Ostau Blanc,Perezidansi y'Amerika,ኋይት ሃውስ,البيت الابيض,بيت ابيض,بيت أبيض,The Witte House,Witte Huis (Washington),ווייסען הויז,די ווייסע הויז,ווייט האוז,ווייסן הויז,Maisoun bllaunche,Blianche Maison,Бијела кућа,Det kvite huset i Washington D.C.,Det kvite hus,Det kvite hus i Washington,Hvide hus,Maison Blanche,State Floor,בית הלבן,화이트하우스,البيت الأبيض,1600 Pennsylvania Avenue,Weisses Haus,アメリカ合衆国大統領府,アメリカ大統領府,ホワイトハウス・コンプレックス,വൈറ്റ്‌ഹൌസ്,വൈറ്റ്‌ഹൌസ്‌,Tòa Bạch ốc,Toà Bạch Ốc,Bạch Ốc,Tòa Bạch Ốc,Bela kuća,Casa Bianca,ವೈಟ್ ಹೌಸ್,ไวต์เฮาส์,ไวท์เฮาส์,Vaugedpert',Aedes Albae,Y Ty Gwyn,Ty Gwyn,Tŷ Gwyn,व्हाईट हाउस,Белия дом,వైట్ హౌజ్,వైట్ హౌస్,Executive Mansion,President's Palace,Presidential Mansion,President's House,the White House,美国白宫,白宮,White house,Kvite hus,Det kvite huset,Hvite Hus,قصر سفید,Oq uy",
+        "attr5" : "Executive Mansion,President's Palace,Presidential Mansion,President's House,the White House",
+        "attr6" : "白屋,美國白宮",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Country",
+        "up_type" : "",
+        "version" : "1.0"
+      }
+    ],
+    "event_type" : "Contact.Contact.Meet",
+    "event_type_level_3" : "Meet",
+    "event_type_level_1" : "Contact",
+    "event_type_level_2" : "Contact",
+    "event_desc" : "Hours after the explosion, the White House held an emergency roundtable meeting with G-7 and NATO world leaders in Bali, Indonesia regarding the explosion in Poland.",
+    "related_news_ids" : [
+      "c15533a03562f9ca6dd19e7fd31206f0",
+      "f5f25d07173a32645740f55a9139f08a"
+    ],
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-18 21:08:12",
+    "update_timestamp" : 1668776892235,
+    "event_level" : 9,
+    "event_time_source" : "news",
+    "event_time" : "2022-11-17 07:01:00",
+    "custom_labels" : [
+      379,
+      377
+    ],
+    "id" : "f8b93afb-5a91-4620-a8f2-4964ccb92f40",
+    "event_desc_zh" : "爆炸发生数小时后，白宫在印度尼西亚巴厘岛与七国集团和北约世界领导人就波兰爆炸事件举行了紧急圆桌会议。"
+  }

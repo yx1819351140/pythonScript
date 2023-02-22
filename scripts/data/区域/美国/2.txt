@@ -1,0 +1,123 @@
+{
+    "event_id" : "886be0f5-a4b2-4f57-9d79-eda5fbe9f62e",
+    "related_events_ids" : [
+      "8fd213914faad969fa3f2e14832925e4:4",
+      "d280a62f77be7fe0aea3e2fa409368a3:8"
+    ],
+    "related_entities" : [
+      {
+        "nid" : "Q5596342",
+        "entity_type" : "City",
+        "role" : "Destination"
+      }
+    ],
+    "related_entities_list" : [
+      "Q5596342"
+    ],
+    "related_organ" : [ ],
+    "related_country" : [
+      "US"
+    ],
+    "related_person" : [ ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "place" : "Ohio",
+        "lat" : "40.5",
+        "lon" : "-82.5",
+        "country" : "US"
+      },
+      {
+        "place" : "Grant Medical Center",
+        "lat" : "39.96046111111111",
+        "lon" : "-82.99136388888888",
+        "country" : "US"
+      }
+    ],
+    "atom_labels" : [
+      {
+        "qid" : "Q5596342",
+        "label_id" : "l_107007",
+        "label_name_en" : "Hospital",
+        "label_name_zh" : "医院",
+        "label_value" : "",
+        "attr1" : "Grant_Medical_Center",
+        "attr2" : "_",
+        "attr3" : "",
+        "attr4" : "Grant Hospital",
+        "attr5" : "Grant Hospital",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Building",
+        "up_type" : "地点",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q5596342",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country",
+        "label_name_zh" : "国家",
+        "label_value" : "Q30",
+        "attr1" : "Grant_Medical_Center",
+        "attr2" : "_",
+        "attr3" : "United States of America",
+        "attr4" : "Grant Hospital",
+        "attr5" : "Grant Hospital",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Country",
+        "up_type" : "",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q5596342",
+        "label_id" : "l_107001",
+        "label_name_en" : "Building",
+        "label_name_zh" : "楼房建筑",
+        "label_value" : "",
+        "attr1" : "Grant_Medical_Center",
+        "attr2" : "_",
+        "attr3" : "",
+        "attr4" : "Grant Hospital",
+        "attr5" : "Grant Hospital",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Building",
+        "up_type" : "地点",
+        "version" : "1.0"
+      }
+    ],
+    "related_news_ids" : [
+      "d280a62f77be7fe0aea3e2fa409368a3",
+      "8fd213914faad969fa3f2e14832925e4"
+    ],
+    "event_time_source" : "news",
+    "event_time" : "2022-11-19 19:17:00",
+    "event_type" : "Movement.Transportation.Evacuation",
+    "event_type_level_3" : "Evacuation",
+    "event_type_level_1" : "Movement",
+    "event_type_level_2" : "Transportation",
+    "event_desc" : "A Sergeant with the Ross County Sheriff's Office was airlifted to a Columbus hospital early Thursday evening after being shot.",
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-19 22:00:13",
+    "update_timestamp" : 1668866403761,
+    "event_level" : 7,
+    "custom_labels" : [
+      377
+    ],
+    "id" : "886be0f5-a4b2-4f57-9d79-eda5fbe9f62e",
+    "event_desc_zh" : "周四傍晚，罗斯县警长办公室的一名警官被枪杀后，被空运至哥伦布医院。"
+  }

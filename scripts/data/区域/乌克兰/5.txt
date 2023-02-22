@@ -1,0 +1,206 @@
+{
+    "event_id" : "e8f6f620-52a2-46da-90a0-58bb08e18aa8",
+    "related_events_ids" : [
+      "36eee12ac7baa5446887bcaa0a6cffd5:2"
+    ],
+    "related_entities" : [
+      {
+        "nid" : "Q1899",
+        "entity_type" : "City",
+        "role" : "Place"
+      },
+      {
+        "nid" : "Q242711",
+        "entity_type" : "City",
+        "role" : "Target"
+      }
+    ],
+    "related_entities_list" : [
+      "Q1899",
+      "Q242711"
+    ],
+    "related_organ" : [ ],
+    "related_country" : [
+      "UP"
+    ],
+    "related_person" : [ ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "place" : "Kyiv",
+        "lat" : "50.45",
+        "lon" : "30.523611111111",
+        "country" : "UP"
+      },
+      {
+        "place" : "Kyiv Pechersk Lavra",
+        "lat" : "50.432222222222",
+        "lon" : "30.562222222222",
+        "country" : "UP"
+      }
+    ],
+    "atom_labels" : [
+      {
+        "qid" : "Q242711",
+        "label_id" : "l_107010",
+        "label_name_en" : "HistoricBuilding",
+        "label_name_zh" : "历史建筑",
+        "label_value" : "",
+        "attr1" : "Kyiv_Pechersk_Lavra",
+        "attr2" : "基輔洞窟修道院_",
+        "attr3" : "",
+        "attr4" : "Ławra Peczerska,מנזר המערות בקייב,מנזר המערות של קייב,לאוורת פצ'רסק,לאוורת קייב פצ'רסק,Monastère des grottes de kiev,Laure de Kiev,Monastère des Catacombes,Monastère Petchersky,Кіева-Пячорскі манастыр,Кіева-Пячорская лаўра,Кіева-Пячэрскі манастыр,Pecherska Lavra,Kyevo Pecers'ka Lavra,Pechersk Lavra,Pečerska Lavra,Pecerska Lavra,Kyevo Pecerska Lavra,Monastero di Pečerska,Kyjevo-Pečers'ka lavra,キエフ洞窟大修道院,キエフ・ペチェルスキイ修道院,キエヴォ・ペチェールシカ・ラヴラ,キエフ・ペチェールシカヤ・ラブラ,キエフ・ペチェールシク修道院,キエフ・ペチェールスク大修道院,キエフ洞窟修道院,Kiev-Petsjerska Lavra,Kiev-Pechersk Lavra,Grottklostret i Kiev,Kievo-Pecherskaya lavra,Mosteiro das Cavernas de Kiev,Kyjevskopečerská lavra,Свято-Успенская Киево-Печерская Лавра,Киево-Печёрская лавра,Киево-Печерский монастырь,Киево-Печёрский монастырь,Киево-Печерская крепость,Печерская обитель,Киевопечерская лавра,Կիևա-Պեչորյան վանք,Կիևա-Պեչորյան լավրա,Кијевско-Печерска лавра,Monestir de les Coves de Kíev,Monestir de les coves de Kýiv,Conjunt monàstic de la Lavra de les coves de Kýiv,Conjunt monàstic de Kýiv-Petxersk,Conjunt monàstic de Kíevo-Petxerska Lavra,Kýievo-Petxerska Lavra,Conjunt monàstic de Kýievo-Petxerska Lavra,Petxerska Lavra,Petšerskin lavra,Petševskin lavra,Національниий Києво-Печерський історико-культурний заповідник,Печерський монастир,Києво-Печерського монастиря,Свято-Успенська Печерська Лавра,Києво-Печерська Успенська лавра,Печерська лавра,Києво-Печерський монастир,Свято-Успенська Києво-Печерська Лавра,Київська Печерська Лавра,Kijevsko špiljska lavra,Kijevsko-pečerska lavra,Lavra Pečerskaja,Kijevo-Pečioros lavra,Kiev Pechersk Lavra,Petsjerskaja Lavra",
+        "attr5" : "",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Building",
+        "up_type" : "地点",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q242711",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country",
+        "label_name_zh" : "国家",
+        "label_value" : "Q212",
+        "attr1" : "Kyiv_Pechersk_Lavra",
+        "attr2" : "基輔洞窟修道院_",
+        "attr3" : "Ukraine",
+        "attr4" : "Ławra Peczerska,מנזר המערות בקייב,מנזר המערות של קייב,לאוורת פצ'רסק,לאוורת קייב פצ'רסק,Monastère des grottes de kiev,Laure de Kiev,Monastère des Catacombes,Monastère Petchersky,Кіева-Пячорскі манастыр,Кіева-Пячорская лаўра,Кіева-Пячэрскі манастыр,Pecherska Lavra,Kyevo Pecers'ka Lavra,Pechersk Lavra,Pečerska Lavra,Pecerska Lavra,Kyevo Pecerska Lavra,Monastero di Pečerska,Kyjevo-Pečers'ka lavra,キエフ洞窟大修道院,キエフ・ペチェルスキイ修道院,キエヴォ・ペチェールシカ・ラヴラ,キエフ・ペチェールシカヤ・ラブラ,キエフ・ペチェールシク修道院,キエフ・ペチェールスク大修道院,キエフ洞窟修道院,Kiev-Petsjerska Lavra,Kiev-Pechersk Lavra,Grottklostret i Kiev,Kievo-Pecherskaya lavra,Mosteiro das Cavernas de Kiev,Kyjevskopečerská lavra,Свято-Успенская Киево-Печерская Лавра,Киево-Печёрская лавра,Киево-Печерский монастырь,Киево-Печёрский монастырь,Киево-Печерская крепость,Печерская обитель,Киевопечерская лавра,Կիևա-Պեչորյան վանք,Կիևա-Պեչորյան լավրա,Кијевско-Печерска лавра,Monestir de les Coves de Kíev,Monestir de les coves de Kýiv,Conjunt monàstic de la Lavra de les coves de Kýiv,Conjunt monàstic de Kýiv-Petxersk,Conjunt monàstic de Kíevo-Petxerska Lavra,Kýievo-Petxerska Lavra,Conjunt monàstic de Kýievo-Petxerska Lavra,Petxerska Lavra,Petšerskin lavra,Petševskin lavra,Національниий Києво-Печерський історико-культурний заповідник,Печерський монастир,Києво-Печерського монастиря,Свято-Успенська Печерська Лавра,Києво-Печерська Успенська лавра,Печерська лавра,Києво-Печерський монастир,Свято-Успенська Києво-Печерська Лавра,Київська Печерська Лавра,Kijevsko špiljska lavra,Kijevsko-pečerska lavra,Lavra Pečerskaja,Kijevo-Pečioros lavra,Kiev Pechersk Lavra,Petsjerskaja Lavra",
+        "attr5" : "",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Country",
+        "up_type" : "",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q242711",
+        "label_id" : "l_107001",
+        "label_name_en" : "Building",
+        "label_name_zh" : "楼房建筑",
+        "label_value" : "",
+        "attr1" : "Kyiv_Pechersk_Lavra",
+        "attr2" : "基輔洞窟修道院_",
+        "attr3" : "",
+        "attr4" : "Ławra Peczerska,מנזר המערות בקייב,מנזר המערות של קייב,לאוורת פצ'רסק,לאוורת קייב פצ'רסק,Monastère des grottes de kiev,Laure de Kiev,Monastère des Catacombes,Monastère Petchersky,Кіева-Пячорскі манастыр,Кіева-Пячорская лаўра,Кіева-Пячэрскі манастыр,Pecherska Lavra,Kyevo Pecers'ka Lavra,Pechersk Lavra,Pečerska Lavra,Pecerska Lavra,Kyevo Pecerska Lavra,Monastero di Pečerska,Kyjevo-Pečers'ka lavra,キエフ洞窟大修道院,キエフ・ペチェルスキイ修道院,キエヴォ・ペチェールシカ・ラヴラ,キエフ・ペチェールシカヤ・ラブラ,キエフ・ペチェールシク修道院,キエフ・ペチェールスク大修道院,キエフ洞窟修道院,Kiev-Petsjerska Lavra,Kiev-Pechersk Lavra,Grottklostret i Kiev,Kievo-Pecherskaya lavra,Mosteiro das Cavernas de Kiev,Kyjevskopečerská lavra,Свято-Успенская Киево-Печерская Лавра,Киево-Печёрская лавра,Киево-Печерский монастырь,Киево-Печёрский монастырь,Киево-Печерская крепость,Печерская обитель,Киевопечерская лавра,Կիևա-Պեչորյան վանք,Կիևա-Պեչորյան լավրա,Кијевско-Печерска лавра,Monestir de les Coves de Kíev,Monestir de les coves de Kýiv,Conjunt monàstic de la Lavra de les coves de Kýiv,Conjunt monàstic de Kýiv-Petxersk,Conjunt monàstic de Kíevo-Petxerska Lavra,Kýievo-Petxerska Lavra,Conjunt monàstic de Kýievo-Petxerska Lavra,Petxerska Lavra,Petšerskin lavra,Petševskin lavra,Національниий Києво-Печерський історико-культурний заповідник,Печерський монастир,Києво-Печерського монастиря,Свято-Успенська Печерська Лавра,Києво-Печерська Успенська лавра,Печерська лавра,Києво-Печерський монастир,Свято-Успенська Києво-Печерська Лавра,Київська Печерська Лавра,Kijevsko špiljska lavra,Kijevsko-pečerska lavra,Lavra Pečerskaja,Kijevo-Pečioros lavra,Kiev Pechersk Lavra,Petsjerskaja Lavra",
+        "attr5" : "",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Building",
+        "up_type" : "地点",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q1899",
+        "label_id" : "l_106011",
+        "label_name_en" : "Capital",
+        "label_name_zh" : "首都",
+        "label_value" : "",
+        "attr1" : "Kyiv",
+        "attr2" : "基輔_基辅",
+        "attr3" : "",
+        "attr4" : "Київ,Kiev,Kyiv,Kyyiw,Kyjiw,Кѝев,Ки́ев,Czijew,Kyyiv,Kyjiv,Киев,Ки́їв,Kiyev,Kijiva,Киев қаласы,కియవ్,Kiýew,කිව,Kyiw,Kyïv,Kijew",
+        "attr5" : "Kiev,Kyjiv,Kyyiv,Kyjiw,Kyiw,Kyïv",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "地点",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q1899",
+        "label_id" : "l_106004",
+        "label_name_en" : "City",
+        "label_name_zh" : "城市",
+        "label_value" : "",
+        "attr1" : "Kyiv",
+        "attr2" : "基輔_基辅",
+        "attr3" : "",
+        "attr4" : "Київ,Kiev,Kyiv,Kyyiw,Kyjiw,Кѝев,Ки́ев,Czijew,Kyyiv,Kyjiv,Киев,Ки́їв,Kiyev,Kijiva,Киев қаласы,కియవ్,Kiýew,කිව,Kyiw,Kyïv,Kijew",
+        "attr5" : "Kiev,Kyjiv,Kyyiv,Kyjiw,Kyiw,Kyïv",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "地点",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q1899",
+        "label_id" : "l_106001",
+        "label_name_en" : "Place",
+        "label_name_zh" : "地点",
+        "label_value" : "",
+        "attr1" : "Kyiv",
+        "attr2" : "基輔_基辅",
+        "attr3" : "",
+        "attr4" : "Київ,Kiev,Kyiv,Kyyiw,Kyjiw,Кѝев,Ки́ев,Czijew,Kyyiv,Kyjiv,Киев,Ки́їв,Kiyev,Kijiva,Киев қаласы,కియవ్,Kiýew,කිව,Kyiw,Kyïv,Kijew",
+        "attr5" : "Kiev,Kyjiv,Kyyiv,Kyjiw,Kyiw,Kyïv",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "地点",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q1899",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country",
+        "label_name_zh" : "国家",
+        "label_value" : "Q212",
+        "attr1" : "Kyiv",
+        "attr2" : "基輔_基辅",
+        "attr3" : "Ukraine",
+        "attr4" : "Київ,Kiev,Kyiv,Kyyiw,Kyjiw,Кѝев,Ки́ев,Czijew,Kyyiv,Kyjiv,Киев,Ки́їв,Kiyev,Kijiva,Киев қаласы,కియవ్,Kiýew,කිව,Kyiw,Kyïv,Kijew",
+        "attr5" : "Kiev,Kyjiv,Kyyiv,Kyjiw,Kyiw,Kyïv",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Country",
+        "up_type" : "",
+        "version" : "1.0"
+      }
+    ],
+    "related_news_ids" : [
+      "36eee12ac7baa5446887bcaa0a6cffd5"
+    ],
+    "event_time_source" : "news",
+    "event_time" : "2022-11-22 19:03:00",
+    "event_type" : "Conflict.Attack.Unspecified",
+    "event_type_level_3" : "Unspecified",
+    "event_type_level_1" : "Conflict",
+    "event_type_level_2" : "Attack",
+    "event_desc" : "Ukraine's SBU security service and police have raided a 1,000-year-old Orthodox Christian monastery in Kyiv as part of operations to counter suspected 'subversive activities by Russian special services'.",
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-22 21:00:13",
+    "update_timestamp" : 1669121466227,
+    "event_level" : 7,
+    "custom_labels" : [
+      367
+    ],
+    "event_desc_zh" : "乌克兰SBU安全部门和警方突击搜查了基辅一座有1000年历史的东正教修道院，作为打击“俄罗斯特种部队颠覆活动”嫌疑行动的一部分。"
+  }

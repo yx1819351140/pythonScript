@@ -1,0 +1,121 @@
+{
+    "event_id" : "cbcdbd67-0a83-4a03-994a-497225240afd",
+    "related_events_ids" : [
+      "e6099add8e8abe60620451e7455932a3:14"
+    ],
+    "related_entities" : [
+      {
+        "nid" : "Q791673",
+        "entity_type" : "City",
+        "role" : "Target"
+      }
+    ],
+    "related_entities_list" : [
+      "Q791673"
+    ],
+    "related_organ" : [ ],
+    "related_country" : [
+      "RS",
+      "UP"
+    ],
+    "related_person" : [ ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "place" : "Russia",
+        "lat" : "66.41666666666667",
+        "lon" : "94.25",
+        "country" : "RS"
+      },
+      {
+        "place" : "Avdiivka",
+        "lat" : "48.13333333333333",
+        "lon" : "37.75",
+        "country" : "UP"
+      }
+    ],
+    "atom_labels" : [
+      {
+        "qid" : "Q791673",
+        "label_id" : "l_106004",
+        "label_name_en" : "City",
+        "label_name_zh" : "城市",
+        "label_value" : "",
+        "attr1" : "Avdiivka",
+        "attr2" : "阿夫迪夫卡_",
+        "attr3" : "",
+        "attr4" : "Avdejevka,Аўдзееўка,اودیئیفکا,Avdějevka",
+        "attr5" : "",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "地点",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q791673",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country",
+        "label_name_zh" : "国家",
+        "label_value" : "Q212",
+        "attr1" : "Avdiivka",
+        "attr2" : "阿夫迪夫卡_",
+        "attr3" : "Ukraine",
+        "attr4" : "Avdejevka,Аўдзееўка,اودیئیفکا,Avdějevka",
+        "attr5" : "",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Country",
+        "up_type" : "",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q791673",
+        "label_id" : "l_106001",
+        "label_name_en" : "Place",
+        "label_name_zh" : "地点",
+        "label_value" : "",
+        "attr1" : "Avdiivka",
+        "attr2" : "阿夫迪夫卡_",
+        "attr3" : "",
+        "attr4" : "Avdejevka,Аўдзееўка,اودیئیفکا,Avdějevka",
+        "attr5" : "",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "地点",
+        "version" : "1.0"
+      }
+    ],
+    "related_news_ids" : [
+      "e6099add8e8abe60620451e7455932a3"
+    ],
+    "event_time_source" : "news",
+    "event_time" : "2022-11-22 20:16:00",
+    "event_type" : "Conflict.Attack.Unspecified",
+    "event_type_level_3" : "Unspecified",
+    "event_type_level_1" : "Conflict",
+    "event_type_level_2" : "Attack",
+    "event_desc" : "In the partially occupied Donetsk region, the city of Avdiivka was most affected by the shelling, Donetsk regional governor Pavlo Kyrylenko said on Telegram.",
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-22 23:00:16",
+    "update_timestamp" : 1669128965250,
+    "event_level" : 9,
+    "custom_labels" : [
+      367
+    ],
+    "event_desc_zh" : "顿涅茨克地区州长帕夫洛·基里连科在Telegram上表示，在部分被占领的顿涅茨克地区，阿夫迪伊夫卡市受炮击影响最大。"
+  }

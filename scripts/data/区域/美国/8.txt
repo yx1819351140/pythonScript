@@ -1,0 +1,161 @@
+{
+    "event_id" : "4aa64b94-28f7-4894-b37f-f62189c61082",
+    "related_events_ids" : [
+      "cd77a9dabf6e22f500eca6d3e6afde7d:4"
+    ],
+    "related_entities" : [
+      {
+        "nid" : "Q34754",
+        "entity_type" : "Country_Instance",
+        "role" : "Recipient"
+      },
+      {
+        "nid" : "Q3708568",
+        "entity_type" : "City",
+        "role" : "Communicator"
+      }
+    ],
+    "related_entities_list" : [
+      "Q34754",
+      "Q3708568"
+    ],
+    "related_organ" : [ ],
+    "related_country" : [
+      "US"
+    ],
+    "related_person" : [ ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "place" : "Montague",
+        "lat" : "43.732777777778",
+        "lon" : "-75.713055555556",
+        "country" : "US"
+      }
+    ],
+    "atom_labels" : [
+      {
+        "qid" : "Q3708568",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country",
+        "label_name_zh" : "国家",
+        "label_value" : "Q30",
+        "attr1" : "Montague",
+        "attr2" : "_",
+        "attr3" : "United States of America",
+        "attr4" : "Монтагуе,Montague, New York",
+        "attr5" : "Montague, New York",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Country",
+        "up_type" : "",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q3708568",
+        "label_id" : "l_106009",
+        "label_name_en" : "Town",
+        "label_name_zh" : "城镇",
+        "label_value" : "",
+        "attr1" : "Montague",
+        "attr2" : "_",
+        "attr3" : "",
+        "attr4" : "Монтагуе,Montague, New York",
+        "attr5" : "Montague, New York",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "地点",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q3708568",
+        "label_id" : "l_106001",
+        "label_name_en" : "Place",
+        "label_name_zh" : "地点",
+        "label_value" : "",
+        "attr1" : "Montague",
+        "attr2" : "_",
+        "attr3" : "",
+        "attr4" : "Монтагуе,Montague, New York",
+        "attr5" : "Montague, New York",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "地点",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q34754",
+        "label_id" : "l_106003",
+        "label_name_en" : "Country_Instance",
+        "label_name_zh" : "国家实体",
+        "label_value" : "",
+        "attr1" : "Somaliland",
+        "attr2" : "索马里兰_",
+        "attr3" : "",
+        "attr4" : "索馬利蘭,索马里兰共和国,索馬里蘭,索馬利蘭共和國,索馬里蘭共和國,Somaliland,República de Somalilandia,Republica de Somalilandia,Somalieland,Somalimaa,Somalia saoz,ሱማሊ ላንድ,ሶማሊ ላንድ,جمهور ية أرض الصومال,جمهورية صوماليلاند,جمهورية أرض الصومال,جمهورية ارض الصومال,أرض الصومال,ارض الصومال,Republiken Somaliland,Salal,Lista över Somalilands presidenter,Respubliko de Somalilando,Somalio,Республика Сомалиленд,Somaliland Cumhuriyeti,pohjois-Somalia,Somalilend,Republic of Somaliland,Soomaaliland,Soomaliland,Soomalilaand,gobolka Somaliland,Jamhuuriyadda Soomaaliland,صوماليلاند,Рэспубліка Самаліленд,소말리란드,소말릴랜드,소말리랜드,소말리랜드 공화국,république du Somaliland,Somālilendas Republika,Nordsomalia,Republik Somaliland,ソマリランド共和国,സൊമാലിലാന്റ്,सोमालीलैंड,ประเทศโซมาลิแลนด์,สาธารณรัฐโซมาลีแลนด์,โซมาลิแลนด์,República de Somalilàndia,Somálijsko,Република Сомалиленд,سومالیلند,سومالی لند,Somalilendas,Yn Çheer Homaalagh,සොමායිලන්ඩ්",
+        "attr5" : "Republic of Somaliland",
+        "attr6" : "索馬利蘭,索马里兰共和国,索馬里蘭,索馬利蘭共和國,索馬里蘭共和國",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "国家",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q34754",
+        "label_id" : "l_106001",
+        "label_name_en" : "Place",
+        "label_name_zh" : "地点",
+        "label_value" : "",
+        "attr1" : "Somaliland",
+        "attr2" : "索马里兰_",
+        "attr3" : "",
+        "attr4" : "索馬利蘭,索马里兰共和国,索馬里蘭,索馬利蘭共和國,索馬里蘭共和國,Somaliland,República de Somalilandia,Republica de Somalilandia,Somalieland,Somalimaa,Somalia saoz,ሱማሊ ላንድ,ሶማሊ ላንድ,جمهور ية أرض الصومال,جمهورية صوماليلاند,جمهورية أرض الصومال,جمهورية ارض الصومال,أرض الصومال,ارض الصومال,Republiken Somaliland,Salal,Lista över Somalilands presidenter,Respubliko de Somalilando,Somalio,Республика Сомалиленд,Somaliland Cumhuriyeti,pohjois-Somalia,Somalilend,Republic of Somaliland,Soomaaliland,Soomaliland,Soomalilaand,gobolka Somaliland,Jamhuuriyadda Soomaaliland,صوماليلاند,Рэспубліка Самаліленд,소말리란드,소말릴랜드,소말리랜드,소말리랜드 공화국,république du Somaliland,Somālilendas Republika,Nordsomalia,Republik Somaliland,ソマリランド共和国,സൊമാലിലാന്റ്,सोमालीलैंड,ประเทศโซมาลิแลนด์,สาธารณรัฐโซมาลีแลนด์,โซมาลิแลนด์,República de Somalilàndia,Somálijsko,Република Сомалиленд,سومالیلند,سومالی لند,Somalilendas,Yn Çheer Homaalagh,සොමායිලන්ඩ්",
+        "attr5" : "Republic of Somaliland",
+        "attr6" : "索馬利蘭,索马里兰共和国,索馬里蘭,索馬利蘭共和國,索馬里蘭共和國",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "地点",
+        "version" : "1.0"
+      }
+    ],
+    "event_type" : "Contact.RequestCommand.Unspecified",
+    "event_type_level_3" : "Unspecified",
+    "event_type_level_1" : "Contact",
+    "event_type_level_2" : "RequestCommand",
+    "event_desc" : "Von Batten-Montague-York is calling on Somaliland supporters in Congress to intervene and pressure the Somaliland government not to open fire on its citizens.",
+    "related_news_ids" : [
+      "cd77a9dabf6e22f500eca6d3e6afde7d"
+    ],
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-18 21:08:14",
+    "update_timestamp" : 1668776894054,
+    "event_level" : 8,
+    "event_time_source" : "news",
+    "event_time" : "2022-11-17 07:17:00",
+    "custom_labels" : [
+      377
+    ],
+    "id" : "4aa64b94-28f7-4894-b37f-f62189c61082",
+    "event_desc_zh" : "Von Batten Montague York呼吁国会中的索马里兰支持者进行干预，并向索马里兰政府施压，不要向其公民开火。"
+  }

@@ -1,0 +1,95 @@
+{
+    "event_id" : "99128465-72ac-4b85-b98d-23f0253de7db",
+    "related_events_ids" : [
+      "14057c72503a014249e0ba9c45234d2b:30"
+    ],
+    "related_entities" : [
+      {
+        "nid" : "Q133274",
+        "entity_type" : "City",
+        "role" : "Place"
+      }
+    ],
+    "related_entities_list" : [
+      "Q133274"
+    ],
+    "related_organ" : [ ],
+    "related_country" : [
+      "RS"
+    ],
+    "related_person" : [ ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "place" : "Moscow Kremlin",
+        "lat" : "55.751666666667",
+        "lon" : "37.617777777778",
+        "country" : "RS"
+      }
+    ],
+    "atom_labels" : [
+      {
+        "qid" : "Q133274",
+        "label_id" : "l_106001",
+        "label_name_en" : "Place",
+        "label_name_zh" : "地点",
+        "label_value" : "",
+        "attr1" : "Kremlin",
+        "attr2" : "克里姆林宫_克里姆林宫",
+        "attr3" : "",
+        "attr4" : "克里姆林宮,克林姆林宫,莫斯科克里姆林宫,Kreml,Kremlin de Moscu,கிரெம்ளின்,Kremlin,Moskva Kreml,كرملن,الكرملين,Kremlin de Moscou,Кремль,Moskovski kremlj,Московский Кремль,Мӧскуаса Кремль,كرملين,크렘린 궁전,크렘린 궁,크레믈린,크레믈,크레믈린 궁전,크레믈리,크렘린,הקרמלין של מוסקבה,Museo del Cremlino,Cremlino,クレムリン宮殿,モスクワのクレムリンと赤の広場,Ðiện Cẩm Linh,Điện Cẩm Linh,Điện Kremlin,Kremlin Moskva,Մոսկվայի Կրեմլ,Kremlinul Moscovei,Moscow Kremlin,Kremlin han Moscow,Kremlin Moscow,کرملین,Московския кремъл,კრემლი,Kreml i Moskva,Kreml-palasset i Moskva,क्रेमलिन,मस्को क्रेमलीन,Moskowski krjeml",
+        "attr5" : "Moscow Kremlin",
+        "attr6" : "克里姆林宮,克林姆林宫,莫斯科克里姆林宫",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "地点",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q133274",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country",
+        "label_name_zh" : "国家",
+        "label_value" : "Q159",
+        "attr1" : "Kremlin",
+        "attr2" : "克里姆林宫_克里姆林宫",
+        "attr3" : "Russia",
+        "attr4" : "克里姆林宮,克林姆林宫,莫斯科克里姆林宫,Kreml,Kremlin de Moscu,கிரெம்ளின்,Kremlin,Moskva Kreml,كرملن,الكرملين,Kremlin de Moscou,Кремль,Moskovski kremlj,Московский Кремль,Мӧскуаса Кремль,كرملين,크렘린 궁전,크렘린 궁,크레믈린,크레믈,크레믈린 궁전,크레믈리,크렘린,הקרמלין של מוסקבה,Museo del Cremlino,Cremlino,クレムリン宮殿,モスクワのクレムリンと赤の広場,Ðiện Cẩm Linh,Điện Cẩm Linh,Điện Kremlin,Kremlin Moskva,Մոսկվայի Կրեմլ,Kremlinul Moscovei,Moscow Kremlin,Kremlin han Moscow,Kremlin Moscow,کرملین,Московския кремъл,კრემლი,Kreml i Moskva,Kreml-palasset i Moskva,क्रेमलिन,मस्को क्रेमलीन,Moskowski krjeml",
+        "attr5" : "Moscow Kremlin",
+        "attr6" : "克里姆林宮,克林姆林宫,莫斯科克里姆林宫",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Country",
+        "up_type" : "",
+        "version" : "1.0"
+      }
+    ],
+    "event_type" : "Conflict.Attack.Unspecified",
+    "event_type_level_3" : "Unspecified",
+    "event_type_level_1" : "Conflict",
+    "event_type_level_2" : "Attack",
+    "event_desc" : "President Biden said early Wednesday after an emergency meeting of allies in Indonesia that preliminary evidence showed the missile had not been fired from Russia.",
+    "related_news_ids" : [
+      "14057c72503a014249e0ba9c45234d2b"
+    ],
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-18 21:08:12",
+    "update_timestamp" : 1668776892327,
+    "event_level" : 9,
+    "event_time_source" : "news",
+    "event_time" : "2022-11-17 08:46:00",
+    "custom_labels" : [
+      381
+    ],
+    "event_desc_zh" : "周三早些时候，拜登总统在印度尼西亚举行盟友紧急会议后表示，初步证据表明，导弹并非从俄罗斯发射的。",
+    "id" : "99128465-72ac-4b85-b98d-23f0253de7db"
+  }

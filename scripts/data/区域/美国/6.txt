@@ -1,0 +1,117 @@
+{
+    "event_id" : "a8a44537-bd0f-44f1-a6e3-ee831278e192",
+    "related_events_ids" : [
+      "566f49e4e9ceeb0ab30ed30c1ddbed0c:25"
+    ],
+    "related_entities" : [
+      {
+        "nid" : "Q1553390",
+        "entity_type" : "Org",
+        "role" : "Investigator"
+      }
+    ],
+    "related_entities_list" : [
+      "Q1553390"
+    ],
+    "related_organ" : [
+      "United States Department of Justice"
+    ],
+    "related_country" : [
+      "US"
+    ],
+    "related_person" : [ ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "place" : "Harvard Law School",
+        "lat" : "42.377972222222",
+        "lon" : "-71.1185",
+        "country" : "US"
+      }
+    ],
+    "atom_labels" : [
+      {
+        "qid" : "Q1553390",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country",
+        "label_name_zh" : "国家",
+        "label_value" : "Q30",
+        "attr1" : "United_States_Department_of_Justice",
+        "attr2" : "美國司法部_美国司法部",
+        "attr3" : "United States of America",
+        "attr4" : "DOJ,Justice Department,Department of Justice,U.S. DOJ,U.S. Department of Justice,USDOJ,United States Justice Department,Departamento de Justicia de Estados Unidos,US-Justizministerium,司法部,Département de la justice des États-unis",
+        "attr5" : "DOJ,Justice Department,Department of Justice,U.S. DOJ,U.S. Department of Justice,USDOJ,United States Justice Department",
+        "attr6" : "司法部",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Country",
+        "up_type" : "",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q1553390",
+        "label_id" : "l_102001",
+        "label_name_en" : "Org",
+        "label_name_zh" : "机构",
+        "label_value" : "",
+        "attr1" : "United_States_Department_of_Justice",
+        "attr2" : "美國司法部_美国司法部",
+        "attr3" : "",
+        "attr4" : "DOJ,Justice Department,Department of Justice,U.S. DOJ,U.S. Department of Justice,USDOJ,United States Justice Department,Departamento de Justicia de Estados Unidos,US-Justizministerium,司法部,Département de la justice des États-unis",
+        "attr5" : "DOJ,Justice Department,Department of Justice,U.S. DOJ,U.S. Department of Justice,USDOJ,United States Justice Department",
+        "attr6" : "司法部",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Org",
+        "up_type" : "机构",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q1553390",
+        "label_id" : "l_102003",
+        "label_name_en" : "GovernmentOrg",
+        "label_name_zh" : "政府机构",
+        "label_value" : "",
+        "attr1" : "United_States_Department_of_Justice",
+        "attr2" : "美國司法部_美国司法部",
+        "attr3" : "",
+        "attr4" : "DOJ,Justice Department,Department of Justice,U.S. DOJ,U.S. Department of Justice,USDOJ,United States Justice Department,Departamento de Justicia de Estados Unidos,US-Justizministerium,司法部,Département de la justice des États-unis",
+        "attr5" : "DOJ,Justice Department,Department of Justice,U.S. DOJ,U.S. Department of Justice,USDOJ,United States Justice Department",
+        "attr6" : "司法部",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Org",
+        "up_type" : "机构",
+        "version" : "1.0"
+      }
+    ],
+    "related_news_ids" : [
+      "566f49e4e9ceeb0ab30ed30c1ddbed0c"
+    ],
+    "event_time_source" : "news",
+    "event_time" : "2022-11-19 14:02:00",
+    "event_type" : "Justice.InvestigateCrime.Unspecified",
+    "event_type_level_3" : "Unspecified",
+    "event_type_level_1" : "Justice",
+    "event_type_level_2" : "InvestigateCrime",
+    "event_desc" : "Attorney General Merrick Garland named a special counsel on Friday to oversee the Justice Department's investigation into the presence of classified documents at former President Donald Trump's Florida estate as well as key aspects of a separate probe involving the Jan. 6, 2021, insurrection and efforts to undo the 2020 election.",
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-19 18:15:13",
+    "update_timestamp" : 1668852489033,
+    "event_level" : 8,
+    "custom_labels" : [
+      377
+    ],
+    "id" : "a8a44537-bd0f-44f1-a6e3-ee831278e192",
+    "event_desc_zh" : "司法部长梅里克·加兰德（Merrick Garland）周五任命了一名特别顾问，负责监督司法部对前总统唐纳德·特朗普（Donald Trump）佛罗里达州庄园内存在机密文件的调查，以及涉及2021 1月6日暴动和撤销2020年大选的单独调查的关键方面。"
+  }

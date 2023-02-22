@@ -1,0 +1,117 @@
+{
+    "event_id" : "7d1a7a45-3773-4292-9366-9bbff7f0aa64",
+    "related_events_ids" : [
+      "ffe345bcd2e3e82128592312054cbc1d:5",
+      "00c1852c6a4cde8241cbcc2c77786df3:4"
+    ],
+    "related_entities" : [
+      {
+        "nid" : "Q212",
+        "entity_type" : "Country_Instance",
+        "role" : "Place"
+      }
+    ],
+    "related_entities_list" : [
+      "Q212"
+    ],
+    "related_organ" : [ ],
+    "related_country" : [
+      "RS",
+      "UP"
+    ],
+    "related_person" : [ ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "place" : "Russia",
+        "lat" : "66.41666666666667",
+        "lon" : "94.25",
+        "country" : "RS"
+      }
+    ],
+    "atom_labels" : [
+      {
+        "qid" : "Q212",
+        "label_id" : "l_106001",
+        "label_name_en" : "Place",
+        "label_name_zh" : "地点",
+        "label_value" : "",
+        "attr1" : "Ukraine",
+        "attr2" : "乌克兰_乌克兰",
+        "attr3" : "",
+        "attr4" : "Wcráin,উক্রাইনা,UA,UKR,ua,Ukrainia,🇺🇦,Украина,Укроина,Вкраїна,Ukraina,Oekraine,Oekraiene,Malá Rus,Malorusko,The Ukraine,Україна,Ukraine,Ukranya,Ukrayina,Ú-khek-lân,Ucrania,Ukr.",
+        "attr5" : "UA,UKR,ua,Ukrainia,🇺🇦",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "地点",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q212",
+        "label_id" : "l_106003",
+        "label_name_en" : "Country_Instance",
+        "label_name_zh" : "国家实体",
+        "label_value" : "",
+        "attr1" : "Ukraine",
+        "attr2" : "乌克兰_乌克兰",
+        "attr3" : "",
+        "attr4" : "Wcráin,উক্রাইনা,UA,UKR,ua,Ukrainia,🇺🇦,Украина,Укроина,Вкраїна,Ukraina,Oekraine,Oekraiene,Malá Rus,Malorusko,The Ukraine,Україна,Ukraine,Ukranya,Ukrayina,Ú-khek-lân,Ucrania,Ukr.",
+        "attr5" : "UA,UKR,ua,Ukrainia,🇺🇦",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Place",
+        "up_type" : "国家",
+        "version" : "1.0"
+      },
+      {
+        "qid" : "Q212",
+        "label_id" : "l_114001",
+        "label_name_en" : "Country",
+        "label_name_zh" : "国家",
+        "label_value" : "Q212",
+        "attr1" : "Ukraine",
+        "attr2" : "乌克兰_乌克兰",
+        "attr3" : "Ukraine",
+        "attr4" : "Wcráin,উক্রাইনা,UA,UKR,ua,Ukrainia,🇺🇦,Украина,Укроина,Вкраїна,Ukraina,Oekraine,Oekraiene,Malá Rus,Malorusko,The Ukraine,Україна,Ukraine,Ukranya,Ukrayina,Ú-khek-lân,Ucrania,Ukr.",
+        "attr5" : "UA,UKR,ua,Ukrainia,🇺🇦",
+        "attr6" : "",
+        "attrInt" : "0",
+        "attrFloat" : "0.0",
+        "attrDouble" : "0.0",
+        "his" : "1.0",
+        "up" : "Country",
+        "up_type" : "",
+        "version" : "1.0"
+      }
+    ],
+    "related_news_ids" : [
+      "00c1852c6a4cde8241cbcc2c77786df3",
+      "ffe345bcd2e3e82128592312054cbc1d"
+    ],
+    "event_time_source" : "news",
+    "event_time" : "2022-11-23 08:32:00",
+    "event_type" : "Conflict.Attack.Unspecified",
+    "event_type_level_3" : "Unspecified",
+    "event_type_level_1" : "Conflict",
+    "event_type_level_2" : "Attack",
+    "event_desc" : "The World Health Organization warned on Monday that millions of Ukrainian lives were at risk as the country's power grid struggles under a barrage of Russian attacks.",
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-23 12:15:13",
+    "update_timestamp" : 1669176064650,
+    "event_level" : 8,
+    "custom_labels" : [
+      367
+    ],
+    "event_desc_zh" : "世界卫生组织周一警告称，由于乌克兰电网在俄罗斯的猛烈袭击下挣扎，数百万乌克兰人的生命面临危险。"
+  }

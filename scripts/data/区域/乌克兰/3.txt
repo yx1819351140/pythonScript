@@ -1,0 +1,45 @@
+{
+    "event_id" : "2a618eb2-4288-4887-affd-54e309877c0b",
+    "related_events_ids" : [
+      "3c543b588a304561b7d7eb3572a749ca:4"
+    ],
+    "related_entities" : [ ],
+    "related_entities_list" : [ ],
+    "related_organ" : [ ],
+    "related_country" : [
+      "UP"
+    ],
+    "related_person" : [ ],
+    "related_weapon" : [ ],
+    "related_air_target" : [ ],
+    "related_sea_target" : [ ],
+    "related_base" : [ ],
+    "related_place" : [
+      {
+        "place" : "Borodianka",
+        "lat" : "50.643888888889",
+        "lon" : "29.933888888889",
+        "country" : "UP"
+      }
+    ],
+    "atom_labels" : [ ],
+    "related_news_ids" : [
+      "3c543b588a304561b7d7eb3572a749ca"
+    ],
+    "event_time_source" : "news",
+    "event_time" : "2022-11-22 21:33:00",
+    "event_type" : "Conflict.Attack.Unspecified",
+    "event_type_level_3" : "Unspecified",
+    "event_type_level_1" : "Conflict",
+    "event_type_level_2" : "Attack",
+    "event_desc" : "And the Russo-Ukrainian War is no different, with artists responding powerfully to Russian aggression through an explosion of artwork drawing attention to, and reinforcing, the resilience of Ukrainian people and culture.",
+    "linked_ids" : [ ],
+    "is_hot" : 1,
+    "update_time" : "2022-11-23 01:15:13",
+    "update_timestamp" : 1669136828899,
+    "event_level" : 7,
+    "custom_labels" : [
+      367
+    ],
+    "event_desc_zh" : "而俄乌战争也不例外，艺术家们通过艺术品的爆炸对俄罗斯的侵略做出了有力的回应，吸引了人们对乌克兰人民和文化韧性的关注和加强。"
+  }
