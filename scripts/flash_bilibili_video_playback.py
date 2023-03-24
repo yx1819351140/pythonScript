@@ -8,6 +8,9 @@ import time
 import requests
 from lxml import etree
 from selenium import webdriver
+"""
+b站刷播放量
+"""
 
 
 def get_ip_list(url, headers):
@@ -85,7 +88,7 @@ def Auto_Like_Your_Video(proxy):
         driver = webdriver.Chrome(options=chromeOptions)
 
         # 打开视频播放页
-        driver.get("https://www.bilibili.com/video/BV1eG4y1P7js")
+        driver.get("https://www.bilibili.com/video/BV1FM411s7cS")
         # time.sleep(5)
         # driver.minimize_window()
         time.sleep(30)
@@ -120,8 +123,9 @@ def Auto_Like_Your_Video(proxy):
 if __name__ == '__main__':
     # proxy_list = get_proxy_from_66()
     # proxy_list = get_proxy_from_89()
-
     # for proxy in proxy_list:
+
+
     for i in range(100):
         proxy = requests.get('http://proxy.siyetian.com/apis_get.html?token=gHbi1iT61UMOpXWx0EVrNTTB1STqFUeNpXQ51ERNFTTq1UNORUT49ERVNTT6NWe.wN3IjMwQTN3YTM&limit=1&type=0&time=10&split=1&split_text=&area=0&repeat=0&isp=0').text
         print(proxy)
