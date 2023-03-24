@@ -6,7 +6,7 @@
 # @Software : win10 python3.6
 
 # the Tomohiko Sakamoto Algorithm
-
+# https://www.imangodoc.com/81307.html
 
 # function to implement tomohiko
 # sakamoto algorithm
