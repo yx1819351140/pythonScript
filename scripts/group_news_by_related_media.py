@@ -2066,13 +2066,52 @@ data_list = [
           }
         ]
 
-is_write = 0
-f = open('data/all_media_count.csv', 'w', encoding='utf-8')
-f.write('mediaNameZh,count\n')
-db = pymysql.connect(host='192.168.12.222', user='root', password='123456', database='data_service', charset='utf8')
-cursor = db.cursor()
-cursor.execute("select `domain`,`mediaNameZh` from t_media_info")
-result = cursor.fetchall()
+data_list1 = [
+        {
+          "key" : "Other",
+          "doc_count" : 29349606
+        },
+        {
+          "key" : "People",
+          "doc_count" : 8224921
+        },
+        {
+          "key" : "City",
+          "doc_count" : 813094
+        },
+        {
+          "key" : "Org",
+          "doc_count" : 385434
+        },
+        {
+          "key" : "SeaTarget",
+          "doc_count" : 50241
+        },
+        {
+          "key" : "Base",
+          "doc_count" : 26790
+        },
+        {
+          "key" : "AirTarget",
+          "doc_count" : 13949
+        },
+        {
+          "key" : "Weapon",
+          "doc_count" : 9868
+        },
+        {
+          "key" : "Country_Instance",
+          "doc_count" : 3877
+        }
+      ]
+
+# is_write = 0
+# f = open('data/all_media_count.csv', 'w', encoding='utf-8')
+# f.write('mediaNameZh,count\n')
+# db = pymysql.connect(host='192.168.12.222', user='root', password='123456', database='data_service', charset='utf8')
+# cursor = db.cursor()
+# cursor.execute("select `domain`,`mediaNameZh` from t_media_info")
+# result = cursor.fetchall()
 # for domain_name in result:
 #     print(domain_name)
 #     domain = domain_name[0]
@@ -2083,7 +2122,14 @@ result = cursor.fetchall()
 #             is_write = 1
 #             break
 
-for data in data_list:
+# for data in data_list:
+#     name = data['key']
+#     count = data['doc_count']
+#     f.write(name + ',' + str(data['doc_count']) + '\n')
+
+f = open('data/entity_type_count.csv', 'w', encoding='utf-8')
+f.write('entityType,count\n')
+for data in data_list1:
     name = data['key']
     count = data['doc_count']
     f.write(name + ',' + str(data['doc_count']) + '\n')

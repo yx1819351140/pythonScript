@@ -10,12 +10,18 @@ import random
 import time
 import uuid
 import requests
+import docx2pdf
 from PIL import Image, UnidentifiedImageError
 from settings import PROXY, MINIO_BUCKET, MINIO_URL, USER_AGENT_LIST
 
 
 def generate_uuid():
     return str(uuid.uuid1()).replace('-', '')
+
+
+# word转pdf
+def word_to_pdf(word_path, pdf_path):
+    docx2pdf.convert(word_path, pdf_path)
 
 
 # MD5加密
