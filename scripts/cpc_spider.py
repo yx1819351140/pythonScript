@@ -39,6 +39,10 @@ class CpcSpider(object):
             self.num = 0
             url = url_list[i].replace('index.html', f'index{page}.html')
             category = category_list[i]
+            if category == '讲话':
+                category = '原文'
+            if category == '其他':
+                category = '求是'
             print(category)
             self.parse(url, category, page)
             self.readme += f'    {category}  {self.num}条数据\n'
