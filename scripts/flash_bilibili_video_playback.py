@@ -88,7 +88,7 @@ def Auto_Like_Your_Video(proxy):
         driver = webdriver.Chrome(options=chromeOptions)
 
         # 打开视频播放页
-        driver.get("https://www.bilibili.com/video/BV11c411V7MX")
+        driver.get("https://www.bilibili.com/video/BV1so4y1b768")
         # time.sleep(5)
         # driver.minimize_window()
         time.sleep(30)

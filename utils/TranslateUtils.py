@@ -35,4 +35,4 @@ class BaiduTranslate(object):
 
 if __name__ == '__main__':
     baidu = BaiduTranslate()
-    print(baidu.translate_2_en('智利'))
+    print(baidu.translate_2_zh('Sherrod Brown'))
