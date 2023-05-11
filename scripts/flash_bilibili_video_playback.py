@@ -79,7 +79,7 @@ def Change_The_Time_Type(Video_Time):
     return Total_Second
 
 
-def Auto_Like_Your_Video(proxy):
+def Auto_Like_Your_Video(proxy, video_id):
     try:
         # 使用代理ip
         chromeOptions = webdriver.ChromeOptions()
@@ -88,7 +88,7 @@ def Auto_Like_Your_Video(proxy):
         driver = webdriver.Chrome(options=chromeOptions)
 
         # 打开视频播放页
-        driver.get("https://www.bilibili.com/video/BV1so4y1b768")
+        driver.get(f"https://www.bilibili.com/video/{video_id}")
         # time.sleep(5)
         # driver.minimize_window()
         time.sleep(30)
@@ -125,7 +125,7 @@ if __name__ == '__main__':
     # proxy_list = get_proxy_from_89()
     # for proxy in proxy_list:
 
-
+    video_id = 'BV14P411176F'
     for i in range(100):
         proxy = requests.get('http://proxy.siyetian.com/apis_get.html?token=gHbi1iT61UMOpXWx0EVrNTTB1STqFUeNpXQ51ERNFTTq1UNORUT49ERVNTT6NWe.wN3IjMwQTN3YTM&limit=1&type=0&time=10&split=1&split_text=&area=0&repeat=0&isp=0').text
         print(proxy)
@@ -133,7 +133,7 @@ if __name__ == '__main__':
             res = requests.get('https://www.bilibili.com/', proxies={'https': proxy, 'http': proxy}, timeout=3)
             print(res.status_code)
             if res.status_code == 200:
-                Auto_Like_Your_Video(proxy)
+                Auto_Like_Your_Video(proxy, video_id)
         except:
             continue
 
