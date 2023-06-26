@@ -1,0 +1,945 @@
+<html lang="en"><head><script type="text/javascript" src="/cf_scripts/scripts/cfform.js"></script>
+<script type="text/javascript" src="/cf_scripts/scripts/masks.js"></script>
+
+
+<title>AFIT / STAT Center of Excellence / Best Practices</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="Type=text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="../css/fonts.css" rel="stylesheet" type="text/css">
+    <link href="../css/main.css" rel="stylesheet" type="text/css">
+    <link href="../icons/font/css/open-iconic-bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/all.min.css" rel="stylesheet" type="text/css">
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/carousel.css" rel="stylesheet" type="text/css">
+    <link href="../css/jpstrap.css" rel="stylesheet" type="text/css">
+    <link href="../css/jpslideMenu.css" rel="stylesheet" type="text/css">
+
+    <link href="../css/lightbox.min.css" rel="stylesheet">
+
+    <script src="https://scripts.afit.edu/js/jquery.latest.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+
+    <script src="../js/jquery.isotope.min.js"></script>
+    <script src="../js/lightbox.min.js"></script>
+
+
+
+
+<script>
+$(document).ready(function(){
+	$('#podContents img').each(function() {
+		$(this).addClass("img-fluid p-1");
+		});
+});
+</script>
+<script>
+$(document).ready(function(){
+	$('#ssPageContent img').each(function() {
+		$(this).addClass("img-fluid p-1");
+		});
+});
+</script>
+<script>
+$(function(){
+    $('#exampleModal').modal({
+        show: false
+    }).on('hidden.bs.modal', function(){
+        $(this).find('video')[0].pause();
+    });
+});
+</script>
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+<script>
+$(document).ready(function(){
+
+    $(".alert a").addClass("alert-link");
+
+});
+</script>
+
+</head><body xpath-plugin-version="0.0.1"><a name="top" id="topX"></a>
+
+<script type="text/javascript">
+<!--
+    _CF_checkCFForm_1 = function(_CF_this)
+    {
+        //reset on submit
+        _CF_error_exists = false;
+        _CF_error_messages = new Array();
+        _CF_error_fields = new Object();
+        _CF_FirstErrorField = null;
+
+
+        //display error messages and return success
+        if( _CF_error_exists )
+        {
+            if( _CF_error_messages.length > 0 )
+            {
+                // show alert() message
+                _CF_onErrorAlert(_CF_error_messages);
+                // set focus to first form error, if the field supports js focus().
+                if( _CF_this[_CF_FirstErrorField].type == "text" )
+                { _CF_this[_CF_FirstErrorField].focus(); }
+
+            }
+            return false;
+        }else {
+            return true;
+        }
+    }
+//-->
+</script>
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xl-12 m-0 p-0 text-center"><a href="https://www.afit.edu" aria-label="Home link"><div class="header"><div class="sr-only">Home</div></div></a></div>
+    </div>
+</div>
+
+
+<style>
+.top-font{font-size:16pt;}
+</style>
+
+
+<nav class="navbar navbar-dark blue navbar-expand-xl" style="border-bottom:1px solid white;">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+
+    <li class="nav-item use_afitFont top-font"><a class="nav-link py-0 pr-2" style="color:white;" href="https://www.afit.edu">Home</a></li>
+    <li class="nav-item use_afitFont top-font"><a class="nav-link py-0 pr-3" style="color:white;" href="#" onclick="closeAll();openNav('myNav1')">About AFIT</a></li>
+	<li class="nav-item use_afitFont top-font"><a class="nav-link py-0 pr-3" style="color:white;" href="#" onclick="closeAll();openNav('myNav2')">Graduate Education</a></li>
+    <li class="nav-item use_afitFont top-font"><a class="nav-link py-0 pr-3" style="color:white;" href="#" onclick="closeAll();openNav('myNav3')">Continuing Education</a></li>
+    <li class="nav-item use_afitFont top-font"><a class="nav-link py-0 pr-3" style="color:white;" href="#" onclick="closeAll();openNav('myNav4')">Research</a></li>
+    <li class="nav-item use_afitFont top-font"><a class="nav-link py-0 pr-3" style="color:white;" href="#" onclick="closeAll();openNav('myNav5')">Consulting</a></li>
+
+	<li class="nav-item use_afitFont top-font"><a class="nav-link py-0 pr-3" style="color:white;" href="#" onclick="closeAll();openNav('myNav22')">Featured Topics</a></li>
+
+    <li class="nav-item use_afitFont top-font"><a class="nav-link py-0 pr-3" style="color:white;" href="#" onclick="closeAll();openNav('myNav6')">Students</a></li>
+    <li class="nav-item use_afitFont top-font"><a class="nav-link py-0 pr-3" style="color:white;" href="https://www.afit.edu/LIBRARY/" target="_blank">Library</a></li>
+    <li class="nav-item use_afitFont top-font"><a class="nav-link py-0 pr-3" style="color:white;" href="https://www.afit.edu/ALUMNI/">Alumni</a></li>
+
+
+
+    <li class="nav-item use_afitFont top-font"><a class="nav-link py-0 pr-3" style="color:white;" href="https://www.afit.edu/HR/">Careers</a></li>
+    </ul>
+    <span class="navbar-text py-0">
+    	<ul class="navbar-nav mr-auto">
+    	<li class="nav-item use_afitFont top-font"><a class="nav-link py-0 px-2" style="color:white;" href="#" onclick="closeAll();openNav('myNav8')"><span class="oi oi-magnifying-glass"></span> search</a></li>
+        <li class="nav-item use_afitFont top-font"><a class="nav-link py-0 px-1" style="color:white;" href="#" onclick="closeAll();openNav('myNav9')">⋮ quick links</a></li>
+    	</ul>
+    </span>
+  </div>
+</nav>
+
+
+
+
+<div id="myNav1" class="overlayX">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeAll()">×</a>
+
+
+	<div class="overlay-content">
+                <div align="center">
+                <div class="wrapper-menu">
+
+                    <h2>About AFIT</h2>
+                    <div class="container-fluid">
+
+                        <div class="row">
+                            <div class="col-xl-6">
+<a href="https://www.afit.edu/ABOUT/" class="btn btn-blue-light nav_button">Mission &amp; Vision</a><br>
+<a href="https://www.afit.edu/faculty.cfm" class="btn btn-blue-light nav_button">Leadership</a><br>
+<a href="https://www.afit.edu/docs/AFIT_organizational_Structure.pdf" class="btn btn-blue-light nav_button" target="_blank">Organizational Structure</a><br>
+<a href="https://www.afit.edu/docs/AFIT_Strategic_Guidance.pdf" class="btn btn-blue-light nav_button" target="_blank">Strategic Plan</a><br>
+<a href="https://www.afit.edu/INSTITUTIONALDATA/" class="btn btn-blue-light nav_button">Institutional Data</a><br>
+<a href="https://www.afit.edu/DIVERSITY/" class="btn btn-blue-light nav_button">Diversity, Equity, &amp; Inclusion</a>
+
+
+
+                            </div>
+                            <div class="col-xl-6">
+
+<a href="https://www.afit.edu/newsarchive.cfm" class="btn btn-blue-light nav_button">News</a><br>
+<a href="https://www.afit.edu/videos.cfm" class="btn btn-blue-light nav_button">Videos</a><br>
+<a href="https://www.afit.edu/page.cfm?page=715" class="btn btn-blue-light nav_button">History</a><br>
+<a href="https://www.afit.edu/page.cfm?page=1225" class="btn btn-blue-light nav_button">Icarus Memorial Statue</a><br>
+<a href="https://www.afit.edu/page.cfm?page=528" class="btn btn-blue-light nav_button">Accreditation</a><br>
+<a href="https://www.afit.edu/page.cfm?page=1402" class="btn btn-blue-light nav_button">Board of Visitors</a>
+
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                </div>
+    </div>
+
+
+</div>
+
+
+
+<div id="myNav2" class="overlayX">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeAll()">×</a>
+
+  <div class="overlay-content">
+                <div align="center">
+                <div class="wrapper-menu">
+
+                    <h2>Graduate Education</h2>
+                    <div class="container-fluid">
+
+                        <div class="row">
+                        <div class="col-xl-12">
+                        <a href="https://www.afit.edu/CIP/" target="_self" class="btn btn-blue-light nav_button">Civilian Institution Programs</a>
+                        <a href="https://www.afit.edu/EN/" target="_self" class="btn btn-blue-light nav_button">Graduate School of Engineering &amp; Management</a>
+                        </div>
+
+
+
+
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                </div>
+    </div>
+
+</div>
+
+
+
+<div id="myNav3" class="overlayX">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeAll()">×</a>
+
+
+
+<div class="overlay-content">
+                <div align="center">
+                <div class="wrapper-menu">
+
+                    <h2>Continuing Education</h2>
+                    <div class="container-fluid">
+
+                        <div class="row">
+                            <div class="col-xl-12">
+<a href="https://www.afit.edu/CE/" target="_self" class="btn btn-blue-light nav_button">The Civil Engineer School</a>
+<a href="https://www.afit.edu/EX/" target="_self" class="btn btn-blue-light nav_button">School of Strategic Force Studies</a><br>
+<a href="https://www.afit.edu/LS/" target="_self" class="btn btn-blue-light nav_button">School of Systems &amp; Logistics</a><br>
+							</div>
+                        </div>
+
+                    </div>
+
+                </div>
+                </div>
+    </div>
+
+
+</div>
+
+
+
+<div id="myNav22" class="overlayX">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeAll()">×</a>
+
+
+
+<div class="overlay-content">
+                <div align="center">
+                <div class="wrapper-menu">
+
+                    <h2>Featured Topics</h2>
+                    <div class="container-fluid">
+
+                        <div class="row">
+                            <div class="col-xl-12">
+<a href="https://www.afit.edu/CYBER/" target="_self" class="btn btn-blue-light nav_button">Cyber Education</a>
+<a href="https://www.afit.edu/DIGLIT/" target="_self" class="btn btn-blue-light nav_button">Digital Literacy</a>
+<a href="https://www.afit.edu/HYPERSONICS/" target="_self" class="btn btn-blue-light nav_button">Hypersonics Education</a>
+<br>
+							</div>
+                        </div>
+
+                    </div>
+
+                </div>
+                </div>
+    </div>
+
+
+</div>
+
+
+
+<div id="myNav4" class="overlayX">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeAll()">×</a>
+
+
+	<div class="overlay-content">
+                <div align="center">
+                <div class="wrapper-menu">
+
+                    <h2>Research</h2>
+                    <div class="container-fluid">
+
+
+
+                        <div class="row">
+                            <div class="col-xl-6">
+							<p class="gold-font mt-2 mb-0">Research Resources</p>
+<a href="https://www.afit.edu/CZ/" target="_self" class="btn btn-blue-light nav_button">Office of Research &amp; Outreach</a><br>
+
+<a href="https://www.afit.edu/CZ/page.cfm?page=1724" class="btn btn-blue-light nav_button">Research Reports &amp; Highlights</a>
+
+
+<p class="gold-font mt-2 mb-0">Centers of Excellence</p>
+<a href="https://www.afit.edu/CYBER/" class="btn btn-blue-light nav_button">Air Force Cyberspace Technical Center of Excellence (CyTCoE)</a><br>
+<a href="https://www.afit.edu/STAT/" class="btn btn-blue-light nav_button">Scientific Test &amp; Analysis Techniques Center of Excellence (STAT CoE)</a>
+
+
+                            </div>
+                            <div class="col-xl-6">
+<p class="gold-font mt-2 mb-0">Research Centers</p>
+<a href="https://www.afit.edu/ANT/" target="_self" class="btn btn-blue-light nav_button">Autonomy &amp; Navigation Technology (ANT) Center</a><br>
+<a href="https://www.afit.edu/CCR/" target="_self" class="btn btn-blue-light nav_button">Center for Cyberspace Research (CCR)</a><br>
+<a href="https://www.afit.edu/CDE/" target="_self" class="btn btn-blue-light nav_button">Center for Directed Energy (CDE)</a><br>
+
+<a href="https://www.afit.edu/CSRA/" target="_self" class="btn btn-blue-light nav_button">Center for Space Research and Assurance (CSRA)</a><br>
+<a href="https://www.afit.edu/CTISR/" target="_self" class="btn btn-blue-light nav_button">Center for Technical Intelligence Studies and Research (CTISR)</a><br>
+<a href="https://www.afit.edu/NEATCSR/" class="btn btn-blue-light nav_button">Nuclear Expertise for Advancing Technologies Center (NEAT)</a>
+<a href="https://www.afit.edu/HSCOBP/" class="btn btn-blue-light nav_button">Homeland Security Community of Best Practices (HS COBP)</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div id="myNav5" class="overlayX">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeAll()">×</a>
+
+  <div class="overlay-content">
+                <div align="center">
+                <div class="wrapper-menu">
+
+                    <h2>Consulting</h2>
+                    <div class="container-fluid">
+
+                        <div class="row">
+                            <div class="col-xl-12">
+<a href="https://www.afit.edu/CE/page.cfm?page=500" target="_self" class="btn btn-blue-light nav_button">The Civil Engineer School Consulting Services</a><br>
+<a href="https://www.afit.edu/LS/consulting.cfm" target="_self" class="btn btn-blue-light nav_button">School of Systems &amp; Logistics Consulting Services</a><br>
+<a href="https://www.afit.edu/BIOS/expertise_search.cfm" target="_self" class="btn btn-blue-light nav_button">Expertise &amp; Faculty Search</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                </div>
+    </div>
+
+</div>
+
+
+
+<div id="myNav6" class="overlayX">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeAll()">×</a>
+
+
+	<div class="overlay-content">
+                <div align="center">
+                <div class="wrapper-menu">
+
+                    <h2>Students</h2>
+                    <div class="container-fluid">
+
+                        <div class="row">
+                            <div class="col-xl-12">
+<a href="https://www.afit.edu/page.cfm?page=482" target="_self" class="btn btn-blue-light nav_button">Prospective Students</a><br>
+<a href="https://www.afit.edu/page.cfm?page=524" target="_self" class="btn btn-blue-light nav_button">Current Students</a>
+<a href="https://www.afit.edu/IMSO" target="_self" class="btn btn-blue-light nav_button">International Students</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                </div>
+    </div>
+
+</div>
+
+
+
+<div id="myNav7" class="overlayX">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeAll()">×</a>
+
+  <div class="overlay-content">
+  <h2>Alumni</h2>
+    <a href="https://www.afit.edu/ALUMNI/" style="text-transform:uppercase;" class="btn btn-blue-light nav_button">Alumni</a>
+  </div>
+</div>
+
+
+
+<div id="myNav8" class="overlayX">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeAll()">×</a>
+
+
+  <div class="overlay-content">
+  <h2>Search</h2>
+
+    <form name="CFForm_1" id="CFForm_1" action="https://www.afit.edu/search.cfm" method="GET" onsubmit="return _CF_checkCFForm_1(this)">
+  	<div class="container container-fluid">
+    <div class="row">
+
+    	<div class="col-12 p-3 my-3">
+        	<div class="row">
+            	<div class="col-8 p-3"><label for="k" class="sr-only sr-only-focusable">Search for:</label><input name="k" id="k" class="form-control" type="text" placeholder="Search...."></div>
+                <div class="col-4 p-3"><label for="sb" class="sr-only sr-only-focusable">Click to search</label><input name="sb" id="sb" type="submit" value="Search!" class="btn btn-primary" style="width:90%;"></div>
+            </div>
+        </div>
+        <div class="col-12 p-3 text-white">
+
+        	<div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="st1" name="st" class="custom-control-input" value="199" checked="">
+              <label class="custom-control-label" for="st1">Search all of AFIT</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="st2" name="st" class="custom-control-input" value="599">
+              <label class="custom-control-label" for="st2">Search faculty &amp; staff</label>
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+    </div>
+  	</form>
+
+
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<div id="myNav9" class="overlayX">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeAll()">×</a>
+
+    <div class="overlay-content">
+                <div align="center">
+                <div class="wrapper-menu">
+
+                    <h2>Resources</h2>
+
+
+
+
+
+
+
+                    <div class="container-fluid">
+
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <a href="https://www.afit.edu/contact.cfm" target="_self" class="btn btn-blue-light nav_button">Contact AFIT</a><br>
+                                <a href="https://a1-ims.okta.com" target="_blank" class="btn btn-blue-light nav_button">Canvas</a><br>
+                                <a href="https://www.afit.edu/BIOS/" target="_self" class="btn btn-blue-light nav_button">Leadership, Faculty, &amp; Staff Directory</a><br>
+                                <a href="https://www.afit.edu/HR" target="_self" class="btn btn-blue-light nav_button">Military &amp; Civilian Personnel</a><br>
+                                <a href="https://www.afit.edu/library" target="_self" class="btn btn-blue-light nav_button">D'Azzo Research Library</a><br>
+                                <a href="https://www.afit.edu/newsarchive.cfm" class="btn btn-blue-light nav_button">AFIT News</a><br>
+                                <a href="https://www.afit.edu/videos.cfm" class="btn btn-blue-light nav_button">AFIT Videos</a>
+
+
+                            </div>
+                            <div class="col-xl-6">
+                            	<a href="https://einvitations.afit.edu/" target="_self" class="btn btn-blue-light nav_button">eInvitations</a>
+								<a href="https://www.afit.edu/facilities.cfm" target="_self" class="btn btn-blue-light nav_button">Facilities Reservations</a><br>
+
+                                <a href="https://www.afit.edu/CODING/" target="_self" class="btn btn-blue-light nav_button">Officer Education Record Updates/Corrections</a><br>
+
+                                <a href="https://wifi.afit.edu" target="_blank" class="btn btn-blue-light nav_button">WIFI Registration</a><br>
+
+                                <a href="https://mail.afit.edu/owa/" target="_blank" class="btn btn-blue-light nav_button">AFIT Webmail</a><br>
+                                <a href="https://www.afit.edu/links.cfm" target="_self" class="btn btn-blue-light nav_button">Related Links</a><br>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                </div>
+    </div>
+
+</div>
+
+
+
+<div class="spacer0"></div>
+
+
+
+
+<div class="container-fluid">
+<div class="row blue-dark">
+
+
+<div class="col-xl-12" style="border-bottom:1px solid white;height:200px;background:url(../images/headers/default.png) no-repeat;">
+
+    <div class="row justify-content-center mt-2">
+
+
+        <div class="ctext_logo"><a href="index.cfm"><img src="../images/seals/fp_STAT_w.png" class="img-fluid pad0" alt="STAT emblem"></a></div>
+        <div class="d-flex ctext_container2 use_afitFont yellow-font">
+        		<div class="ctext_content" style="font-size:24pt;">
+                	<a href="index.cfm" class="white-font">STAT Center of Excellence</a>
+                </div>
+        </div>
+
+
+
+    </div>
+
+
+</div>
+</div>
+</div>
+
+
+
+<style>
+a.dditem{background:#343a40 !important;}
+a.dditem:hover{background:#6c757d !important;}
+</style>
+
+<nav class="navbar navbar-expand-xl navbar-dark bg-dark" style="border-top:1px solid white;background-color:#343A40 !important;">
+<button class="navbar-toggler order-first" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse justify-content-center" id="navbarColor01">
+  <ul class="navbar-nav">
+
+
+        <li class="nav-item use_afitFont" style="font-size:14pt;"><a class="nav-link py-0 px-3" href="index.cfm" id="ssLink" style="color:white;">Center Home</a></li>
+
+    <li class="nav-item use_afitFont" style="font-size:14pt;"><a class="nav-link py-0 px-3" href="faculty.cfm" style="color:white;">Our People</a></li>
+
+
+
+	<li class="nav-item use_afitFont dropdown" style="font-size:14pt;">
+<a class="nav-link dropdown-toggle py-0 px-3" style="color:white;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Insights</a>
+
+
+
+
+        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+
+            <a href="page.cfm?page=1949" class="dropdown-item text-white dditem" target="_self">Test Planning Guide</a>
+
+            <a href="page.cfm?page=1942" class="dropdown-item text-white dditem" target="_self">The STAT Process</a>
+
+            <a href="page.cfm?page=1941" class="dropdown-item text-white dditem" target="_self">Best Practices</a>
+
+            <a href="page.cfm?page=1943" class="dropdown-item text-white dditem" target="_self">Case Studies</a>
+
+                    <a href="https://www.afit.edu/STAT/stattools.cfm" target="_self" class="dropdown-item text-white dditem">Tools</a>
+
+
+
+            <a href="page.cfm?page=1093" class="dropdown-item text-white dditem" target="_self">Short Classes</a>
+
+            <a href="page.cfm?page=1945" class="dropdown-item text-white dditem" target="_self">Journal Articles-Coming Soon</a>
+
+            <a href="page.cfm?page=1946" class="dropdown-item text-white dditem" target="_self">Conference Presentations-Coming Soon</a>
+
+	    </div>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+	<li class="nav-item use_afitFont dropdown" style="font-size:14pt;">
+<a class="nav-link dropdown-toggle py-0 px-3" style="color:white;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact Us</a>
+
+
+
+
+        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+
+            <a href="page.cfm?page=498" class="dropdown-item text-white dditem" target="_self">Ask a STAT Question</a>
+
+                    <a href="https://www.afit.edu/STAT/newsletter.cfm" target="_self" class="dropdown-item text-white dditem">Subscribe to STAT COE Newsletter</a>
+
+
+
+	    </div>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+  </ul>
+
+</div>
+</nav>
+
+
+
+
+
+<div class="spacer0"></div>
+<div class="spacer25"></div>
+
+
+
+
+<div align="center">
+<div class="wrapper-page my-5 p-3">
+<div align="left">
+	<div class="spacer25"></div>
+
+
+
+	<div class="pagecontents">
+	<div class="container-fluid">
+    <div class="row">
+        <div class="col-xl-12" id="ssPageContent">
+            <h2 class="content_head blue-font use_Bookman my-2">Best Practices</h2>
+                <div class="pod_border"></div>
+
+
+
+
+
+
+				<p>
+					</p><p>Please contact the STAT COE (<a href="mailto:afit.ens.statcoe@us.af.mil?subject=Website%20Question">afit.ens.statcoe@us.af.mil</a>) with any questions about the materials here.</p>
+<p>&nbsp;</p>
+<p><strong>Test &amp; Evaluation (T&amp;E) Strategy</strong><br>
+<em>Enterprise-, executive-, and program-level perspectives on T&amp;E</em></p>
+<ul>
+    <li><a href="https://www.afit.edu/images/pics/file/Application of STAT to DBS Best Practice_final_ (1).pdf">Applying STAT to Defense Business Systems</a></li>
+    <li><a href="https://www.afit.edu/stat/statcoe_files/Assessing%20Rigor%20in%20Test%20Plans.pdf" target="_blank">Assessing Rigor in Test Plans</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/0831_AFIT2022ENS07103_SieckBayesianMethods_2_2.pdf">Bayesian Methods in Test and Evaluation: A Decision-Maker's Perspective</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/BestPractice_ATEAS_Requirements_Measures.pdf">Effective Requirements and Measures for Autonomous Defense Systems</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Critical STAT Questions DoD Leadership Should Ask V2.pdf">Critical STAT Questions DOD Leadership Should Ask</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Evaluating Delivered Test Plans for STAT Content.pdf">Evaluating Delivered Test Plans for STAT Content</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Implementing Rigor in Test Plans.pdf">Implementing Rigor in Test Plans</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Quantifying STAT Impact in DoD Test Design.pdf">Quantifying STAT Impact in DOD Test Design</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Specifying STAT Requirements in Defense Contracts R2.pdf">Specifying STAT Requirements in Defense Contracts</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/1007_AFIT2022ENS09132_LazarusAIinTEBP_2_2.pdf">Survey of AI-enabled Tools for Application in Test &amp; Evaluation</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Testing via Sequential Experiments.pdf">Testing via Sequential Experiments</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Understanding Requirements for Effective Test Planning V2.pdf">Understanding Requirements for Effective Testing Planning</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Calculating a Consensus of Opinion V2.pdf">Calculating a Consensus of Opinion</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/TE Auto Syst Workshop DASDDTE Memo.pdf">2015 Advancements in Test and Evaluation of Autonomous Systems Workshop Report</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Workshop Report 2019 Advancements in Test and Evaluation of Autonomous Systems.pdf">2019 Advancements in Test and Evaluation of Autonomous Systems&nbsp;Workshop Report</a></li>
+</ul>
+<h5><strong>Test Design</strong><b><br>
+</b><em>For a particular test activity, progress from writing test objectives to creating a sequence of test points; includes Design of Experiments</em></h5>
+<ul>
+    <li><a href="https://www.afit.edu/images/pics/file/Binary Response and Single Stress Factor Test Methods.pdf">Binary Response and Single Stress Factor Test Methods</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Categorical Data in a Designed Experiment Part 1 Avoiding Categorial Data1.pdf">Categorical Data in a Designed Experiment Part 1: Avoiding Categorical Data</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Categorical Data in a Designed Experiment Part 2 Sizing with a Binary Response.pdf">Categorical Data in a Designed Experiment Part 2: Sizing a Design with a Binary Response</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/0917AFIT2020ENS09113 0917nato 2-2.pdf">Categorical Data in a Designed Experiment Part 3: Logistic Regression</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Categorical Data in a Designed Experiment Part 4 - Estimating Power of Test Designs for a Binary Response_Best Practice.pdf">Categorical Data in a Designed Experiment Part 4: Estimating Power of Test Designs for a Binary Response</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Classical Designs-Full Factorial Designs_Final.pdf">Classical Designs: Full Factorial Designs</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Classical Designs-Fractional Fractorial Designs Rev1.pdf">Classical Designs: Fractional Factorial Designs</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Computer Experiments- Space Filling Designs and Gaussian Process Modeling.pdf">Computer Experiments: Space-Filling Design and Gaussian Process Modeling</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Controlling Conditions is Key for Meaningful Operational Test Results.pdf">Controlling Conditions is Key for Meaningful Operational Test Results</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Developing Effective Test Objectives V2.pdf">Developing Effective Test Objectives</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Iterative Developmental Testing considerations.pdf">Iterative Developmental Testing Considerations</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Quantifying Test Risk Using Design of Experiments Rev 11.pdf">Quantifying Test Risk Using Design of Experiments</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/1001AFIT2020ENS09115 1001divi 2-2.pdf">Randomization: A Core Principle of Design of Experiments</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Study Guide to Design of Experiments Learning Series by J Stuart Hunter Part 1 Rev 31.pdf">Study Guide to Design of Experiments Learning Series by J. Stuart Hunter, Lessons 1-9</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Study Guide to Design of Experiments Learning Series by J_ Stuart Hunter, Lessons 10-15 REV 2.pdf">Study Guide to Design of Experiments Learning Series by J. Stuart Hunter, Lessons 10-15</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Test Design Comparison and Selection.pdf">Test Design Comparison and Selection</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Survey and Questionnaire Design.pdf">Survey &amp; Questionaire Design</a></li>
+    <li><a href="https://www.afit.edu/stat/statcoe_files/Test%20Facility%20DOE%20Survey%20V2.pdf" target="_blank">Test Facility Design of Experiments Survey</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Best Practice SNR for DOE final.pdf">Understanding the Signal-to-Noise Ratio in Design of Experiments</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Using Operating Characteristic Curves to Balance Cost and Risk V2.pdf">Using OC Curves to Balance Cost and Risk</a></li>
+</ul>
+<h5><strong>Data Analysis &amp; Statistics</strong><br>
+<em>Statistical methods for exploring, analyzing, and making conclusions from data</em></h5>
+<ul>
+    <li><a href="https://www.afit.edu/images/pics/file/0930AFIT2020ENS09122 0930nato2 2-2.pdf">An Introduction to Mixture Designs</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Confidence Intervals for the Median and other Percentiles.pdf">Confidence Intervals for the Median and Other Percentiles</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/1005AFIT2020ENS09117 1005rame 2-2.pdf">Equivalence Testing</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Interpreting Confidence Intervals.pdf">Interpreting Confidence Intervals</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Matlab and R Integration with JMP Rev1.pdf">MATLAB and R Integration with JMP</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Model Building Process Part 1 Checking Model Assumptions V2.pdf">Model Building Process Part 1: Checking Model Assumptions</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Model Building Process Part 2 Factor Assumptions.pdf">Model Building Process Part 2: Factor Assumptions</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Model Building Process Part 3 Model Metrics Final.pdf">Model Building Process Part 3: Model Goodness Metrics</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Nonparametric Tolerance Intervals Best Practice.pdf">Nonparametric Tolerance Intervals</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Sampling from Arbitrary Distributions using the Rejection Method1.pdf">Sampling from Arbitrary Distributions Using the Rejection Method</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Statistical Hypothesis Testing.pdf">Statistical Hypothesis Testing</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Statistics Reference Series Part 1 Descriptive Statistics.pdf">Statistics Reference Series Part 1: Descriptive Statistics</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/1201sigl 02 Statistics Reference Series Part 2-Probability.pdf">Statistics Reference Series Part 2: Probability</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Tolerance Intervals Demystified.pdf">Tolerance Intervals Demystified</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Understanding Analysis of Variance Rev 11.pdf">Understanding Analysis of Variance</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Using Regression Trees Teaser for Website .pdf">Using Regression Trees</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Using Statistical Intervals to Assess System Performance V2.pdf">Using Statistical Intervals to Assess System Performance</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/FINAL BP Bayesian Model Checking (v2).pdf">Bayesian Model Checking</a>&nbsp;- HS COBP</li>
+    <li><a href="https://www.afit.edu/images/pics/file/Data-Driven Modeling Best Practice.pdf">Data-Driven Model Development</a></li>
+    <li style="line-height: normal;"><a href="https://www.afit.edu/images/pics/file/0401_KolstiPriorInterpBP_2_2 (2).pdf">Improving the Interpretability      of Bayesian Priors</a>&nbsp;- HS&nbsp;COBP</li>
+    <li style="line-height: normal;"><a href="https://www.afit.edu/images/pics/file/1007_ProvostTRABP_2_2(1).pdf">Scientific Test and Analysis Techniques in Technology Readiness Assessments</a></li>
+    <li style="line-height: normal;"><a href="https://www.afit.edu/images/pics/file/0328_LazarusUQBP_2_2.pdf">Uncertainty Quantification: An Overview</a></li>
+</ul>
+<h5><strong>Reliability</strong><br>
+<em>RAM (Reliability, Availability, and Maintenance); Includes strategy, design, and analysis</em></h5>
+<ul>
+    <li><a href="https://www.afit.edu/stat/statcoe_files/Availability%20Best%20Practice%2014%20Jan%202020.pdf" target="_blank">Availability Confidence Intervals from Bootstrap Sampling</a></li>
+    <li><a href="https://www.afit.edu/stat/statcoe_files/Bayesian%20Reliability%20for%20Complex%20Systems1.pdf" target="_blank">Bayesian Reliability for Complex Systems</a></li>
+    <li><a href="https://www.afit.edu/stat/statcoe_files/Impact%20of%20Test%20Time%20on%20Estimation%20of%20MTBF.pdf" target="_blank">Impact of Test Time on Estimation of Mean Time Between Failure</a></li>
+    <li><a href="https://www.afit.edu/stat/statcoe_files/Practical%20Bayesian%20Analysis%20for%20Failure%20Time%20Data-Best%20Practice%20V1-1%20update.pdf" target="_blank">Practical Bayesian Analysis for Failure Time Data</a></li>
+    <li><a href="https://www.afit.edu/stat/statcoe_files/Reliability%20Test%20Planning%20for%20Mean%20Time%20Between%20Failures%20V2.pdf" target="_blank">Reliability Test Planning for Mean Time Between Failures</a></li>
+    <li><a href="https://www.afit.edu/stat/statcoe_files/Reliability%20Test%20Planning%20Utility%20Tool%20Guide%20Rev%201.pdf" target="_blank">Reliability Test Planning Utility Guide</a></li>
+    <li><a href="https://www.afit.edu/stat/statcoe_files/Reliability%20Test%20Plans%20for%20Binary%20Responses%20-%20Excel%20Tool%20Guide%20V2.pdf" target="_blank">Reliability Test Plans for Binary Responses: Excel Tool Guide</a></li>
+</ul>
+<h5><strong>Software Testing</strong><br>
+<em>For any system where software facilitates mission accomplishment</em></h5>
+<ul>
+    <li><a href="https://www.afit.edu/stat/statcoe_files/0214simp%202%20AST%20IG%20for%20Managers%20and%20Practitioners.pdf" target="_blank">Automated Software Testing Implementation Guide for Managers and Practitioners</a></li>
+    <li><a href="https://www.afit.edu/stat/statcoe_files/Automated%20Software%20Testing%20Practices%20and%20Pitfalls%20Rev%201.pdf" target="_blank">Automated Software Testing Practices and Pitfalls</a></li>
+    <li><a href="https://www.afit.edu/stat/statcoe_files/Combinatorial%20Test%20Designs%20Final.pdf" target="_blank">Combinatorial Test Designs</a></li>
+    <li><a href="https://www.afit.edu/stat/statcoe_files/Software%20Reliability%20Fundamentals%20Best%20Practice%20final.pdf" target="_blank">Software Reliability Fundamentals</a></li>
+    <li><a href="https://www.afit.edu/stat/statcoe_files/STAT%20for%20Software%20Testing%20V2.pdf" target="_blank">STAT for Software Testing</a></li>
+    <li>Applying STAT within the DevSecOps Lifecycle - in process</li>
+</ul>
+<h5><strong>Modeling &amp; Simulation</strong><br>
+<em>Using models, emulators, simulators, or other system representations to create data for decision-making</em></h5>
+<ul>
+    <li><a href="https://www.afit.edu/images/pics/file/Model Selection and Use of Empiricism in Digital Engineering.pdf">Model Selection and Use of Empiricism in Digital Engineering</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/STAT COE MRL Whitepaper_A Conceptual Framework for the Establishment of Model Readiness Levels.pdf">MRL: A Conceptual Framework for Establishment of Model Readiness Levels</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/0831_AFIT2022ENS08106_WeeksFidelityBP_2_2 (1).pdf">Constructing a Metric for Fidelity in Model      Validation</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/0930_ProvostMVLBP_2_2.pdf">Elements of a Mathematical Framework for Model      Validation Levels</a></li>
+    <li>Request by Email:&nbsp;<a href="https://www.afit.edu/images/pics/file/0930_AFIT2022ENS08124_RogalMBSEV&amp;VBP_2_2(2).pdf">Model-Based Systems Engineering for Developmental System Verification and Validation</a></li>
+</ul>
+<h5><strong>Bayesian Capability<br>
+</strong></h5>
+<ul>
+    <li><a href="https://www.afit.edu/images/pics/file/0831_AFIT2022ENS07103_SieckBayesianMethods_2_2.pdf" target="_blank">Bayesian Methods in Test and Evaluation: A Decision Maker's Perspective</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/FINAL%20BP%20Bayesian%20Model%20Checking%20(v2).pdf" target="_blank">Bayesian Model Checking</a></li>
+    <li><a href="https://www.afit.edu/stat/statcoe_files/Bayesian%20Reliability%20for%20Complex%20Systems1.pdf" target="_blank">Bayesian Reliability for Complex Systems</a></li>
+    <li><a href="https://www.afit.edu/stat/statcoe_files/Practical%20Bayesian%20Analysis%20for%20Failure%20Time%20Data-Best%20Practice%20V1-1%20update.pdf" target="_blank">Practical Bayesian Analysis for Failure Time Data</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/0401_KolstiPriorInterpBP_2_2%20(2).pdf" target="_blank">Improving the Interpretability of Bayesian Priors</a></li>
+</ul>
+<h5><strong>Homeland Security Community of Best Practices (HS COBP)</strong><br>
+Mission: To enhance T&amp;E science through multidisciplinary collaboration and deliver it to the DHS workforce through independent consultation and tailored resources. Below are Department of Homeland Security (DHS) specific best practices. Please reach out to <u>AFIT.ENS.HSCOBP@us.af.mil</u> for more information.</h5>
+<ul>
+    <li><a href="https://www.afit.edu/images/pics/file/0314_FountainCloudCA_2_2.pdf">Benefits, Best Practices, &amp; Risks of Using Cloud Technologies</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/HS CoBP-Report-01-2021--Designing tests for prediction - 3 Mar 2021(1).pdf">Designing a Test for Prediction</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/BP-Logistic and Probit Regression Computational Algorithms - PA copy(1).pdf">Logistic and Probit Regression Computational Algorithms</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/Binomial proportion intervals DRAFT - PA copy(1).pdf">Recommended Confidence Intervals for a Binomial Proportion</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/FINAL BP Bayesian Model Checking (v2)(1).pdf">Bayesian Model Checking</a></li>
+    <li><a href="https://www.afit.edu/images/pics/file/0401_KolstiPriorInterpBP_2_2 (2)(1).pdf">Improving the Interpretability of Bayesian Priors</a></li>
+</ul>
+<p>&nbsp;</p>
+				<p></p>
+
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+	</div>
+
+
+
+	<div class="spacer25"></div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+.uptab{
+	width:100px;
+	height:30px;
+	background:#424242;
+	margin:20px 25px 0 0;
+	position:static;
+	text-align:center;
+	color:white;
+	}
+</style>
+
+<div align="center"><div class="uptab"><a href="#top" id="top" class="useBookman text-white"><span class="oi oi-chevron-top"><div class="sr-only">Return to the top of the page</div></span></a></div></div>
+<div class="container-fluid m-0 p-0">
+<div class="row jfooter m-0 p-0" style="font-size:10pt;">
+	<div class="col-xl-3 col-md-12 m-0 white-font text-center">
+
+    	<div class="pad20">
+        <div align="center">
+            <div class="shields">
+            <a href="https://www.aetc.af.mil/" class="shield_aetc" target="_blank"><div class="sr-only">AETC</div></a>
+            <a href="https://www.afit.edu" class="shield_afit"><div class="sr-only">AFIT</div></a>
+            <a href="https://www.airuniversity.af.edu/" class="shield_au" target="_blank"><div class="sr-only">Air University</div></a>
+            </div>
+        </div>
+        <br>
+
+
+
+    	Air Force Institute of Technology<br>
+		2950 Hobson Way<br>
+		Wright-Patterson Air Force Base, OH 45433-7765<br>
+		Commercial: <a href="tel:937-255-6565" class="text-white-50">937-255-6565</a> | DSN: 785-6565
+    	</div>
+
+    </div>
+    <div class="col-xl-6 col-md-12 m-0 white-font">
+            <div class="ctext_container_footer my-5">
+            <div class="ctext_content">
+            <div align="center">
+            <a href="http://www.airuniversity.af.mil/" target="_blank" class="footer_link mx-2">Air University</a> |
+            <a href="http://www.af.mil" target="_blank" class="footer_link mx-2">AF.MIL</a> |
+            <a href="http://www.foia.af.mil/" target="_blank" class="footer_link mx-2">FOIA</a> |
+            <a href="https://www.afinspectorgeneral.af.mil/" target="_blank" class="footer_link mx-2">IG</a> |
+            <a href="https://www.af.mil/Equal-Opportunity/" target="_blank" class="footer_link mx-2">EEO</a> |
+            <a href="http://www.adr.af.mil/" target="_blank" class="footer_link mx-2">ADR</a> |
+            <a href="https://dodcio.defense.gov/DoDSection508/Std_Stmt/" class="footer_link mx-2" target="_blank">Accessibility</a> |
+
+
+
+            <a href="https://www.afit.edu/policy.cfm?a=extlinks" class="footer_link mx-2">External Links</a> |
+            <a href="https://www.afit.edu/policy.cfm?a=privacy" class="footer_link mx-2">Privacy &amp; Security</a> |
+            <a href="https://www.afit.edu/policy.cfm?a=owner" class="footer_link mx-2">Content Owner</a> |
+            <a href="https://www.afit.edu/policy.cfm?a=use" class="footer_link mx-2">System Use</a>
+
+            <p class="d-none">PA Case: 88ABW-2019-4441</p>
+
+
+            </div>
+            </div>
+            </div>
+    </div>
+    <div class="col-xl-3 col-md-12 m-0 white-font">
+
+        <div class="ctext_container_footer my-5">
+        <div class="ctext_content w-100 text-center">
+
+<a href="https://www.facebook.com/AFIT100/" class="sm_main_fb" target="_blank"><div class="sr-only">AFIT on Facebook</div></a>
+<a href="https://www.youtube.com/channel/UC3MpuUgg8mNaYgSsHG47mWw" class="sm_main_yt" target="_blank"><div class="sr-only">AFIT on YouTube</div></a>
+<a href="http://www.linkedin.com/company/air-force-institute-of-technology" class="sm_main_in" target="_blank"><div class="sr-only">AFIT on LinkedIn</div></a>
+<p>Connect with AFIT</p>
+
+
+
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<script>
+$("#top").click(function() {
+	$('html,body').animate({
+        scrollTop: $("#topX").offset().top},
+        'slow');
+});
+</script>
+
+
+
+
+
+
+
+	<script>
+	document.getElementById('video').volume = 0.25;
+	var video = document.getElementById("video");
+	video.removeAttribute("controls");
+	</script>
+
+<script src="../js/jpSlideMenu.js" language="javascript" type="text/javascript"></script> <div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" alt="lightbox image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="><div class="lb-nav"><a class="lb-prev" href=""><div class="sr-only">previous</div></a><a class="lb-next" href=""><div class="sr-only">next</div></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div></body></html>

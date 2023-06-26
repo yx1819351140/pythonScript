@@ -1,0 +1,734 @@
+{
+  "cursor": {
+    "currentPageIndex": 0,
+    "estimatedResultCount": "1790",
+    "moreResultsUrl": "http://www.google.com/cse?oe=utf8&ie=utf8&source=uds&q=design-of-experiments+pdf&safe=active&start=0&sort=&cx=40665cab28cd900e0",
+    "resultCount": "1,790",
+    "searchResultTime": "0.13",
+    "pages": [
+      {
+        "label": 1,
+        "start": "0"
+      }
+    ]
+  },
+  "context": {
+    "title": "Nps.edu - GSuites",
+    "total_results": "0",
+    "facets": [
+      {
+        "label": "research_summaries",
+        "label_with_op": "more:research_summaries",
+        "anchor": "Research Summaries",
+        "count": "0"
+      },
+      {
+        "label": "videos",
+        "label_with_op": "more:videos",
+        "anchor": "Videos",
+        "count": "0"
+      }
+    ]
+  },
+  "results": [
+    {
+      "clicktrackUrl": "https://www.google.com/url?client=internal-element-cse&cx=40665cab28cd900e0&q=https://nps.edu/documents/106696734/108129281/170.pdf/629117bd-f142-4b46-9ff5-a9e26bc2888f%3Ft%3D1475091534000&sa=U&ved=2ahUKEwjjn8Gf_7L_AhVbIUQIHe5_A3IQFnoECAUQAQ&usg=AOvVaw3eLW4a2hSgZ1SAWoi_2ehE",
+      "content": "We develop a simulation model to aid in identifying and evaluating promising alternatives to achieve improvements in weapon system-level availability when&nbsp;...",
+      "contentNoFormatting": "We develop a simulation model to aid in identifying and evaluating promising alternatives to achieve improvements in weapon system-level availability when ...",
+      "title": "A \u003cb\u003eDesign of Experiments\u003c/b\u003e Approach to Readiness Risk Analysis",
+      "titleNoFormatting": "A Design of Experiments Approach to Readiness Risk Analysis",
+      "formattedUrl": "https://nps.edu/.../170.\u003cb\u003epdf\u003c/b\u003e/629117bd-f142-4b46-9ff5-a9e26bc2888f?t...",
+      "unescapedUrl": "https://nps.edu/documents/106696734/108129281/170.pdf/629117bd-f142-4b46-9ff5-a9e26bc2888f?t=1475091534000",
+      "url": "https://nps.edu/documents/106696734/108129281/170.pdf/629117bd-f142-4b46-9ff5-a9e26bc2888f%3Ft%3D1475091534000",
+      "visibleUrl": "nps.edu",
+      "richSnippet": {
+        "cseImage": {
+          "src": "x-raw-image:///1b657ed612019dbf389b40e6a82015d5a6f5f7a337e297a68e1a2e2d1fb657b0"
+        },
+        "metatags": {
+          "moddate": "D:20070125135638-05'00'",
+          "creationdate": "D:20060929074112-05'00'",
+          "creator": "Acrobat PDFMaker 7.0 for Word",
+          "producer": "Acrobat Distiller 7.0 (Windows)",
+          "title": "A Design of Experiments Approach to Readiness Risk Analysis"
+        }
+      },
+      "breadcrumbUrl": {
+        "host": "nps.edu",
+        "crumbs": [
+          "documents",
+          "170.pdf"
+        ]
+      },
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "clicktrackUrl": "https://www.google.com/url?client=internal-element-cse&cx=40665cab28cd900e0&q=https://www.nps.edu/documents/106696734/108129281/UserGuideSimExpts.pdf/6bf10d35-b507-4554-b77a-6f4a443e4025%3Ft%3D1475088085000&sa=U&ved=2ahUKEwjjn8Gf_7L_AhVbIUQIHe5_A3IQFnoECBEQAg&usg=AOvVaw1Wja4MoUvS0V4sMwaJiuUE",
+      "content": "Jul 1, 2005 \u003cb\u003e...\u003c/b\u003e Many simulation practitioners can get more from their analyses by using the statistical theory on \u003cb\u003edesign of experiments\u003c/b\u003e (DOE) developed&nbsp;...",
+      "contentNoFormatting": "Jul 1, 2005 ... Many simulation practitioners can get more from their analyses by using the statistical theory on design of experiments (DOE) developed ...",
+      "title": "[\u003cb\u003ePDF\u003c/b\u003e] State-of-the-Art Review: A User&#39;s Guide to the Brave New ...",
+      "titleNoFormatting": "[PDF] State-of-the-Art Review: A User's Guide to the Brave New ...",
+      "formattedUrl": "https://www.nps.edu/...\u003cb\u003epdf\u003c/b\u003e/6bf10d35-b507-4554-b77a-6f4a443e4025?t...",
+      "unescapedUrl": "https://www.nps.edu/documents/106696734/108129281/UserGuideSimExpts.pdf/6bf10d35-b507-4554-b77a-6f4a443e4025?t=1475088085000",
+      "url": "https://www.nps.edu/documents/106696734/108129281/UserGuideSimExpts.pdf/6bf10d35-b507-4554-b77a-6f4a443e4025%3Ft%3D1475088085000",
+      "visibleUrl": "www.nps.edu",
+      "richSnippet": {
+        "cseImage": {
+          "src": "https://www.semanticscholar.org/img/semantic_scholar_og.png"
+        },
+        "metatags": {
+          "twitterTitle": "[PDF] State-of-the-Art Review: A User's Guide to the Brave New World of Designing Simulation Experiments | Semantic Scholar",
+          "ogImageWidth": "1110",
+          "citationTitle": "State-of-the-Art Review: A User's Guide to the Brave New World of Designing Simulation Experiments",
+          "ogTitle": "[PDF] State-of-the-Art Review: A User's Guide to the Brave New World of Designing Simulation Experiments | Semantic Scholar",
+          "msapplicationWide310x150logo": "https://cdn.semanticscholar.org/b1bc9af97b74e91e/img/mstile-310x150.png",
+          "citationJournalTitle": "INFORMS J. Comput.",
+          "ogType": "website",
+          "citationPublicationDate": "2005",
+          "twitterCard": "summary_large_image",
+          "s2UiVersion": "c9a803f5bc41ebe0c247a03e2662ea450bf7dec5",
+          "msapplicationTileimage": "https://cdn.semanticscholar.org/b1bc9af97b74e91e/img/mstile-144x144.png",
+          "ogImageHeight": "582",
+          "ogImageSecureUrl": "https://www.semanticscholar.org/img/semantic_scholar_og.png",
+          "applicationName": " ",
+          "msapplicationSquare310x310logo": "https://cdn.semanticscholar.org/b1bc9af97b74e91e/img/mstile-310x310.png",
+          "twitterSite": "@allenai_org",
+          "citationPdfUrl": "https://doi.org/10.1287/ijoc.1050.0136",
+          "twitterImage": "https://www.semanticscholar.org/img/semantic_scholar_og.png",
+          "ogDescription": "This paper discusses a toolkit of designs for simulationists with limited DOE expertise who want to select a design and an appropriate analysis for their computational experiments and provides a research agenda listing problems in the design of simulation experiments that require more investigation. Many simulation practitioners can get more from their analyses by using the statistical theory on design of experiments (DOE) developed specifically for exploring computer models.In this paper, we discuss a toolkit of designs for simulationists with limited DOE expertise who want to select a design and an appropriate analysis for their computational experiments.Furthermore, we provide a research agenda listing problems in the design of simulation experiments -as opposed to real world experiments- that require more investigation.We consider three types of practical problems: (1) developing a basic understanding of a particular simulation model or system; (2) finding robust decisions or policies; and (3) comparing t",
+          "ogImage": "https://www.semanticscholar.org/img/semantic_scholar_og.png",
+          "ogLocale": "en_US",
+          "viewport": "width=device-width,initial-scale=1",
+          "twitterDescription": "This paper discusses a toolkit of designs for simulationists with limited DOE expertise who want to select a design and an appropriate analysis for their computational experiments and provides a research agenda listing problems in the design of simulation experiments that require more investigation. Many simulation practitioners can get more from their analyses by using the statistical theory on design of experiments (DOE) developed specifically for exploring computer models.In this paper, we discuss a toolkit of designs for simulationists with limited DOE expertise who want to select a design and an appropriate analysis for their computational experiments.Furthermore, we provide a research agenda listing problems in the design of simulation experiments -as opposed to real world experiments- that require more investigation.We consider three types of practical problems: (1) developing a basic understanding of a particular simulation model or system; (2) finding robust decisions or policies; and (3) comparing t",
+          "msapplicationSquare150x150logo": "https://cdn.semanticscholar.org/b1bc9af97b74e91e/img/mstile-150x150.png",
+          "citationAuthor": "J. Kleijnen",
+          "msapplicationTilecolor": "#FFFFFF",
+          "msapplicationSquare70x70logo": "https://cdn.semanticscholar.org/b1bc9af97b74e91e/img/mstile-70x70.png"
+        },
+        "scholarlyarticle": {},
+        "article": {}
+      },
+      "breadcrumbUrl": {
+        "host": "www.nps.edu",
+        "crumbs": [
+          "documents",
+          "UserGuideSimExpts.pdf"
+        ]
+      }
+    },
+    {
+      "cacheUrl": "http://www.google.com/search?q=cache:ol2KwhQmZ74J:nps.edu",
+      "clicktrackUrl": "https://www.google.com/url?client=internal-element-cse&cx=40665cab28cd900e0&q=https://nps.edu/documents/106696734/108129281/005.pdf/d1fa3721-0d8f-469e-833f-e52071ca4627%3Ft%3D1475091632000&sa=U&ved=2ahUKEwjjn8Gf_7L_AhVbIUQIHe5_A3IQFnoECBIQAQ&usg=AOvVaw1WQO45qTYQTnyFIQ0HGGZk",
+      "content": "One extremely effective way of accomplishing this is to use experimental designs to help explore your simulation model. The field called \u003cb\u003eDesign of Experiments\u003c/b\u003e (&nbsp;...",
+      "contentNoFormatting": "One extremely effective way of accomplishing this is to use experimental designs to help explore your simulation model. The field called Design of Experiments ( ...",
+      "title": "Work Smarter, Not Harder: Guidelines for \u003cb\u003eDesigning\u003c/b\u003e Simulation ...",
+      "titleNoFormatting": "Work Smarter, Not Harder: Guidelines for Designing Simulation ...",
+      "formattedUrl": "https://nps.edu/.../005.\u003cb\u003epdf\u003c/b\u003e/d1fa3721-0d8f-469e-833f-e52071ca4627?t...",
+      "unescapedUrl": "https://nps.edu/documents/106696734/108129281/005.pdf/d1fa3721-0d8f-469e-833f-e52071ca4627?t=1475091632000",
+      "url": "https://nps.edu/documents/106696734/108129281/005.pdf/d1fa3721-0d8f-469e-833f-e52071ca4627%3Ft%3D1475091632000",
+      "visibleUrl": "nps.edu",
+      "richSnippet": {
+        "cseImage": {
+          "src": "x-raw-image:///d701a2e48a7eec7e3aeeda9d33bc9db68d65efe5882525bcfa507d48edd281ab"
+        },
+        "metatags": {
+          "moddate": "D:20061108165936-06'00'",
+          "creationdate": "D:20060930183600Z",
+          "creator": "TeX",
+          "producer": "pdfTeX-1.10b",
+          "title": "Work Smarter, Not Harder: Guidelines for Designing Simulation Experiments"
+        }
+      },
+      "breadcrumbUrl": {
+        "host": "nps.edu",
+        "crumbs": [
+          "documents",
+          "005.pdf"
+        ]
+      },
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "cacheUrl": "http://www.google.com/search?q=cache:cuA8hHT-K6oJ:faculty.nps.edu",
+      "clicktrackUrl": "https://www.google.com/url?client=internal-element-cse&cx=40665cab28cd900e0&q=https://faculty.nps.edu/smsanche/docs/UserGuideSimExpts.pdf&sa=U&ved=2ahUKEwjjn8Gf_7L_AhVbIUQIHe5_A3IQFnoECBMQAQ&usg=AOvVaw0Av51S_uHIizSoAaORMnvO",
+      "content": "Key words: simulation; \u003cb\u003edesign of experiments\u003c/b\u003e; metamodels; Latin hypercube; ... \u003cb\u003eDesign of experiments\u003c/b\u003e (DOE) has a rich history, with ... MR/MR607.\u003cb\u003epdf\u003c/b\u003e.",
+      "contentNoFormatting": "Key words: simulation; design of experiments; metamodels; Latin hypercube; ... Design of experiments (DOE) has a rich history, with ... MR/MR607.pdf.",
+      "title": "A User&#39;s Guide to the Brave New World of \u003cb\u003eDesigning\u003c/b\u003e Simulation ...",
+      "titleNoFormatting": "A User's Guide to the Brave New World of Designing Simulation ...",
+      "formattedUrl": "https://faculty.nps.edu/smsanche/docs/UserGuideSimExpts.\u003cb\u003epdf\u003c/b\u003e",
+      "unescapedUrl": "https://faculty.nps.edu/smsanche/docs/UserGuideSimExpts.pdf",
+      "url": "https://faculty.nps.edu/smsanche/docs/UserGuideSimExpts.pdf",
+      "visibleUrl": "faculty.nps.edu",
+      "richSnippet": {
+        "metatags": {
+          "moddate": "D:20050721110921-04'00'",
+          "creationdate": "D:20050721110717",
+          "creator": "DVIPSONE (32) 2.1.3 http://www.YandY.com",
+          "author": "Dr. Mirko Janc (Tech Typeset) 427 1999 Feb 15 15:33:29",
+          "subject": "TeX output 2005.07.21:1104",
+          "producer": "Acrobat Distiller 4.05 for Windows",
+          "title": "C:JFIJOC -3IJOC0136.DVI"
+        }
+      },
+      "breadcrumbUrl": {
+        "host": "faculty.nps.edu",
+        "crumbs": [
+          "smsanche",
+          "docs",
+          "UserGuideSimExpts"
+        ]
+      },
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "cacheUrl": "http://www.google.com/search?q=cache:t-BzywDAnmgJ:faculty.nps.edu",
+      "clicktrackUrl": "https://www.google.com/url?client=internal-element-cse&cx=40665cab28cd900e0&q=http://faculty.nps.edu/thuynh/Journal%2520Papers/Journal_paper_1.pdf&sa=U&ved=2ahUKEwjjn8Gf_7L_AhVbIUQIHe5_A3IQFnoECA0QAQ&usg=AOvVaw1dNI0wflclfIRc_h_KuZkT",
+      "content": "For experiment \u003cb\u003edesign\u003c/b\u003e, the use of orthogonal arrays allows a significant reduction of the number of \u003cb\u003eexperiments\u003c/b\u003e and also the simplicity of data analysis. [&nbsp;...",
+      "contentNoFormatting": "For experiment design, the use of orthogonal arrays allows a significant reduction of the number of experiments and also the simplicity of data analysis. [ ...",
+      "title": "Orthogonal array experiment in systems engineering and architecting",
+      "titleNoFormatting": "Orthogonal array experiment in systems engineering and architecting",
+      "formattedUrl": "faculty.nps.edu/thuynh/Journal%20Papers/Journal_paper_1.\u003cb\u003epdf\u003c/b\u003e",
+      "unescapedUrl": "http://faculty.nps.edu/thuynh/Journal%20Papers/Journal_paper_1.pdf",
+      "url": "http://faculty.nps.edu/thuynh/Journal%2520Papers/Journal_paper_1.pdf",
+      "visibleUrl": "faculty.nps.edu",
+      "richSnippet": {
+        "cseImage": {
+          "src": "x-raw-image:///9ad5c5b3755bc3ef17898a8084968dc711b25a33596ac3d497d8bf06562f7204"
+        },
+        "metatags": {
+          "wpsJournaldoi": "10.1002/sys.20172",
+          "moddate": "D:20110602103929-07'00'",
+          "wpsArticledoi": "10.1002/sys.20172",
+          "creationdate": "D:20100819104735-04'00'",
+          "creator": "PSCRIPT.DRV Version 4.0",
+          "producer": "PDFlib PLOP 2.0.0p6 (SunOS)/Acrobat Distiller 5.0 (Windows)",
+          "wpsProclevel": "2",
+          "title": "Orthogonal array experiment in systems engineering and architecting"
+        }
+      },
+      "breadcrumbUrl": {
+        "host": "faculty.nps.edu",
+        "crumbs": [
+          "thuynh",
+          "Journal_paper_1"
+        ]
+      },
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "cacheUrl": "http://www.google.com/search?q=cache:Ejgx38o21FoJ:nps.edu",
+      "clicktrackUrl": "https://www.google.com/url?client=internal-element-cse&cx=40665cab28cd900e0&q=https://nps.edu/documents/106696734/108129272/Scythe3-Team6-Report.pdf/bf9c916c-6496-4077-8033-61a20e314232%3Fversion%3D1.0&sa=U&ved=2ahUKEwjjn8Gf_7L_AhVbIUQIHe5_A3IQFnoECAkQAQ&usg=AOvVaw1IxyDAzxt-Rvb7bq85rMgH",
+      "content": "Team 6: Application of \u003cb\u003eDesign of Experiments\u003c/b\u003e. &amp; Data Farming Techniques for Planning Tests in a. Joint Mission Environment. TEAM 6 MEMBERS. Timothy Beach.",
+      "contentNoFormatting": "Team 6: Application of Design of Experiments. & Data Farming Techniques for Planning Tests in a. Joint Mission Environment. TEAM 6 MEMBERS. Timothy Beach.",
+      "title": "Team 6: Application of \u003cb\u003eDesign of Experiments\u003c/b\u003e &amp; Data Farming ...",
+      "titleNoFormatting": "Team 6: Application of Design of Experiments & Data Farming ...",
+      "formattedUrl": "https://nps.edu/...\u003cb\u003epdf\u003c/b\u003e/bf9c916c-6496-4077-8033-61a20e314232?version...",
+      "unescapedUrl": "https://nps.edu/documents/106696734/108129272/Scythe3-Team6-Report.pdf/bf9c916c-6496-4077-8033-61a20e314232?version=1.0",
+      "url": "https://nps.edu/documents/106696734/108129272/Scythe3-Team6-Report.pdf/bf9c916c-6496-4077-8033-61a20e314232%3Fversion%3D1.0",
+      "visibleUrl": "nps.edu",
+      "richSnippet": {
+        "cseImage": {
+          "src": "x-raw-image:///4a506e2ffbf7efa4eb827723934b7905939019ad9a79053057616ef019a09f4b"
+        },
+        "metatags": {
+          "moddate": "D:20080204222954-05'00'",
+          "creationdate": "D:20080205032417Z",
+          "creator": "Pages",
+          "author": "Ted Meyer",
+          "producer": "Mac OS X 10.5.1 Quartz PDFContext",
+          "title": "Scythe3-Final1-Content-NoPicts"
+        }
+      },
+      "breadcrumbUrl": {
+        "host": "nps.edu",
+        "crumbs": [
+          "documents",
+          "Scythe3-Team6-Report.pdf"
+        ]
+      },
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "cacheUrl": "http://www.google.com/search?q=cache:11qOI-U-pUoJ:nps.edu",
+      "clicktrackUrl": "https://www.google.com/url?client=internal-element-cse&cx=40665cab28cd900e0&q=https://nps.edu/documents/106696734/108129281/Hernandez-Lucas-Carlyle%2B-%2Bsaturated%2BNOLH.pdf/a4891d1d-0cd4-4415-b712-1e1388600f4c%3Ft%3D1475088413000&sa=U&ved=2ahUKEwjjn8Gf_7L_AhVbIUQIHe5_A3IQFnoECBAQAg&usg=AOvVaw1pFOLKgCWIPz49S6Snj6i5",
+      "content": "Oct 26, 2012 \u003cb\u003e...\u003c/b\u003e Latin hypercube designs have proven useful for exploring complex, ... In fact, LHs are the predominant \u003cb\u003edesign for experiments\u003c/b\u003e involving com-.",
+      "contentNoFormatting": "Oct 26, 2012 ... Latin hypercube designs have proven useful for exploring complex, ... In fact, LHs are the predominant design for experiments involving com-.",
+      "title": "20 Constructing Nearly Orthogonal Latin Hypercubes for Any ...",
+      "titleNoFormatting": "20 Constructing Nearly Orthogonal Latin Hypercubes for Any ...",
+      "formattedUrl": "https://nps.edu/...\u003cb\u003epdf\u003c/b\u003e/a4891d1d-0cd4-4415-b712-1e1388600f4c?t...",
+      "unescapedUrl": "https://nps.edu/documents/106696734/108129281/Hernandez-Lucas-Carlyle+-+saturated+NOLH.pdf/a4891d1d-0cd4-4415-b712-1e1388600f4c?t=1475088413000",
+      "url": "https://nps.edu/documents/106696734/108129281/Hernandez-Lucas-Carlyle%2B-%2Bsaturated%2BNOLH.pdf/a4891d1d-0cd4-4415-b712-1e1388600f4c%3Ft%3D1475088413000",
+      "visibleUrl": "nps.edu",
+      "richSnippet": {
+        "cseImage": {
+          "src": "x-raw-image:///db836856b4c39a93be06dbe04201d3e7987961dc917d3c41c0bab8ae000988c0"
+        },
+        "metatags": {
+          "moddate": "D:20121026145527-07'00'",
+          "creationdate": "D:20121026204534+05'30'",
+          "creator": "dvips(k) 5.95a Copyright 2005 Radical Eye Software",
+          "producer": "Acrobat Distiller 7.0.5 (Windows)",
+          "title": "TOMACS2204-20_LR.dvi"
+        }
+      },
+      "breadcrumbUrl": {
+        "host": "nps.edu",
+        "crumbs": [
+          "documents",
+          "Hernandez-Lucas-Carlyle+-+saturated+NOLH.pdf"
+        ]
+      },
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "cacheUrl": "http://www.google.com/search?q=cache:NY4b3lvajqsJ:faculty.nps.edu",
+      "clicktrackUrl": "https://www.google.com/url?client=internal-element-cse&cx=40665cab28cd900e0&q=https://faculty.nps.edu/smsanche/docs/SSanchez_vita_2016June.pdf&sa=U&ved=2ahUKEwjjn8Gf_7L_AhVbIUQIHe5_A3IQFnoECAoQAQ&usg=AOvVaw0giD2qkGzadwvZmfUPhT6I",
+      "content": "6/06–present: Co-Director, Simulation \u003cb\u003eExperiments\u003c/b\u003e &amp; Efficient \u003cb\u003eDesign\u003c/b\u003e (SEED) Center for Data Farming,. Naval Postgraduate School, Monterey, California. 4/11–6/11&nbsp;...",
+      "contentNoFormatting": "6/06–present: Co-Director, Simulation Experiments & Efficient Design (SEED) Center for Data Farming,. Naval Postgraduate School, Monterey, California. 4/11–6/11 ...",
+      "title": "SUSAN M. SANCHEZ",
+      "titleNoFormatting": "SUSAN M. SANCHEZ",
+      "formattedUrl": "https://faculty.nps.edu/smsanche/docs/SSanchez_vita_2016June.\u003cb\u003epdf\u003c/b\u003e",
+      "unescapedUrl": "https://faculty.nps.edu/smsanche/docs/SSanchez_vita_2016June.pdf",
+      "url": "https://faculty.nps.edu/smsanche/docs/SSanchez_vita_2016June.pdf",
+      "visibleUrl": "faculty.nps.edu",
+      "richSnippet": {
+        "cseImage": {
+          "src": "x-raw-image:///05c583a3047414a767255e6cb1886bee059fe29ea642abe19b5674041139c2bd"
+        },
+        "metatags": {
+          "moddate": "D:20160701091607-07'00'",
+          "creator": "LaTeX with hyperref package",
+          "creationdate": "D:20160701091607-07'00'",
+          "fullbanner": "This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) kpathsea version 6.2.1",
+          "producer": "pdfTeX-1.40.16"
+        }
+      },
+      "breadcrumbUrl": {
+        "host": "faculty.nps.edu",
+        "crumbs": [
+          "smsanche",
+          "docs"
+        ]
+      },
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "cacheUrl": "http://www.google.com/search?q=cache:2EKrXUyQzpkJ:portal.mmowgli.nps.edu",
+      "clicktrackUrl": "https://www.google.com/url?client=internal-element-cse&cx=40665cab28cd900e0&q=https://portal.mmowgli.nps.edu/documents/portlet_file_entry/10156/SlootmakerThesisPiracyPerformanceModelMar2011.pdf/802643b5-ef55-424b-b8e7-600b37636e40%3Fstatus%3D0&sa=U&ved=2ahUKEwjjn8Gf_7L_AhVbIUQIHe5_A3IQFnoECA8QAg&usg=AOvVaw1d9Sy_JuukkO2Ua2dWWlff",
+      "content": "Mar 1, 2011 \u003cb\u003e...\u003c/b\u003e In addition, using robust and realistic \u003cb\u003eexperimental designs\u003c/b\u003e, this research ... http://www.jmp.com/blind/whitepapers/wp_montecarlo_cal.\u003cb\u003epdf\u003c/b\u003e.",
+      "contentNoFormatting": "Mar 1, 2011 ... In addition, using robust and realistic experimental designs, this research ... http://www.jmp.com/blind/whitepapers/wp_montecarlo_cal.pdf.",
+      "title": "Countering Piracy with the Next-Generation Piracy Performance ...",
+      "titleNoFormatting": "Countering Piracy with the Next-Generation Piracy Performance ...",
+      "formattedUrl": "https://portal.mmowgli.nps.edu/...\u003cb\u003epdf\u003c/b\u003e/802643b5-ef55-424b-b8e7- 600b37636e40?...",
+      "unescapedUrl": "https://portal.mmowgli.nps.edu/documents/portlet_file_entry/10156/SlootmakerThesisPiracyPerformanceModelMar2011.pdf/802643b5-ef55-424b-b8e7-600b37636e40?status=0",
+      "url": "https://portal.mmowgli.nps.edu/documents/portlet_file_entry/10156/SlootmakerThesisPiracyPerformanceModelMar2011.pdf/802643b5-ef55-424b-b8e7-600b37636e40%3Fstatus%3D0",
+      "visibleUrl": "portal.mmowgli.nps.edu",
+      "richSnippet": {
+        "cseImage": {
+          "src": "x-raw-image:///8e90c223bb0f7341602bb95b35216f70bc1c42eaf74f7ba7cce7566eddca9a30"
+        },
+        "metatags": {
+          "moddate": "D:20110601073220-04'00'",
+          "creationdate": "D:20110330142925-07'00'",
+          "creator": "PScript5.dll Version 5.2",
+          "author": "silva",
+          "producer": "Acrobat Distiller 8.2.6 (Windows)",
+          "title": "Microsoft Word - 3533270D.doc"
+        }
+      },
+      "breadcrumbUrl": {
+        "host": "portal.mmowgli.nps.edu",
+        "crumbs": [
+          "documents",
+          "portlet_file_entry",
+          "SlootmakerThe..."
+        ]
+      },
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "cacheUrl": "http://www.google.com/search?q=cache:Y6A52PUHtlgJ:nps.edu",
+      "clicktrackUrl": "https://www.google.com/url?client=internal-element-cse&cx=40665cab28cd900e0&q=https://nps.edu/documents/106696734/0/PROM-WED%2BUser%2BManual.pdf/46e5a845-e4ee-4034-936b-a820bc923cd8%3Ft%3D1489734455000&sa=U&ved=2ahUKEwjjn8Gf_7L_AhVbIUQIHe5_A3IQFnoECAwQAQ&usg=AOvVaw2XOlXYlKYDm32uXMQ89h9o",
+      "content": "By selecting “Set Range,” the low and high values entered for this decision variable in the. “\u003cb\u003eDesign of Experiments\u003c/b\u003e Table” are deposited into the NOLH worksheet&nbsp;...",
+      "contentNoFormatting": "By selecting “Set Range,” the low and high values entered for this decision variable in the. “Design of Experiments Table” are deposited into the NOLH worksheet ...",
+      "title": "USER MANUAL",
+      "titleNoFormatting": "USER MANUAL",
+      "formattedUrl": "https://nps.edu/.../0/...\u003cb\u003epdf\u003c/b\u003e/46e5a845-e4ee-4034-936b-a820bc923cd8?t...",
+      "unescapedUrl": "https://nps.edu/documents/106696734/0/PROM-WED+User+Manual.pdf/46e5a845-e4ee-4034-936b-a820bc923cd8?t=1489734455000",
+      "url": "https://nps.edu/documents/106696734/0/PROM-WED%2BUser%2BManual.pdf/46e5a845-e4ee-4034-936b-a820bc923cd8%3Ft%3D1489734455000",
+      "visibleUrl": "nps.edu",
+      "richSnippet": {
+        "cseImage": {
+          "src": "x-raw-image:///e61a2b91d787fa13d47dea49dabea793889463756272db5181f3d02331380999"
+        },
+        "metatags": {
+          "moddate": "D:20170315174232-07'00'",
+          "creator": "Microsoft® Word 2013",
+          "creationdate": "D:20170315174232-07'00'",
+          "author": "Allison",
+          "producer": "Microsoft® Word 2013"
+        }
+      },
+      "breadcrumbUrl": {
+        "host": "nps.edu",
+        "crumbs": [
+          "documents",
+          "PROM-WED+User+Manual.pdf"
+        ]
+      },
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "cacheUrl": "http://www.google.com/search?q=cache:EruxC7wHpLYJ:www.nps.edu",
+      "clicktrackUrl": "https://www.google.com/url?client=internal-element-cse&cx=40665cab28cd900e0&q=https://www.nps.edu/documents/106696734/108129281/015.pdf/0aa2b5e4-9720-4b34-8f79-99967a701b75&sa=U&ved=2ahUKEwjjn8Gf_7L_AhVbIUQIHe5_A3IQFnoECAMQAQ&usg=AOvVaw17vuS3awtWCzRuqZTaZZvH",
+      "content": "\u003cb\u003epdf\u003c/b\u003e&gt; [accessed August. 13, 2002]. Cioppa, T. M. 2002. Efficient nearly orthogonal and space- filling \u003cb\u003eexperimental designs\u003c/b\u003e for high-dimensional com- plex models.",
+      "contentNoFormatting": "pdf\u003e [accessed August. 13, 2002]. Cioppa, T. M. 2002. Efficient nearly orthogonal and space- filling experimental designs for high-dimensional com- plex models.",
+      "title": "2002: EXPLORING THE WORLD OF AGENT-BASED SIMULATIONS ...",
+      "titleNoFormatting": "2002: EXPLORING THE WORLD OF AGENT-BASED SIMULATIONS ...",
+      "formattedUrl": "https://www.nps.edu/.../015.\u003cb\u003epdf\u003c/b\u003e/0aa2b5e4-9720-4b34-8f79-99967a701b75",
+      "unescapedUrl": "https://www.nps.edu/documents/106696734/108129281/015.pdf/0aa2b5e4-9720-4b34-8f79-99967a701b75",
+      "url": "https://www.nps.edu/documents/106696734/108129281/015.pdf/0aa2b5e4-9720-4b34-8f79-99967a701b75",
+      "visibleUrl": "www.nps.edu",
+      "richSnippet": {
+        "cseImage": {
+          "src": "x-raw-image:///b1802508b5f724ebd0fa5988f73454aa595248cacb56ac62e7ffdeb8151012d7"
+        },
+        "metatags": {
+          "moddate": "D:20021115115544-06'00'",
+          "creationdate": "D:20020924200310Z",
+          "creator": "DVIPSONE 2.2.4  http://www.YandY.com",
+          "author": "Susan M. Sanchez and Thomas W. Lucas",
+          "producer": "Acrobat Distiller 3.01 for Windows",
+          "title": "2002:  EXPLORING THE WORLD OF AGENT-BASED SIMULATIONS:  SIMPLE MODELS, COMPLEX ANALYSES"
+        }
+      },
+      "breadcrumbUrl": {
+        "host": "www.nps.edu",
+        "crumbs": [
+          "documents",
+          "015.pdf"
+        ]
+      },
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "cacheUrl": "http://www.google.com/search?q=cache:HC5i3i9le7QJ:faculty.nps.edu",
+      "clicktrackUrl": "https://www.google.com/url?client=internal-element-cse&cx=40665cab28cd900e0&q=https://faculty.nps.edu/smsanche/docs/ijoc05.pdf&sa=U&ved=2ahUKEwjjn8Gf_7L_AhVbIUQIHe5_A3IQFnoECA4QAQ&usg=AOvVaw1CbwdbA-2ZT7LwCTDTy8Q5",
+      "content": "\u003cb\u003eDESIGNING\u003c/b\u003e SIMULATION \u003cb\u003eEXPERIMENTS\u003c/b\u003e. Abstract. Many simulation practitioners can get more from their analyses by using the statistical theory on.",
+      "contentNoFormatting": "DESIGNING SIMULATION EXPERIMENTS. Abstract. Many simulation practitioners can get more from their analyses by using the statistical theory on.",
+      "title": "A USER&#39;S GUIDE TO THE BRAVE NEW WORLD OF \u003cb\u003eDESIGNING\u003c/b\u003e ...",
+      "titleNoFormatting": "A USER'S GUIDE TO THE BRAVE NEW WORLD OF DESIGNING ...",
+      "formattedUrl": "https://faculty.nps.edu/smsanche/docs/ijoc05.\u003cb\u003epdf\u003c/b\u003e",
+      "unescapedUrl": "https://faculty.nps.edu/smsanche/docs/ijoc05.pdf",
+      "url": "https://faculty.nps.edu/smsanche/docs/ijoc05.pdf",
+      "visibleUrl": "faculty.nps.edu",
+      "richSnippet": {
+        "cseImage": {
+          "src": "x-raw-image:///e34c42db807a7f7f7627825d50222b9a0b9db2a9fa906d606565d064033b3744"
+        },
+        "metatags": {
+          "creator": "TeX",
+          "creationdate": "D:20050716112100-07'00'",
+          "producer": "pdfTeX-1.11a"
+        }
+      },
+      "breadcrumbUrl": {
+        "host": "faculty.nps.edu",
+        "crumbs": [
+          "smsanche",
+          "docs",
+          "ijoc05"
+        ]
+      },
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "cacheUrl": "http://www.google.com/search?q=cache:rLspyAhaAHIJ:faculty.nps.edu",
+      "clicktrackUrl": "https://www.google.com/url?client=internal-element-cse&cx=40665cab28cd900e0&q=http://faculty.nps.edu/rtsilves/pubs/ijedpo010101_johnson.pdf&sa=U&ved=2ahUKEwjjn8Gf_7L_AhVbIUQIHe5_A3IQFnoECAsQAQ&usg=AOvVaw0WHSqD1JzQx4YyjIRljfM-",
+      "content": "Her research interests are in the \u003cb\u003edesign\u003c/b\u003e and analysis of both physical and computer \u003cb\u003eexperiments\u003c/b\u003e and simulation methodology. She is a recipient of the. Mary G.",
+      "contentNoFormatting": "Her research interests are in the design and analysis of both physical and computer experiments and simulation methodology. She is a recipient of the. Mary G.",
+      "title": "Choice of second-order response surface \u003cb\u003edesigns\u003c/b\u003e for logistic and ...",
+      "titleNoFormatting": "Choice of second-order response surface designs for logistic and ...",
+      "formattedUrl": "faculty.nps.edu/rtsilves/pubs/ijedpo010101_johnson.\u003cb\u003epdf\u003c/b\u003e",
+      "unescapedUrl": "http://faculty.nps.edu/rtsilves/pubs/ijedpo010101_johnson.pdf",
+      "url": "http://faculty.nps.edu/rtsilves/pubs/ijedpo010101_johnson.pdf",
+      "visibleUrl": "faculty.nps.edu",
+      "richSnippet": {
+        "cseImage": {
+          "src": "x-raw-image:///47ffe1e1b8e628f2d3b2216b3c0581a1f35e9cea160fa2e1738162930c9796e6"
+        },
+        "metatags": {
+          "moddate": "D:20091002171138Z00'00'",
+          "creator": "PScript5.dll Version 5.2",
+          "creationdate": "D:20091002171138Z00'00'",
+          "author": "temp",
+          "producer": "Mac OS X 10.5.8 Quartz PDFContext",
+          "title": "Microsoft Word - IJEDPO010101 JOHNSON.doc"
+        }
+      },
+      "breadcrumbUrl": {
+        "host": "faculty.nps.edu",
+        "crumbs": [
+          "rtsilves",
+          "pubs",
+          "ijedpo010101_johnson"
+        ]
+      },
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "clicktrackUrl": "https://www.google.com/url?client=internal-element-cse&cx=40665cab28cd900e0&q=https://www.nps.edu/documents/106865520/106917544/AIAA-2006-6187-259-kim_agrawal.pdf/bb44e28f-a796-4d6f-805b-1a8f0277c112%3Ft%3D1458154078000&sa=U&ved=2ahUKEwjjn8Gf_7L_AhVbIUQIHe5_A3IQFnoECAEQAg&usg=AOvVaw2OdWA-rdBa8JhFTU9qFRJv",
+      "content": "Aug 21, 2006 \u003cb\u003e...\u003c/b\u003e Abstract : In this paper, \u003cb\u003eexperimental\u003c/b\u003e verifications of various jerk-limited control \u003cb\u003edesigns\u003c/b\u003e are presented. The focus is on a large slew&nbsp;...",
+      "contentNoFormatting": "Aug 21, 2006 ... Abstract : In this paper, experimental verifications of various jerk-limited control designs are presented. The focus is on a large slew ...",
+      "title": "[\u003cb\u003ePDF\u003c/b\u003e] \u003cb\u003eExperiments\u003c/b\u003e on Jerk-Limited Slew Maneuvers of a Flexible ...",
+      "titleNoFormatting": "[PDF] Experiments on Jerk-Limited Slew Maneuvers of a Flexible ...",
+      "formattedUrl": "https://www.nps.edu/...\u003cb\u003epdf\u003c/b\u003e/bb44e28f-a796-4d6f-805b-1a8f0277c112?...",
+      "unescapedUrl": "https://www.nps.edu/documents/106865520/106917544/AIAA-2006-6187-259-kim_agrawal.pdf/bb44e28f-a796-4d6f-805b-1a8f0277c112?t=1458154078000",
+      "url": "https://www.nps.edu/documents/106865520/106917544/AIAA-2006-6187-259-kim_agrawal.pdf/bb44e28f-a796-4d6f-805b-1a8f0277c112%3Ft%3D1458154078000",
+      "visibleUrl": "www.nps.edu",
+      "richSnippet": {
+        "cseImage": {
+          "src": "https://www.semanticscholar.org/img/semantic_scholar_og.png"
+        },
+        "metatags": {
+          "twitterTitle": "[PDF] Experiments on Jerk-Limited Slew Maneuvers of a Flexible Spacecraft | Semantic Scholar",
+          "ogImageWidth": "1110",
+          "citationTitle": "Experiments on Jerk-Limited Slew Maneuvers of a Flexible Spacecraft",
+          "ogTitle": "[PDF] Experiments on Jerk-Limited Slew Maneuvers of a Flexible Spacecraft | Semantic Scholar",
+          "msapplicationWide310x150logo": "https://cdn.semanticscholar.org/cc24791d885bbb04/img/mstile-310x150.png",
+          "ogType": "website",
+          "citationPublicationDate": "2006",
+          "twitterCard": "summary_large_image",
+          "s2UiVersion": "3c01630d56dc799b118a0a5b629a574059ca0ae2",
+          "msapplicationTileimage": "https://cdn.semanticscholar.org/cc24791d885bbb04/img/mstile-144x144.png",
+          "ogImageHeight": "582",
+          "ogImageSecureUrl": "https://www.semanticscholar.org/img/semantic_scholar_og.png",
+          "applicationName": " ",
+          "msapplicationSquare310x310logo": "https://cdn.semanticscholar.org/cc24791d885bbb04/img/mstile-310x310.png",
+          "twitterSite": "@allenai_org",
+          "citationPdfUrl": "https://doi.org/10.2514/6.2006-6187",
+          "twitterImage": "https://www.semanticscholar.org/img/semantic_scholar_og.png",
+          "ogDescription": "Abstract : In this paper, experimental verifications of various jerk-limited control designs are presented. The focus is on a large slew maneuver of a flexible spacecraft where the fast and accurate pointing is required at the end of the maneuver. Various control profiles are investigated including input shaping and jerk-limited optimal control profiles, especially to account the effect of jerk in the control profile. The control design is verified by the experiment using the Flexible Spacecraft Simulator (FSS).",
+          "ogImage": "https://www.semanticscholar.org/img/semantic_scholar_og.png",
+          "ogLocale": "en_US",
+          "viewport": "width=device-width,initial-scale=1",
+          "twitterDescription": "Abstract : In this paper, experimental verifications of various jerk-limited control designs are presented. The focus is on a large slew maneuver of a flexible spacecraft where the fast and accurate pointing is required at the end of the maneuver. Various control profiles are investigated including input shaping and jerk-limited optimal control profiles, especially to account the effect of jerk in the control profile. The control design is verified by the experiment using the Flexible Spacecraft Simulator (FSS).",
+          "msapplicationSquare150x150logo": "https://cdn.semanticscholar.org/cc24791d885bbb04/img/mstile-150x150.png",
+          "citationAuthor": "J. J. Kim",
+          "msapplicationTilecolor": "#FFFFFF",
+          "msapplicationSquare70x70logo": "https://cdn.semanticscholar.org/cc24791d885bbb04/img/mstile-70x70.png"
+        }
+      },
+      "breadcrumbUrl": {
+        "host": "www.nps.edu",
+        "crumbs": [
+          "documents",
+          "AIAA-2006-6187-259-kim_agrawal.pdf"
+        ]
+      }
+    },
+    {
+      "cacheUrl": "http://www.google.com/search?q=cache:eVKCjvhyMR0J:nps.edu",
+      "clicktrackUrl": "https://www.google.com/url?client=internal-element-cse&cx=40665cab28cd900e0&q=https://nps.edu/documents/120849547/0/NPS%2BWargaming%2B-%2BArticle1%2B-%2BDeveloping%2BNew%2BTactics%2Band%2BTechnologies%2Bin%2BNaval%2BWarfare_%2BThe%2BMDUSV%2BExample.pdf/dd1841b7-3b1b-cf81-bed6-ed3680486467%3Ft%3D1594335766541&sa=U&ved=2ahUKEwjjn8Gf_7L_AhVbIUQIHe5_A3IQFnoECAAQAg&usg=AOvVaw0XDsNS6A3nKcK3SBMw17Z1",
+      "content": "Jan 24, 2019 \u003cb\u003e...\u003c/b\u003e homeland security issues is well describe in \u003cb\u003eDesign\u003c/b\u003e and Analysis of \u003cb\u003eExperiments\u003c/b\u003e by leaders in the Naval Postgraduate School&#39;s Simulation&nbsp;...",
+      "contentNoFormatting": "Jan 24, 2019 ... homeland security issues is well describe in Design and Analysis of Experiments by leaders in the Naval Postgraduate School's Simulation ...",
+      "title": "DEVELOPING NEW TACTICS AND TECHNOLOGIES IN NAVAL ...",
+      "titleNoFormatting": "DEVELOPING NEW TACTICS AND TECHNOLOGIES IN NAVAL ...",
+      "formattedUrl": "https://nps.edu/...\u003cb\u003epdf\u003c/b\u003e/dd1841b7-3b1b-cf81-bed6-ed3680486467?...",
+      "unescapedUrl": "https://nps.edu/documents/120849547/0/NPS+Wargaming+-+Article1+-+Developing+New+Tactics+and+Technologies+in+Naval+Warfare_+The+MDUSV+Example.pdf/dd1841b7-3b1b-cf81-bed6-ed3680486467?t=1594335766541",
+      "url": "https://nps.edu/documents/120849547/0/NPS%2BWargaming%2B-%2BArticle1%2B-%2BDeveloping%2BNew%2BTactics%2Band%2BTechnologies%2Bin%2BNaval%2BWarfare_%2BThe%2BMDUSV%2BExample.pdf/dd1841b7-3b1b-cf81-bed6-ed3680486467%3Ft%3D1594335766541",
+      "visibleUrl": "nps.edu",
+      "richSnippet": {
+        "cseImage": {
+          "src": "x-raw-image:///8d4d561b4696e318b16ea7c4b6557939d4fdf2b3d62100b5f9bad649b0d8b702"
+        },
+        "metatags": {
+          "moddate": "D:20190418204444+00'00'",
+          "creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36",
+          "creationdate": "D:20190418204444+00'00'",
+          "producer": "Skia/PDF m73"
+        }
+      },
+      "breadcrumbUrl": {
+        "host": "nps.edu",
+        "crumbs": [
+          "documents",
+          "NPS+Wargaming+-+Article1+-+Developing+New+..."
+        ]
+      },
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "cacheUrl": "http://www.google.com/search?q=cache:pcVhSI5iTS4J:faculty.nps.edu",
+      "clicktrackUrl": "https://www.google.com/url?client=internal-element-cse&cx=40665cab28cd900e0&q=http://faculty.nps.edu/rtsilves/pubs/ConfPubs/Johnson_WSC_2009.pdf&sa=U&ved=2ahUKEwjjn8Gf_7L_AhVbIUQIHe5_A3IQFnoECAgQAQ&usg=AOvVaw1i9uY5htG8zgAW3P9ywPKh",
+      "content": "A methodology for calibrating PAX in a given scenario context using \u003cb\u003eexperimental design\u003c/b\u003e and an iterative analysis is described in this paper. 2.2. Refugee Camp&nbsp;...",
+      "contentNoFormatting": "A methodology for calibrating PAX in a given scenario context using experimental design and an iterative analysis is described in this paper. 2.2. Refugee Camp ...",
+      "title": "CALIBRATION OF AN AGENT-BASED SIMULATION MODEL ...",
+      "titleNoFormatting": "CALIBRATION OF AN AGENT-BASED SIMULATION MODEL ...",
+      "formattedUrl": "faculty.nps.edu/rtsilves/pubs/ConfPubs/Johnson_WSC_2009.\u003cb\u003epdf\u003c/b\u003e",
+      "unescapedUrl": "http://faculty.nps.edu/rtsilves/pubs/ConfPubs/Johnson_WSC_2009.pdf",
+      "url": "http://faculty.nps.edu/rtsilves/pubs/ConfPubs/Johnson_WSC_2009.pdf",
+      "visibleUrl": "faculty.nps.edu",
+      "richSnippet": {
+        "cseImage": {
+          "src": "x-raw-image:///982c7cf1ad1fe360e7196b814e53455eb90f6b78b00014a1eb57052d9e3a70dc"
+        },
+        "metatags": {
+          "moddate": "D:20091109121529-06'00'",
+          "creationdate": "D:20091008123039-05'00'",
+          "mtequationnumber2": "(#E1)",
+          "creator": "Acrobat PDFMaker 9.0 for Word",
+          "mtequationsection": "1",
+          "sourcemodified": "D:20091006211405",
+          "subject": "WSC '07 Proceedings",
+          "author": "Rachel T. Johnson, Thorsten A. Lampe, Stephan Seichter",
+          "producer": "Adobe PDF Library 9.0",
+          "company": "Carnegie Mellon",
+          "title": "CALIBRATION OF AN AGENT-BASED SIMULATION MODEL DEPICTING A REFUGEE CAMP SCENARIO",
+          "mtwineqns": "1"
+        }
+      },
+      "breadcrumbUrl": {
+        "host": "faculty.nps.edu",
+        "crumbs": [
+          "rtsilves",
+          "pubs",
+          "ConfPubs",
+          "Johnson_WSC_2009"
+        ]
+      },
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "cacheUrl": "http://www.google.com/search?q=cache:AgZSK-7EQE4J:www.nps.edu",
+      "clicktrackUrl": "https://www.google.com/url?client=internal-element-cse&cx=40665cab28cd900e0&q=https://www.nps.edu/documents/110704361/110754048/ICCRTS%2B052%2Bvirtual%2Benvironment.pdf/6c4c2941-667c-4b75-bc04-1382542c6c06&sa=U&ved=2ahUKEwjjn8Gf_7L_AhVbIUQIHe5_A3IQFnoECAQQAQ&usg=AOvVaw25rfgCqk8Ylt2qFeQb22Bq",
+      "content": "Research in command and control is advancing rapidly through a campaign of laboratory experimentation using the ELICIT (\u003cb\u003eExperimental\u003c/b\u003e Laboratory for&nbsp;...",
+      "contentNoFormatting": "Research in command and control is advancing rapidly through a campaign of laboratory experimentation using the ELICIT (Experimental Laboratory for ...",
+      "title": "Command &amp; Control in Virtual Environments: \u003cb\u003eDesigning\u003c/b\u003e a Virtual ...",
+      "titleNoFormatting": "Command & Control in Virtual Environments: Designing a Virtual ...",
+      "formattedUrl": "https://www.nps.edu/...\u003cb\u003epdf\u003c/b\u003e/6c4c2941-667c-4b75-bc04-1382542c6c06",
+      "unescapedUrl": "https://www.nps.edu/documents/110704361/110754048/ICCRTS+052+virtual+environment.pdf/6c4c2941-667c-4b75-bc04-1382542c6c06",
+      "url": "https://www.nps.edu/documents/110704361/110754048/ICCRTS%2B052%2Bvirtual%2Benvironment.pdf/6c4c2941-667c-4b75-bc04-1382542c6c06",
+      "visibleUrl": "www.nps.edu",
+      "richSnippet": {
+        "cseImage": {
+          "src": "x-raw-image:///3c0660a1209f82c8f451a97cdb52cd056bfd0ef74a99302f01e299e0722a9e63"
+        },
+        "metatags": {
+          "moddate": "D:20100520201429-04'00'",
+          "creationdate": "D:20100520201420-04'00'",
+          "creator": "Acrobat PDFMaker 9.1 for Word",
+          "sourcemodified": "D:20100421181722",
+          "producer": "Acrobat Distiller 9.2.0 (Windows)",
+          "title": "{{}}"
+        }
+      },
+      "breadcrumbUrl": {
+        "host": "www.nps.edu",
+        "crumbs": [
+          "documents",
+          "ICCRTS+052+virtual+environment.pdf"
+        ]
+      },
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "cacheUrl": "http://www.google.com/search?q=cache:cGJLYER_wh8J:nps.edu",
+      "clicktrackUrl": "https://www.google.com/url?client=internal-element-cse&cx=40665cab28cd900e0&q=https://nps.edu/documents/105988579/106076845/ch3.pdf/44cdfa91-a5ba-4177-b15e-99a49aa13040&sa=U&ved=2ahUKEwjjn8Gf_7L_AhVbIUQIHe5_A3IQFnoECAYQAQ&usg=AOvVaw1b928MkeAlQPOlBAwuIygD",
+      "content": "factorial designs. In order to reduce the statistical overhead of traditional \u003cb\u003edesign of experiments\u003c/b\u003e while retaining the benefits of rigorous analysis,&nbsp;...",
+      "contentNoFormatting": "factorial designs. In order to reduce the statistical overhead of traditional design of experiments while retaining the benefits of rigorous analysis, ...",
+      "title": "Chapter III",
+      "titleNoFormatting": "Chapter III",
+      "formattedUrl": "https://nps.edu/documents/...\u003cb\u003epdf\u003c/b\u003e/44cdfa91-a5ba-4177-b15e-99a49aa13040",
+      "unescapedUrl": "https://nps.edu/documents/105988579/106076845/ch3.pdf/44cdfa91-a5ba-4177-b15e-99a49aa13040",
+      "url": "https://nps.edu/documents/105988579/106076845/ch3.pdf/44cdfa91-a5ba-4177-b15e-99a49aa13040",
+      "visibleUrl": "nps.edu",
+      "richSnippet": {
+        "metatags": {
+          "creator": "Chapter III.doc - Microsoft Word",
+          "creationdate": "D:20030307091355",
+          "author": "dholwell",
+          "producer": "Acrobat PDFWriter 5.0 for Windows NT",
+          "title": "Chapter III.doc"
+        }
+      },
+      "breadcrumbUrl": {
+        "host": "nps.edu",
+        "crumbs": [
+          "documents",
+          "ch3.pdf"
+        ]
+      },
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "cacheUrl": "http://www.google.com/search?q=cache:G6FFlYaqUJ4J:nps.edu",
+      "clicktrackUrl": "https://www.google.com/url?client=internal-element-cse&cx=40665cab28cd900e0&q=https://nps.edu/documents/104914977/106190898/TRWG-15-2-02_02_SEED%2BCenter_20150811.pdf/fc42527a-565e-48ee-9e82-6d2cb461470b%3Fversion%3D1.0&sa=U&ved=2ahUKEwjjn8Gf_7L_AhVbIUQIHe5_A3IQFnoECAcQAQ&usg=AOvVaw2uHWZpzzMlcq3gqDN2DLBa",
+      "content": "New \u003cb\u003eDesign of Experiments\u003c/b\u003e (DOE) ... Simulation experiments supporting live tests ... \u003cb\u003ePdf\u003c/b\u003e files for several publications, reference info for the rest.",
+      "contentNoFormatting": "New Design of Experiments (DOE) ... Simulation experiments supporting live tests ... Pdf files for several publications, reference info for the rest.",
+      "title": "No Slide Title",
+      "titleNoFormatting": "No Slide Title",
+      "formattedUrl": "https://nps.edu/...\u003cb\u003epdf\u003c/b\u003e/fc42527a-565e-48ee-9e82-6d2cb461470b?...",
+      "unescapedUrl": "https://nps.edu/documents/104914977/106190898/TRWG-15-2-02_02_SEED+Center_20150811.pdf/fc42527a-565e-48ee-9e82-6d2cb461470b?version=1.0",
+      "url": "https://nps.edu/documents/104914977/106190898/TRWG-15-2-02_02_SEED%2BCenter_20150811.pdf/fc42527a-565e-48ee-9e82-6d2cb461470b%3Fversion%3D1.0",
+      "visibleUrl": "nps.edu",
+      "richSnippet": {
+        "cseImage": {
+          "src": "x-raw-image:///9c0a05adacda7c56336f3759a37ec0235df984e6f2f510eda613f8bff1668f21"
+        },
+        "metatags": {
+          "moddate": "D:20151104154503-08'00'",
+          "creationdate": "D:20151104154459-08'00'",
+          "creator": "Acrobat PDFMaker 11 for PowerPoint",
+          "author": "rigbyd",
+          "producer": "Adobe PDF Library 11.0",
+          "company": "Defense Threat Reduction Agency",
+          "title": "No Slide Title"
+        }
+      },
+      "breadcrumbUrl": {
+        "host": "nps.edu",
+        "crumbs": [
+          "documents",
+          "TRWG-15-2-02_02_SEED+Center_20150811.pdf"
+        ]
+      },
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "clicktrackUrl": "https://www.google.com/url?client=internal-element-cse&cx=40665cab28cd900e0&q=https://nps.edu/documents/105873337/0/Flexible%2BLink%2BWorkbook%2B_Instructor_.pdf/d2fd225c-ec5d-4c68-bb5d-8fe72ded9964&sa=U&ved=2ahUKEwjjn8Gf_7L_AhVbIUQIHe5_A3IQFnoECAIQAQ&usg=AOvVaw1kzWtfCAsQAs2zpdbiOQOj",
+      "content": "Flexible Link Workbook (Student).\u003cb\u003epdf\u003c/b\u003e. This laboratory guide contains pre-lab questions and lab \u003cb\u003eexperiments\u003c/b\u003e demonstrating how to \u003cb\u003edesign\u003c/b\u003e and implement.",
+      "contentNoFormatting": "Flexible Link Workbook (Student).pdf. This laboratory guide contains pre-lab questions and lab experiments demonstrating how to design and implement.",
+      "title": "Quanser Flexible Link Workbook",
+      "titleNoFormatting": "Quanser Flexible Link Workbook",
+      "formattedUrl": "https://nps.edu/.../0/...\u003cb\u003epdf\u003c/b\u003e/d2fd225c-ec5d-4c68-bb5d-8fe72ded9964",
+      "unescapedUrl": "https://nps.edu/documents/105873337/0/Flexible+Link+Workbook+_Instructor_.pdf/d2fd225c-ec5d-4c68-bb5d-8fe72ded9964",
+      "url": "https://nps.edu/documents/105873337/0/Flexible%2BLink%2BWorkbook%2B_Instructor_.pdf/d2fd225c-ec5d-4c68-bb5d-8fe72ded9964",
+      "visibleUrl": "nps.edu",
+      "richSnippet": {
+        "cseImage": {
+          "src": "x-raw-image:///de2dba035b459cd44c7edde27616176427e9bd90379d0618b8cb62fb88ddee86"
+        },
+        "metatags": {
+          "moddate": "D:20111216122746-05'00'",
+          "creationdate": "D:20111215152415-05'00'",
+          "creator": "LaTeX with hyperref package",
+          "author": "Quanser Inc.",
+          "producer": "MiKTeX-xdvipdfmx (0.7.7 svn texlive 15080)",
+          "title": "Quanser Flexible Link Workbook"
+        }
+      },
+      "breadcrumbUrl": {
+        "host": "nps.edu",
+        "crumbs": [
+          "documents",
+          "Flexible+Link+Workbook+_Instructor_.pdf"
+        ]
+      },
+      "fileFormat": "PDF/Adobe Acrobat"
+    }
+  ],
+  "findMoreOnGoogle": {
+    "url": "https://www.google.com/search?client=ms-google-coop&q=design-of-experiments+pdf&cx=40665cab28cd900e0"
+  }
+}

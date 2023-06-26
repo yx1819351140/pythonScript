@@ -18,11 +18,15 @@ class BaiduTranslate(object):
         self.salt = ''.join(str(random.choice(range(10))) for _ in range(10))
 
     def translate(self, text, to):
-        self.sign = md5_string(self.app_id + text + self.salt + self.key)
-        url = f'http://api.fanyi.baidu.com/api/trans/vip/translate?q={text}&from=auto&to={to}&appid={self.app_id}&salt={self.salt}&sign={self.sign}'
-        res = requests.get(url, proxies=PROXY)
-        dict_data = json.loads(res.text)
-        return dict_data['trans_result'][0]['dst']
+        try:
+            self.sign = md5_string(self.app_id + text + self.salt + self.key)
+            url = f'http://api.fanyi.baidu.com/api/trans/vip/translate?q={text}&from=auto&to={to}&appid={self.app_id}&salt={self.salt}&sign={self.sign}'
+            res = requests.get(url, proxies=PROXY)
+            dict_data = json.loads(res.text)
+            return dict_data['trans_result'][0]['dst']
+        except:
+            print(text)
+            return 'aaaaa'
 
     # 自动解析语言，翻译成中文
     def translate_2_zh(self, text):

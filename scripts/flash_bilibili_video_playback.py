@@ -125,7 +125,7 @@ if __name__ == '__main__':
     # proxy_list = get_proxy_from_89()
     # for proxy in proxy_list:
 
-    video_id = 'BV1No4y157Zf'
+    video_id = 'BV1vM4y1e7tp'
     for i in range(100):
         proxy = requests.get('http://proxy.siyetian.com/apis_get.html?token=gHbi1iT61UMOpXWx0EVrNTTB1STqFUeNpXQ51ERNFTTq1UNORUT49ERVNTT6NWe.wN3IjMwQTN3YTM&limit=1&type=0&time=10&split=1&split_text=&area=0&repeat=0&isp=0').text
         print(proxy)
