@@ -35,7 +35,7 @@ def monitor_routine_load():
             # except:
             #     continue
     if content:
-        content += f'当前时间：{time.strftime("%Y-%m-%d %H:%M:%S")}'
+        content += f'\n当前时间：{time.strftime("%Y-%m-%d %H:%M:%S")}'
         json_data = {
             'msgtype': 'text',
             'text': {
