@@ -9,6 +9,7 @@
 import pymysql
 from kafka import KafkaProducer
 import json
+from datetime import datetime
 
 MYSQL_HOST = '10.32.51.151'
 MYSQL_PORT = 4000
@@ -22,8 +23,8 @@ KAFKA_SERVERS = ['10.32.50.101:9092', '10.32.50.102:9092', '10.32.50.103:9092']
 KAFKA_TOPIC = 'st_policy'  # 替换为你的Kafka主题名称
 
 # Batch size
-BATCH_SIZE = 162000
-TOTAL_ROWS = 1620000
+BATCH_SIZE = 1620
+TOTAL_ROWS = 1624111
 NUM_BATCHES = TOTAL_ROWS // BATCH_SIZE
 
 # Initialize Kafka producer
@@ -31,6 +32,13 @@ producer = KafkaProducer(
     bootstrap_servers=KAFKA_SERVERS,
     value_serializer=lambda v: json.dumps(v).encode('utf-8')
 )
+
+
+def convert_datetime(obj):
+    if isinstance(obj, datetime):
+        return obj.isoformat().replace('T', ' ')
+    return obj
+
 
 # Connect to MySQL
 connection = pymysql.connect(
@@ -56,6 +64,7 @@ try:
             # Send data to Kafka
             for row in rows:
                 data = dict(zip(columns, row))
+                data = {key: convert_datetime(value) for key, value in data.items()}
                 producer.send(KAFKA_TOPIC, data)
 
             # Flush the producer after each batch
@@ -71,6 +80,7 @@ try:
 
         for row in rows:
             data = dict(zip(columns, row))
+            data = {key: convert_datetime(value) for key, value in data.items()}
             producer.send(KAFKA_TOPIC, data)
 
         producer.flush()
