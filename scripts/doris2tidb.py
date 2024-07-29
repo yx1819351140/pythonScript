@@ -19,7 +19,7 @@ def doris_tidb():
     # 拿到要执行的所有表
     sel_table = """
     select TABLE_SCHEMA,TABLE_NAME,TABLE_COMMENT from information_schema.TABLES where TABLE_SCHEMA='app' and 
-    TABLE_NAME in ('gov_bid_list')
+    TABLE_NAME in ('company_annual_asset')
     ;
     """
     cursor_doris.execute(sel_table)
@@ -57,14 +57,17 @@ def doris_tidb():
         t_end_id = sel_max_min_id[1]
         doris_tb_name = source_bulks_t[1] + '_dev'
         while t_ge_id < t_end_id:
-            insert_sql = "replace into  %s(%s) values" % (doris_tb_name, columnsname[0])
-            sql_doris = f"select {columnsname[0]} from {source_bulks_t[1]} a where  a.id between {t_ge_id} and {t_le_id};"
-            cursor_doris.execute(sql_doris)
-            source_bulks = cursor_doris.fetchall()
-            insert_sql += "(%s)" % (s)
-            if not insert_sql.endswith("values"):
-                cursor_tidb.executemany(insert_sql + ";", source_bulks)
-            cursor_tidb.execute("commit;")
+            try:
+                insert_sql = "replace into  %s(%s) values" % (doris_tb_name, columnsname[0])
+                sql_doris = f"select {columnsname[0]} from {source_bulks_t[1]} a where  a.id between {t_ge_id} and {t_le_id};"
+                cursor_doris.execute(sql_doris)
+                source_bulks = cursor_doris.fetchall()
+                insert_sql += "(%s)" % (s)
+                if not insert_sql.endswith("values"):
+                    cursor_tidb.executemany(insert_sql + ";", source_bulks)
+                cursor_tidb.execute("commit;")
+            except:
+                continue
             t_ge_id += 100000
             t_le_id += 100000
             print("执行", str(source_bulks_t[0]), "库,", f"第{tbl_num}张表，", str(source_bulks_t[1]),
