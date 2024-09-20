@@ -55,21 +55,21 @@ SHOW ROUTINE LOAD FOR ods.{};"""
 
 if __name__ == '__main__':
     field_name = """{
-	"change_record": "187f85b6f6d5aa37b2aecd7a1bf8e81b",
-	"change_type": "",
-	"id": 660845071,
-	"company_id": "8a93c805413f26a860a5a593b5e43bfc",
-	"content_before": "章程备案",
-	"update_time": "2024-05-26 23:59:58",
-	"_operation_type": "insert",
-	"change_field": "章程备案",
-	"change_date": "2024-05-24",
-	"create_time": "2024-05-26 23:59:58",
+	"insurance_amount": null,
+	"update_time": "2024-08-17 00:02:10",
+	"report_year": 2019,
+	"create_time": "2021-07-18 23:31:36",
+	"insurance_arrearage": "企业选择不公示",
+	"_operation_type": "update",
 	"use_flag": 0,
-	"_sort_id": "42487563257",
-	"content_after": "章程备案"
+	"id": 517818372,
+	"_sort_id": "172422994284",
+	"insurance_name": "工伤保险",
+	"company_id": "9c8c4d54d1d00e0b99828366df7c99e3",
+	"insurance_real_capital": "企业选择不公示",
+	"insurance_base": "企业选择不公示"
 }"""
     db_name = 'ods'
-    table_name = 'ods_pingan_company_change_di'
-    kafka_topic = 'company_change'
+    table_name = 'ods_pingan_annual_report_social_security_di'
+    kafka_topic = 'annual_report_social_security'
     get_sentence(db_name=db_name, table_name=table_name, kafka_topic=kafka_topic, field_name=field_name)
