@@ -7,8 +7,18 @@
 # @Project : pythonScript
 # @Software: PyCharm
 import requests
+import redis
+import random
 from lxml import etree
 from gne import GeneralNewsExtractor
+
+r = redis.Redis(connection_pool=redis.ConnectionPool(host="10.32.51.2", port=6379, db=15, decode_responses=True))
+
+
+def get_proxies():
+    proxies_list = r.zrange("JuLiangTimeM0T1", 0, -1)
+    ip = proxies_list[random.randint(0, len(proxies_list) - 1)]
+    return {"http": f'http://{ip}', "https": f'http://{ip}'}
 
 
 def get_url_list(keyword):
@@ -19,7 +29,7 @@ def get_url_list(keyword):
     #     "Accept-Language": "en",
     #     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36'
     # }
-    # res = requests.get(url, headers=headers)
+    # res = requests.get(url, headers=headers, proxies=get_proxies())
     # html = etree.HTML(res.text)
     # url_list = html.xpath('//h3[@class="articleTitle"]/a/@href')
     # for url in url_list:
@@ -36,7 +46,7 @@ def get_url_list(keyword):
         "Accept-Language": "en",
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36'
     }
-    res = requests.get(url, headers=headers)
+    res = requests.get(url, headers=headers, proxies=get_proxies())
     data_list = res.json().get('data', {}).get('data', [])
     if data_list:
         for data in data_list[:2]:
@@ -48,12 +58,12 @@ def get_url_list(keyword):
 
 
 def get_content(url):
-    heasders = {
+    headers = {
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Accept-Language": "en",
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36'
     }
-    res = requests.get(url, headers=heasders)
+    res = requests.get(url, headers=headers, proxies=get_proxies())
     extractor = GeneralNewsExtractor()
     extract_result = extractor.extract(html=res.text, with_body_html=True)
     # 新闻作者
