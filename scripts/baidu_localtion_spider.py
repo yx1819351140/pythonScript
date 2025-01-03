@@ -6,13 +6,11 @@
 # @File    : test2.py
 # @Project : pythonScript
 # @Software: PyCharm
+import time
 import requests
 import pymysql
-import redis
 from kafka import KafkaProducer, KafkaConsumer
 import json
-
-r = redis.Redis(connection_pool=redis.ConnectionPool(host="10.32.51.2", port=6379, db=15, decode_responses=True))
 
 
 def get_address_info(address='重庆市两江新区鱼嘴镇长和路65号12-23'):
@@ -115,89 +113,94 @@ def get_address_info1(address):
             cookies=cookies,
             headers=headers,
         )
-        province_name = response.json()['content'][0]['admin_info']['province_name']
-        city_name = response.json()['content'][0]['admin_info']['city_name']
-        area_name = response.json()['content'][0]['admin_info']['area_name']
-        area_id = response.json()['content'][0]['admin_info']['area_id']
-        return f'{province_name}{city_name}{area_name}', area_id
-    except:
-        return '', ''
+        content = response.json()['content']
+        for data in content:
+            try:
+                admin_info = data['admin_info']
+                province_name = admin_info['province_name']
+                city_name = admin_info['city_name']
+                area_name = admin_info['area_name']
+                area_id = admin_info['area_id']
+                return f'{province_name}{city_name}{area_name}', area_id
+            except:
+                continue
+    except Exception as e:
+        # print(response.text)
+        time.sleep(1)
+    return '', ''
 
 
-def get_gaode_location(lng_lat):
-    import requests
-
-    cookies = {
-        'cna': '9FCLHarh1UcCAXj0Buz7b/6y',
-        'isg': 'BKys8F7Z5qnXePKVZ4g_Qc_ZfYzeZVAPOeQPWwbv9tf6EUsbOXYBnw7iNdmpsIhn',
-        'Hm_lvt_c8ac07c199b1c09a848aaab761f9f909': '1733307208',
-        'HMACCOUNT': 'F309DFCD163E40F9',
-        'xlly_s': '1',
-        'Hm_lpvt_c8ac07c199b1c09a848aaab761f9f909': '1733307305',
-        'tfstk': 'fK5KaGw0FP3pSWutBYwMqQxL9-4Gp_Qe6M7jZ3xnFGIObgcHFJ7HwatO4HvHO3jR2G7yA3X3YuhRyB9PK3xH2QQPDPq0iSbF8QRQmoVDt-kRYIkIFvik1ATcQcfp3SbF8QkFD6T7i0QMAzjBVg9BCCT2feiWVgMsfh8yPDTSOPU9zhGIR39IfdTJJUMCVQa9Ch8SwPupf2trwTD6U8MnkNhSN6NyLnHBfF816u9B0wOqNbayJpKfRhEquibMeMpdsWn2JO_ASeIzgXRBeT1H16Z_NC_VIMTOVoHJftCFwKfLDx-CT3S9n9Ex9iIePaL5vSuvf6QR6pWiojQ9H11HTOExin6NP_p18oH2ST_ctTI3bbthHNs9n1miiI6VX_pXGgPCis3nNmxvrvaTWYkydFWmTxXi7QfV-FK0JvHrUd8wWn4TWYkydF89myHKUYJw7',
-    }
-
-    headers = {
-        'accept': '*/*',
-        'accept-language': 'zh-CN,zh;q=0.9',
-        # 'cookie': 'cna=9FCLHarh1UcCAXj0Buz7b/6y; isg=BKys8F7Z5qnXePKVZ4g_Qc_ZfYzeZVAPOeQPWwbv9tf6EUsbOXYBnw7iNdmpsIhn; Hm_lvt_c8ac07c199b1c09a848aaab761f9f909=1733307208; HMACCOUNT=F309DFCD163E40F9; xlly_s=1; Hm_lpvt_c8ac07c199b1c09a848aaab761f9f909=1733307305; tfstk=fK5KaGw0FP3pSWutBYwMqQxL9-4Gp_Qe6M7jZ3xnFGIObgcHFJ7HwatO4HvHO3jR2G7yA3X3YuhRyB9PK3xH2QQPDPq0iSbF8QRQmoVDt-kRYIkIFvik1ATcQcfp3SbF8QkFD6T7i0QMAzjBVg9BCCT2feiWVgMsfh8yPDTSOPU9zhGIR39IfdTJJUMCVQa9Ch8SwPupf2trwTD6U8MnkNhSN6NyLnHBfF816u9B0wOqNbayJpKfRhEquibMeMpdsWn2JO_ASeIzgXRBeT1H16Z_NC_VIMTOVoHJftCFwKfLDx-CT3S9n9Ex9iIePaL5vSuvf6QR6pWiojQ9H11HTOExin6NP_p18oH2ST_ctTI3bbthHNs9n1miiI6VX_pXGgPCis3nNmxvrvaTWYkydFWmTxXi7QfV-FK0JvHrUd8wWn4TWYkydF89myHKUYJw7',
-        'referer': 'https://lbs.amap.com/tools/picker',
-        'sec-ch-ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"',
-        'sec-ch-ua-mobile': '?0',
-        'sec-ch-ua-platform': '"macOS"',
-        'sec-fetch-dest': 'script',
-        'sec-fetch-mode': 'no-cors',
-        'sec-fetch-site': 'same-origin',
-        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
-    }
-    try:
-        response = requests.get(
-            f'https://lbs.amap.com/AMapService/v3/geocode/regeo?platform=JS&s=rsv3&logversion=2.0&key=f7d40927ba4d64fb91ebe2bb9cda0995&sdkversion=2.0.6.1&appname=https%253A%252F%252Flbs.amap.com%252Ftools%252Fpicker&csid=FDE0E1D4-94AD-4FE5-B7B5-A3EA33FB6C2A&key=f7d40927ba4d64fb91ebe2bb9cda0995&s=rsv3&language=zh_cn&location={lng_lat}',
-            headers=headers,
-        )
-        data = response.json()['regeocode']['addressComponent']
-        town_code = data['towncode']
-        township = data['township']
-        return town_code, township
-    except:
-        return '', ''
+def get_data_from_doris():
+    db_doris = pymysql.connect(host="10.32.48.61", user="yangxin", password="yangxinQ123", database="qd", charset="utf8")
+    cursor_doris = db_doris.cursor()
+    cursor_doris.execute("""SELECT 
+        entid,
+        case 
+        when label = '迁入' THEN content_before
+        else content_after end
+        address
+FROM `pro_qd_ztjc__pro_qd_dp_list_migrateinout_all` where c1=''""")
+    data_list = cursor_doris.fetchall()
+    for data in data_list:
+        entid = data[0]
+        address = data[1]
+        migrate_name, migrate_code = get_address_info(address.replace('(', '').replace(')', '')[:20])
+        print(id, address, migrate_name, migrate_code)
+        sql = f"update pro_qd_ztjc__pro_qd_dp_list_migrateinout_all set migrate_name='{migrate_name}', migrate_code='{migrate_code}' where entid={entid}"
+        # print(sql)
+        cursor_doris.execute(sql)
+        db_doris.commit()
 
 
-def get_data():
+def get_data_from_kafka():
     kafka_producer = KafkaProducer(
         bootstrap_servers=['10.32.50.101:9092', '10.32.50.102:9092', '10.32.50.103:9092'],
         value_serializer=lambda v: json.dumps(v).encode('utf-8')  # 将消息序列化为 JSON 格式
     )
-    db_doris = pymysql.connect(host="10.32.49.61", port=9030, user='yangxin', password="yangxinQ123", database='qd', charset='utf8')
-    cursor_doris = db_doris.cursor()
-    cursor_doris.execute("""SELECT ENTID,ENTNAME,lat,lng FROM qd.pro_qd_ztjc__pro_qd_company WHERE ENTSTATUS <> '11'""")
-    data_list = cursor_doris.fetchall()
-    for data in data_list:
-        company_id = data[0]
-        company_name = data[1]
-        if r.sismember('company_id_4_location', company_id):
-            print(f'{company_name} 已采集')
-            continue
-        else:
-            lat = data[2]
-            lng = data[3]
-            town_code, town_ship = get_gaode_location(f'{lng},{lat}')
-            print(f'{company_name} {town_ship} 采集完毕！')
-            data = {
-                'company_id': company_id,
-                'company_name': company_name,
-                'town_code': town_code,
-                'town_ship': town_ship
+    kafka_consumer = KafkaConsumer(
+        'doris_qd_list_migrateinout',
+        bootstrap_servers=['10.32.50.101:9092', '10.32.50.102:9092', '10.32.50.103:9092'],
+        enable_auto_commit=True,
+        group_id='doris_qd_list_migrateinout1',
+        value_deserializer=lambda x: x.decode('utf-8')
+    )
+    for message in kafka_consumer:
+        try:
+            data = json.loads(message.value)
+            entid = data.get('entid', '')
+            entname = data.get('entname', '')
+            uniscid = data.get('uniscid', '')
+            label = data.get('label', '')
+            # migrate_code = data.get('migrate_code', '')
+            # migrate_name = data.get('migrate_name', '')
+            migrate_date = data.get('migrate_date', '')
+            content_before = data.get('content_before', '')
+            content_after = data.get('content_after', '')
+            create_time = data.get('create_time', '')
+
+            address = content_before if label == '迁入' else content_after
+            migrate_name, migrate_code = get_address_info1(address.replace('(', '').replace(')', '')[:20])
+            # print(entid, address, migrate_name, migrate_code)
+
+            result = {
+                "entid": entid,
+                "entname": entname,
+                "uniscid": uniscid,
+                "label": label,
+                "migrate_code": migrate_code,
+                "migrate_name": migrate_name,
+                "migrate_date": migrate_date,
+                "content_before": content_before,
+                "content_after": content_after,
+                "create_time": create_time
             }
-            kafka_producer.send('gaode_location', data)
-            kafka_producer.flush()
-            # sql = f"update pro_qd_dp_list_migrateinout set c1='{c1}', c2='{c2}' where id={id}"
-            # print(sql)
-            # cursor_doris.execute(sql)
-            # db_doris.commit()
-            r.sadd('company_id_4_location', company_id)
+            kafka_producer.send(f'doris_qd_list_migrateinout_result', value=result)
+            # print(result)
+        except Exception as e:
+            print(e)
+            continue
 
 
 if __name__ == '__main__':
-    get_data()
-    # print(get_gaode_location('120.1821280,35.9650770'))
+    # get_data_from_kafka()
+    print(get_address_info1('山东省青岛市莱西市河头店镇小莱路6号南工业园1145号 '))

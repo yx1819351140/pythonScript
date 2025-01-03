@@ -26,14 +26,17 @@ def monitor_routine_load():
     rows = cursor_doris.fetchall()
     content = ''
     for row in rows:
-        label_name = row[[x[0] for x in cursor_doris.description].index('TableName')]
-        label_status = row[[x[0] for x in cursor_doris.description].index('State')]
-        if label_status != 'RUNNING':
-            content += f'{label_name} is {label_status}\n'
-            # try:
-            #     cursor_doris.execute(f'RESUME ROUTINE LOAD FOR {label_name}')
-            # except:
-            #     continue
+        try:
+            label_name = row[[x[0] for x in cursor_doris.description].index('TableName')]
+            label_status = row[[x[0] for x in cursor_doris.description].index('State')]
+            if label_status != 'RUNNING':
+                content += f'{label_name} is {label_status}\n'
+                try:
+                    cursor_doris.execute(f'RESUME ROUTINE LOAD FOR {label_name}')
+                except:
+                    continue
+        except:
+            continue
     if content:
         content += f'\n当前时间：{time.strftime("%Y-%m-%d %H:%M:%S")}'
         json_data = {

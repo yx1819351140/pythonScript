@@ -2,7 +2,16 @@
 
 import time, sys
 import pymysql
-from datetime import datetime
+from datetime import datetime, timedelta
+
+
+def get_next_day(date_str):
+    # 解析输入日期字符串
+    current_date = datetime.strptime(str(date_str), '%Y-%m-%d')
+    # 计算下一天的日期
+    next_date = current_date + timedelta(days=1)
+    # 返回格式化后的日期字符串
+    return next_date.strftime('%Y-%m-%d')
 
 
 def doris_tidb():
@@ -19,7 +28,7 @@ def doris_tidb():
     # 拿到要执行的所有表
     sel_table = """
     select TABLE_SCHEMA,TABLE_NAME,TABLE_COMMENT from information_schema.TABLES where TABLE_SCHEMA='app' and 
-    TABLE_NAME in ('company_annual_asset')
+    TABLE_NAME in ('policy_report')
     ;
     """
     cursor_doris.execute(sel_table)
@@ -28,7 +37,7 @@ def doris_tidb():
     for source_bulks_t in source_bulks:
         begin_tbl_time = datetime.now()
         # 拿到该表对应的列数
-        column = "select count(*)-4 as col_cnt from information_schema.COLUMNS where  TABLE_SCHEMA ='app' and table_name = '%s' ;" % (
+        column = "select count(*)-1 as col_cnt from information_schema.COLUMNS where  TABLE_SCHEMA ='app' and table_name = '%s' ;" % (
             source_bulks_t[1])
         cursor_doris.execute(column)
         column_cnt = cursor_doris.fetchone()
@@ -48,28 +57,30 @@ def doris_tidb():
 
         s = ','.join(["%s"] * (column_cnt[0]))
 
-        sel_max_min_id = f"select min(id) as min_id,max(id) as max_id from app.{source_bulks_t[1]} ;"
+        sel_max_min_id = f"select min(publish_dt) as min_publish_dt,max(publish_dt) as max_publish_dt from app.{source_bulks_t[1]} ;"
         print(sel_max_min_id)
         cursor_doris.execute(sel_max_min_id)
         sel_max_min_id = cursor_doris.fetchone()
         t_ge_id = sel_max_min_id[0]
-        t_le_id = t_ge_id + 100000
+        # t_le_id = t_ge_id + 100000
+        t_le_id = get_next_day(t_ge_id)
         t_end_id = sel_max_min_id[1]
         doris_tb_name = source_bulks_t[1] + '_dev'
-        while t_ge_id < t_end_id:
+        while t_ge_id != t_end_id:
             try:
                 insert_sql = "replace into  %s(%s) values" % (doris_tb_name, columnsname[0])
-                sql_doris = f"select {columnsname[0]} from {source_bulks_t[1]} a where  a.id between {t_ge_id} and {t_le_id};"
+                sql_doris = f"select {columnsname[0]} from {source_bulks_t[1]} a where  a.publish_dt between '{t_ge_id}' and '{t_le_id}';"
+                # print(sql_doris)
                 cursor_doris.execute(sql_doris)
                 source_bulks = cursor_doris.fetchall()
                 insert_sql += "(%s)" % (s)
                 if not insert_sql.endswith("values"):
                     cursor_tidb.executemany(insert_sql + ";", source_bulks)
                 cursor_tidb.execute("commit;")
-            except:
+            except Exception as e:
                 continue
-            t_ge_id += 100000
-            t_le_id += 100000
+            t_ge_id = get_next_day(t_ge_id)
+            t_le_id = get_next_day(t_le_id)
             print("执行", str(source_bulks_t[0]), "库,", f"第{tbl_num}张表，", str(source_bulks_t[1]),
                   f"表的插入工作！ a.id between {t_ge_id} and {t_le_id},max_id={t_end_id}", str(
                     time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())))
