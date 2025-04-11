@@ -98,6 +98,18 @@ def timestamp_to_strftime(timestamp):
     return otherStyleTime
 
 
+def get_days_between(time_str1, time_str2=time.strftime('%Y-%m-%d')):
+
+    # 转换为 datetime 对象
+    time_format = '%Y-%m-%d'
+    time1 = datetime.datetime.strptime(time_str1, time_format)
+    time2 = datetime.datetime.strptime(time_str2, time_format)
+
+    # 计算天数差
+    delta = time2 - time1
+    return delta.days
+
+
 if __name__ == '__main__':
     beforeday = 30
     print(timestamp_to_strftime(1670816667018))
