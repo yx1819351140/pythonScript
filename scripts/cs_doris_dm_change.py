@@ -51,7 +51,7 @@ try:
         # 根据 F 列（企业名称）匹配处理
         if "删" in oper:
             # 查询当前link_industry_codes字段值
-            select_sql = f"SELECT link_industry_codes FROM dm_cs_company_detail1 WHERE company_name = '{comp_name}'"
+            select_sql = f"SELECT link_industry_codes FROM dm_cs_company_detail WHERE company_name = '{comp_name}'"
             cursor.execute(select_sql)
             result = cursor.fetchone()
             if result:
@@ -64,7 +64,7 @@ try:
                         codes_list.remove(str(industry_code))
                         # 重新拼接为字符串
                         new_codes = ','.join(codes_list)
-                        update_sql = f"UPDATE dm_cs_company_detail1 SET link_industry_codes = '{new_codes}' WHERE company_name = '{comp_name}'"
+                        update_sql = f"UPDATE dm_cs_company_detail SET link_industry_codes = '{new_codes}' WHERE company_name = '{comp_name}'"
                         cursor.execute(update_sql)
                         print(
                             f"在企业【{comp_name}】中删除industry_code【{industry_code}】，更新后的link_industry_codes：{new_codes}")
@@ -73,10 +73,10 @@ try:
                 else:
                     print(f"企业【{comp_name}】的link_industry_codes为空。")
             else:
-                print(f"企业【{comp_name}】未在dm_cs_company_detail1中找到记录。")
+                print(f"企业【{comp_name}】未在dm_cs_company_detail中找到记录。")
         elif "增" in oper:
             # 增操作：先查询记录是否存在
-            select_sql = f"SELECT link_industry_codes FROM dm_cs_company_detail1 WHERE company_name = '{comp_name}'"
+            select_sql = f"SELECT link_industry_codes FROM dm_cs_company_detail WHERE company_name = '{comp_name}'"
             cursor.execute(select_sql)
             result = cursor.fetchone()
             if result:
@@ -89,7 +89,7 @@ try:
                 if str(industry_code) not in codes_list:
                     codes_list.add(str(industry_code))
                     new_codes = ','.join(list(codes_list))
-                    update_sql = f"UPDATE dm_cs_company_detail1 SET link_industry_codes = '{new_codes}' WHERE company_name = '{comp_name}'"
+                    update_sql = f"UPDATE dm_cs_company_detail SET link_industry_codes = '{new_codes}' WHERE company_name = '{comp_name}'"
                     cursor.execute(update_sql)
                     print(
                         f"【增】企业【{comp_name}】已存在，新增industry_code【{industry_code}】，更新后的link_industry_codes：{new_codes}")
@@ -98,7 +98,7 @@ try:
             else:
                 # 数据不存在，执行新增操作
                 insert_sql = f"""
-                            INSERT INTO dm.dm_cs_company_detail1(
+                            INSERT INTO dm.dm_cs_company_detail(
                                 company_id, company_name, reg_status_code, reg_status_name, legal_entity_name,
                                 company_phone, es_dt, reg_capital_amt, reg_capital, reg_addr, company_label,
                                 scale_code, reg_dt_tag, reg_capital_tag, company_scale_tag, company_type_tag,
@@ -191,20 +191,20 @@ try:
 
         # 更新操作：如果状态/备注不为空，则更新reg_status_name字段
         if status_val:
-            update_sql = f"UPDATE dm_cs_company_detail1 SET reg_status_name ='{status_val}' WHERE company_name = '{comp_name}'"
+            update_sql = f"UPDATE dm_cs_company_detail SET reg_status_name ='{status_val}' WHERE company_name = '{comp_name}'"
             cursor.execute(update_sql)
             print(f"更新企业[{comp_name}]的状态为：{status_val}")
 
     # 提交上面的增删改操作
     conn.commit()
-    print("完成对dm_cs_company_detail1表的更新操作。")
+    print("完成对dm_cs_company_detail表的更新操作。")
 
     # ----------------------------
     # 新增特殊备注remarks列
-    alter_sql = "ALTER TABLE dm_cs_company_detail1 ADD COLUMN remarks VARCHAR(500) NULL COMMENT '特殊备注'"
+    alter_sql = "ALTER TABLE dm_cs_company_detail ADD COLUMN remarks VARCHAR(500) NULL COMMENT '特殊备注'"
     cursor.execute(alter_sql)
     conn.commit()
-    print("dm_cs_company_detail1中新增remarks字段。")
+    print("dm_cs_company_detail中新增remarks字段。")
 
     # 根据Excel中记录的特殊备注，更新新表中的remarks字段
     # 这里遍历 Excel 数据，针对备注不为空的企业进行更新
@@ -212,9 +212,9 @@ try:
         comp_name = row["company_name"]
         remark_val = row["remarks"] if pd.notna(row["remarks"]) else None
         if remark_val:
-            update_remark_sql = f"UPDATE dm_cs_company_detail1 SET remarks = '{remark_val}' WHERE company_name = '{comp_name}'"
+            update_remark_sql = f"UPDATE dm_cs_company_detail SET remarks = '{remark_val}' WHERE company_name = '{comp_name}'"
             cursor.execute(update_remark_sql)
-            print(f"更新dm_cs_company_detail1中企业[{comp_name}]的remarks为：{remark_val}")
+            print(f"更新dm_cs_company_detail中企业[{comp_name}]的remarks为：{remark_val}")
     conn.commit()
     print("所有操作执行完毕。")
 
