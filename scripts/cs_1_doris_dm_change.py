@@ -12,13 +12,12 @@ CHARSET = "utf8"
 # Excel 文件路径
 excel_path = "./data/常山-产业链企业清单提取--修改-20250328-v1.xlsx"
 
-# 读取 Excel 两个 Sheet（假设两 sheet 结构相同，可合并处理）
+# 读取 Excel 数据
 sheet_names = ["芯片", "新能源电池"]
 dfs = [pd.read_excel(excel_path, sheet_name=sn) for sn in sheet_names]
 df_all = pd.concat(dfs, ignore_index=True)
 
-# 将Excel关键字段统一重命名（注意实际列名可能有空格或特殊符号，根据实际情况调整）
-# 假设：企业名称在“企业名称”列，删/增在“删/增”列，状态/备注在“状态/备注”列，特殊备注在“特殊备注”列
+# 字段重命名
 df_all = df_all.rename(columns={
     "企业名称": "company_name",
     "删/增": "operation",
@@ -27,7 +26,7 @@ df_all = df_all.rename(columns={
     "产业链编码": "industry_code"
 })
 
-# 建立 Doris 连接
+# 建立数据库连接
 conn = pymysql.connect(
     host=HOST,
     port=PORT,
@@ -40,64 +39,19 @@ conn = pymysql.connect(
 cursor = conn.cursor()
 
 try:
-    # 遍历 Excel 每一行
     for index, row in df_all.iterrows():
         comp_name = row["company_name"]
         oper = str(row["operation"]) if pd.notna(row["operation"]) else ""
         status_val = row["status_remark"] if pd.notna(row["status_remark"]) else None
         remark_val = row["remarks"] if pd.notna(row["remarks"]) else None
-        industry_code = row["industry_code"] if pd.notna(row["industry_code"]) else None
+        industry_code = str(row["industry_code"]) if pd.notna(row["industry_code"]) else None
 
-        # 根据 F 列（企业名称）匹配处理
-        if "删" in oper:
-            # 查询当前link_industry_codes字段值
-            select_sql = f"SELECT link_industry_codes FROM dm_cs_company_detail WHERE company_name = '{comp_name}'"
-            cursor.execute(select_sql)
-            result = cursor.fetchone()
-            if result:
-                current_codes = result[0]  # 假设返回的就是字符串，如 '482,527'
-                if current_codes:
-                    # 分割、过滤掉需要删除的industry_code
-                    codes_list = [code.strip() for code in current_codes.split(',') if code.strip()]
-                    # 如果industry_code在列表中，则移除
-                    if str(industry_code) in codes_list:
-                        codes_list.remove(str(industry_code))
-                        # 重新拼接为字符串
-                        new_codes = ','.join(codes_list)
-                        update_sql = f"UPDATE dm_cs_company_detail SET link_industry_codes = '{new_codes}' WHERE company_name = '{comp_name}'"
-                        cursor.execute(update_sql)
-                        print(
-                            f"在企业【{comp_name}】中删除industry_code【{industry_code}】，更新后的link_industry_codes：{new_codes}")
-                    else:
-                        print(f"企业【{comp_name}】中未找到industry_code【{industry_code}】，无需更新。")
-                else:
-                    print(f"企业【{comp_name}】的link_industry_codes为空。")
-            else:
-                print(f"企业【{comp_name}】未在dm_cs_company_detail中找到记录。")
-        elif "增" in oper:
-            # 增操作：先查询记录是否存在
-            select_sql = f"SELECT link_industry_codes FROM dm_cs_company_detail WHERE company_name = '{comp_name}'"
-            cursor.execute(select_sql)
-            result = cursor.fetchone()
-            if result:
-                # 数据已存在，检查link_industry_codes是否包含industry_code
-                current_codes = result[0]
-                if current_codes:
-                    codes_list = set([code.strip() for code in current_codes.split(',') if code.strip()])
-                else:
-                    codes_list = set()
-                if str(industry_code) not in codes_list:
-                    codes_list.add(str(industry_code))
-                    new_codes = ','.join(list(codes_list))
-                    update_sql = f"UPDATE dm_cs_company_detail SET link_industry_codes = '{new_codes}' WHERE company_name = '{comp_name}'"
-                    cursor.execute(update_sql)
-                    print(
-                        f"【增】企业【{comp_name}】已存在，新增industry_code【{industry_code}】，更新后的link_industry_codes：{new_codes}")
-                else:
-                    print(f"【增】企业【{comp_name}】已存在且已包含industry_code【{industry_code}】，无需更新。")
-            else:
-                # 数据不存在，执行新增操作
-                insert_sql = f"""
+        # 先插入企业数据（如果不存在）
+        cursor.execute(f"SELECT 1 FROM dm_cs_company_detail WHERE company_name = '{comp_name}'")
+        exists = cursor.fetchone()
+        if not exists:
+            # 插入逻辑（保持原来不变）
+            insert_sql = f"""
                             INSERT INTO dm.dm_cs_company_detail(
                                 company_id, company_name, reg_status_code, reg_status_name, legal_entity_name,
                                 company_phone, es_dt, reg_capital_amt, reg_capital, reg_addr, company_label,
@@ -162,8 +116,8 @@ try:
                                 a.reg_addr,
                                 '' AS company_label,
                                 a.scale_code,
-                                a.reg_dt_tag,
-                                a.reg_capital_tag,
+                                a.reg_capital_tag as reg_dt_tag,
+                                a.reg_dt_tag as reg_capital_tag,
                                 a.company_scale_tag,
                                 a.company_type_tag,
                                 a.industry_field_tags,
@@ -184,43 +138,74 @@ try:
                             LEFT JOIN ip_patent_num b ON CAST(a.company_id AS VARCHAR(32)) = CAST(b.company_id AS VARCHAR(32))
                             LEFT JOIN enqa_names d ON CAST(a.company_id AS VARCHAR(32)) = CAST(d.company_id AS VARCHAR(32))
                             LEFT JOIN company_phone e ON CAST(a.company_id AS VARCHAR(32)) = CAST(e.company_id AS VARCHAR(32))
-                            LEFT JOIN company_stock_info h ON CAST(a.company_id AS VARCHAR(32)) = CAST(h.company_id AS VARCHAR(32));
-                            """
-                cursor.execute(insert_sql)
-                print(f"【增】新增企业【{comp_name}】，初始industry_code【{industry_code}】")
+                            LEFT JOIN company_stock_info h ON CAST(a.company_id AS VARCHAR(32)) = CAST(h.company_id AS VARCHAR(32));"""
+            cursor.execute(insert_sql)
+            print(f"插入企业【{comp_name}】，初始industry_code为：{industry_code}")
 
-        # 更新操作：如果状态/备注不为空，则更新reg_status_name字段
+        # 获取当前link_industry_codes
+        cursor.execute(f"SELECT link_industry_codes FROM dm_cs_company_detail WHERE company_name = '{comp_name}'")
+        result = cursor.fetchone()
+        current_codes = result[0] if result else ""
+        codes_set = set([c.strip() for c in current_codes.split(",") if c.strip()]) if current_codes else set()
+
+        # 根据操作字段修改link_industry_codes
+        if "删" in oper:
+            if industry_code in codes_set:
+                codes_set.remove(industry_code)
+                new_codes = ",".join(codes_set)
+                cursor.execute(
+                    f"UPDATE dm_cs_company_detail SET link_industry_codes = '{new_codes}' WHERE company_name = '{comp_name}'")
+                print(f"删除企业【{comp_name}】的industry_code【{industry_code}】，更新为：{new_codes}")
+            else:
+                print(f"企业【{comp_name}】中无industry_code【{industry_code}】，无需删除")
+        else:
+            if industry_code not in codes_set:
+                codes_set.add(industry_code)
+                new_codes = ",".join(codes_set)
+                cursor.execute(
+                    f"UPDATE dm_cs_company_detail SET link_industry_codes = '{new_codes}' WHERE company_name = '{comp_name}'")
+                print(f"新增企业【{comp_name}】的industry_code【{industry_code}】，更新为：{new_codes}")
+            else:
+                print(f"企业【{comp_name}】已包含industry_code【{industry_code}】，无需新增")
+
+        # 更新状态
         if status_val:
-            update_sql = f"UPDATE dm_cs_company_detail SET reg_status_name ='{status_val}' WHERE company_name = '{comp_name}'"
-            cursor.execute(update_sql)
-            print(f"更新企业[{comp_name}]的状态为：{status_val}")
+            if status_val == "注销":
+                reg_status_code = "12001"
+            elif status_val == "吊销":
+                reg_status_code = "13003"
+            else:
+                reg_status_code = "11001"
+            cursor.execute(
+                f"UPDATE dm_cs_company_detail SET reg_status_name = '{status_val}', reg_status_code = '{reg_status_code}' WHERE company_name = '{comp_name}'")
+            print(f"更新企业【{comp_name}】的状态为：{status_val}")
 
-    # 提交上面的增删改操作
     conn.commit()
-    print("完成对dm_cs_company_detail表的更新操作。")
+    print("完成所有企业的插入和link_industry_codes更新。")
 
-    # ----------------------------
-    # 新增特殊备注remarks列
-    alter_sql = "ALTER TABLE dm_cs_company_detail ADD COLUMN remarks VARCHAR(500) NULL COMMENT '特殊备注'"
-    cursor.execute(alter_sql)
-    conn.commit()
-    print("dm_cs_company_detail中新增remarks字段。")
+    # 新增 remarks 字段（如果不存在）
+    try:
+        alter_sql = "ALTER TABLE dm_cs_company_detail ADD COLUMN remarks VARCHAR(500) NULL COMMENT '特殊备注'"
+        cursor.execute(alter_sql)
+        conn.commit()
+        print("已新增字段remarks")
+    except Exception as e:
+        print("字段remarks可能已存在，跳过创建")
 
-    # 根据Excel中记录的特殊备注，更新新表中的remarks字段
-    # 这里遍历 Excel 数据，针对备注不为空的企业进行更新
+    # 更新remarks字段
     for index, row in df_all.iterrows():
         comp_name = row["company_name"]
         remark_val = row["remarks"] if pd.notna(row["remarks"]) else None
         if remark_val:
-            update_remark_sql = f"UPDATE dm_cs_company_detail SET remarks = '{remark_val}' WHERE company_name = '{comp_name}'"
-            cursor.execute(update_remark_sql)
-            print(f"更新dm_cs_company_detail中企业[{comp_name}]的remarks为：{remark_val}")
+            cursor.execute(
+                f"UPDATE dm_cs_company_detail SET remarks = '{remark_val}' WHERE company_name = '{comp_name}'")
+            print(f"更新企业【{comp_name}】的remarks为：{remark_val}")
     conn.commit()
-    print("所有操作执行完毕。")
+    print("所有remarks更新完毕")
 
 except Exception as e:
     conn.rollback()
-    print("执行出错，事务已回滚。错误信息：", e)
+    print("执行出错，已回滚。错误信息：", e)
 finally:
     cursor.close()
     conn.close()
